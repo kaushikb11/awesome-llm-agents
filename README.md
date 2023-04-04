@@ -24,11 +24,14 @@ A curated list of awesome LLM agents. Open source, application, platform, and re
 ## Applications
 
 * [VisualGPT](https://github.com/microsoft/visual-chatgpt) - It connects ChatGPT and a series of Visual Foundation Models to enable sending and receiving images during chatting.
+* [Lindy AI](https://www.lindy.ai/) - Your AI personal assistant.
 * [CensusGPT](https://censusgpt.com/) - Ask any questions related to census data.
+* [Hearth AI](https://www.hearth.ai/) - Agentic Relationship Management.
 
 ---
 ## Platforms
 
+* [ChatGPT plugins](https://platform.openai.com/docs/plugins/introduction) - Connect ChatGPT to third-party applications.
 * [fixie.ai](https://www.fixie.ai/) - Build natural language agents that connect to your data, talk to APIs, and solve complex problems.
 
 
