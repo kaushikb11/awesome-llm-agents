@@ -1,6 +1,12 @@
 # Awesome LLM agents [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A curated list of awesome LLM agents. Open source, application, platform, and resources. If you have a suggestion, feel free to open an issue or pull request.
+A curated list of awesome LLM agents. Open source, application, platform, or resources. If you have a suggestion, feel free to open an issue or pull request.
+
+- [Awesome LLM agents](#awesome-llm-agents)
+    - [Frameworks](#frameworks)
+    - [Applications](#applications)
+    - [Platforms](#platforms)
+    - [Resources](#resources)
 
 ---
 
