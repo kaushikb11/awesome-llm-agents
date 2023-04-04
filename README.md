@@ -35,6 +35,8 @@ A curated list of awesome LLM agents. Open source, application, platform, or res
 * [Lindy AI](https://www.lindy.ai/) - Your AI personal assistant.
 * [CensusGPT](https://censusgpt.com/) - Ask any questions related to census data.
 * [Hearth AI](https://www.hearth.ai/) - Agentic Relationship Management.
+* [RCI Agent for MiniWoB++](https://github.com/posgnu/rci-agent) - Language Models can Solve Computer Tasks
+* [babyagi](https://github.com/yoheinakajima/babyagi)  - An AI-powered task management system.
 
 ---
 ## Platforms
