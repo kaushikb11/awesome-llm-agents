@@ -6,7 +6,7 @@ A curated list of awesome LLM agents. Open source, application, platform, and re
 
 ## Frameworks
 
-* [Langchain](https://github.com/hwchase17/langchain) - Building applications with LLMs through composability
+* [Langchain](https://github.com/hwchase17/langchain) - Building applications with LLMs through composability.
     * [CSV Agent](https://python.langchain.com/en/latest/modules/agents/toolkits/examples/csv.html)
     * [JSON Agent](https://python.langchain.com/en/latest/modules/agents/toolkits/examples/json.html)
     * [OpenAPI Agent](https://python.langchain.com/en/latest/modules/agents/toolkits/examples/openapi.html)
@@ -14,7 +14,7 @@ A curated list of awesome LLM agents. Open source, application, platform, and re
     * [Python Agent](https://python.langchain.com/en/latest/modules/agents/toolkits/examples/python.html)
     * [SQL Database Agent](https://python.langchain.com/en/latest/modules/agents/toolkits/examples/sql_database.html)
     * [Vectorstore Agent](https://python.langchain.com/en/latest/modules/agents/toolkits/examples/vectorstore.html)
-* [Haystack](https://github.com/deepset-ai/haystack) - End-to-end NLP framework that enables you to build NLP applications powered by LLMs, Transformer models, vector search and more.
+* [Haystack](https://github.com/deepset-ai/haystack) - End-to-end NLP framework that enables you to build NLP applications.
     * [Haystack Agent](https://docs.haystack.deepset.ai/docs/agent)
     * [SearchEngine](https://docs.haystack.deepset.ai/docs/search_engine)
     * [TopPSampler](https://docs.haystack.deepset.ai/docs/toppsampler)
@@ -34,3 +34,7 @@ A curated list of awesome LLM agents. Open source, application, platform, and re
 
 ---
 ## Papers
+
+* [Toolformer](https://arxiv.org/abs/2302.04761) - Language Models Can Teach Themselves to Use Tools
+* [Visual ChatGPT](https://arxiv.org/abs/2303.04671) - Talking, Drawing and Editing with Visual Foundation Models
+* [HuggingGPT](https://arxiv.org/abs/2303.17580) - Solving AI Tasks with ChatGPT and its Friends in HuggingFace
