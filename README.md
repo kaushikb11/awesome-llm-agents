@@ -7,7 +7,8 @@ A curated list of awesome LLM agents. Open source, application, platform, or res
     - [Frameworks](#frameworks)
     - [Applications](#applications)
     - [Platforms](#platforms)
-    - [Resources](#resources)
+    - [Papers](#papers)
+    - [Talks](#talks)
 
 ---
 
@@ -48,3 +49,9 @@ A curated list of awesome LLM agents. Open source, application, platform, or res
 * [Toolformer](https://arxiv.org/abs/2302.04761) - Language Models Can Teach Themselves to Use Tools
 * [Visual ChatGPT](https://arxiv.org/abs/2303.04671) - Talking, Drawing and Editing with Visual Foundation Models
 * [HuggingGPT](https://arxiv.org/abs/2303.17580) - Solving AI Tasks with ChatGPT and its Friends in HuggingFace
+
+
+---
+## Talks
+
+* [LangChain Agents - Joining Tools and Chains with Decisions](https://www.youtube.com/watch?v=ziu87EXZVUE)
