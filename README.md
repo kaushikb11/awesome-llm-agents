@@ -31,6 +31,7 @@ A curated list of awesome LLM agents. Open source, application, platform, or res
 ---
 ## Applications
 
+* [Arize-Phoenix](https://phoenix.arize.com/) - ML observability for LLMs, vision, language, and tabular models.
 * [VisualGPT](https://github.com/microsoft/visual-chatgpt) - It connects ChatGPT and a series of Visual Foundation Models to enable sending and receiving images during chatting.
 * [Lindy AI](https://www.lindy.ai/) - Your AI personal assistant.
 * [CensusGPT](https://censusgpt.com/) - Ask any questions related to census data.
