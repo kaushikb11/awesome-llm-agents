@@ -26,6 +26,8 @@ A curated list of awesome LLM agents. Open source, application, platform, or res
     * [Haystack Agent](https://docs.haystack.deepset.ai/docs/agent)
     * [SearchEngine](https://docs.haystack.deepset.ai/docs/search_engine)
     * [TopPSampler](https://docs.haystack.deepset.ai/docs/toppsampler)
+* [Embedchain](https://github.com/embedchain/embedchain) - Framework to create ChatGPT like bots over your dataset.
+    * [JS Repo](https://github.com/embedchain/embedchainjs)
 
 
 ---
