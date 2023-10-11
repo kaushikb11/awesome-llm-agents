@@ -22,6 +22,8 @@ A curated list of awesome LLM agents. Open source, application, platform, or res
     * [Python Agent](https://python.langchain.com/en/latest/modules/agents/toolkits/examples/python.html)
     * [SQL Database Agent](https://python.langchain.com/en/latest/modules/agents/toolkits/examples/sql_database.html)
     * [Vectorstore Agent](https://python.langchain.com/en/latest/modules/agents/toolkits/examples/vectorstore.html)
+* [Llama Index](https://github.com/run-llama/llama_index) - Data framework for your LLM application.
+    * [Llama Hub](https://github.com/run-llama/llama-hub) - Community driven library for data loaders, readers and tools.
 * [Haystack](https://github.com/deepset-ai/haystack) - End-to-end NLP framework that enables you to build NLP applications.
     * [Haystack Agent](https://docs.haystack.deepset.ai/docs/agent)
     * [SearchEngine](https://docs.haystack.deepset.ai/docs/search_engine)
