@@ -32,6 +32,7 @@ A curated list of awesome LLM agents. Open source, application, platform, or res
     * [JS Repo](https://github.com/embedchain/embedchainjs)
 
 
+
 ---
 ## Applications
 
@@ -41,6 +42,7 @@ A curated list of awesome LLM agents. Open source, application, platform, or res
 * [Hearth AI](https://www.hearth.ai/) - Agentic Relationship Management.
 * [RCI Agent for MiniWoB++](https://github.com/posgnu/rci-agent) - Language Models can Solve Computer Tasks
 * [babyagi](https://github.com/yoheinakajima/babyagi)  - An AI-powered task management system.
+* [Flappy](https://github.com/pleisto/flappy) - Production-Ready LLM Agent SDK for Every Developer.
 
 ---
 ## Platforms
