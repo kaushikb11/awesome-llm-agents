@@ -30,6 +30,7 @@ A curated list of awesome LLM agents. Open source, application, platform, or res
     * [TopPSampler](https://docs.haystack.deepset.ai/docs/toppsampler)
 * [Embedchain](https://github.com/embedchain/embedchain) - Framework to create ChatGPT like bots over your dataset.
     * [JS Repo](https://github.com/embedchain/embedchainjs)
+* [Floom](https://github.com/FloomAI/Floom) AI gateway and agent/pipeline marketplace for developers, enables streamlined integration of AI features & agents into products
 
 
 ---
