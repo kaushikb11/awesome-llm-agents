@@ -30,7 +30,7 @@ A curated list of awesome LLM agents. Open source, application, platform, or res
     * [TopPSampler](https://docs.haystack.deepset.ai/docs/toppsampler)
 * [Embedchain](https://github.com/embedchain/embedchain) - Framework to create ChatGPT like bots over your dataset.
     * [JS Repo](https://github.com/embedchain/embedchainjs)
-
+* [Wordware](https://www.wordware.ai) - A web-hosted IDE where non-technical domain experts work with AI Engineers to build task-specific AI agents. It approaches prompting as a new programming language rather than low/no-code blocks.
 
 ---
 ## Applications
