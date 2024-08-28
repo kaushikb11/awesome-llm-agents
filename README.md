@@ -30,6 +30,7 @@ A curated list of awesome LLM agents. Open source, application, platform, or res
     * [TopPSampler](https://docs.haystack.deepset.ai/docs/toppsampler)
 * [Embedchain](https://github.com/embedchain/embedchain) - Framework to create ChatGPT like bots over your dataset.
     * [JS Repo](https://github.com/embedchain/embedchainjs)
+* [RAI](https://github.com/RobotecAI/rai) - AI Agent framework for robots running Robot Operating System (ROS), to be used with real or simulated robots.
 
 
 ---
@@ -61,3 +62,4 @@ A curated list of awesome LLM agents. Open source, application, platform, or res
 ## Talks
 
 * [LangChain Agents - Joining Tools and Chains with Decisions](https://www.youtube.com/watch?v=ziu87EXZVUE)
+
