@@ -47,6 +47,7 @@ A curated list of awesome LLM agents. Open source, application, platform, or res
 
 * [ChatGPT plugins](https://platform.openai.com/docs/plugins/introduction) - Connect ChatGPT to third-party applications.
 * [fixie.ai](https://www.fixie.ai/) - Build natural language agents that connect to your data, talk to APIs, and solve complex problems.
+* [Taskade](https://www.taskade.com/) - Build, train, and deploy autonomous AI agents and agentic workflows with seamless human-AI collaboration, all within a unified workspace.
 
 
 ---
