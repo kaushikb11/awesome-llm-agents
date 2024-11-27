@@ -161,6 +161,10 @@ A curated list of awesome LLM agents. Open source, application, platform, or res
     * Process monitoring
     * Agent collaboration
 
+* [saplings](https://github.com/shobrook/saplings) - Build smarter agents using tree search.
+    * Boost reasoning abilities
+    * Supports popular search algorithms
+    * Minimal setup, 2 lines of code
 
 ---
 ## Applications
