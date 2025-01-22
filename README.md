@@ -166,6 +166,27 @@ A curated list of awesome LLM agents. Open source, application, platform, or res
     * Supports popular search algorithms
     * Minimal setup, 2 lines of code
 
+* [Smolagents](https://github.com/huggingface/smolagents) - Minimalist framework for building powerful agents.
+    * Code-first approach
+    * Multi-agent orchestration
+    * LLM provider flexibility
+    * Tool integration
+    * Hub integration for sharing
+
+* [Flowise](https://github.com/FlowiseAI/Flowise) - Drag & drop UI framework for building LLM flows.
+    * Visual flow builder
+    * Custom LLM integrations
+    * API generation
+    * Authentication support
+    * Docker deployment
+
+* [Pydantic AI](https://github.com/pydantic/pydantic-ai) - Production-grade agent framework built on Pydantic.
+    * Type-safe development
+    * Multi-model support
+    * Structured responses
+    * Dependency injection
+    * Logfire integration
+
 ---
 ## Applications
 
