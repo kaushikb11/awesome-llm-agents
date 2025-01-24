@@ -273,3 +273,16 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-01-2
   - Logfire integration
 
 
+- [Pydantic AI](https://github.com/phil65/llmling-agent) - Agent framework built on top of LiteLLM / PydanticAI 
+
+  6 stars · 1 fork · 1 contributor · 0 issues · Python · MIT
+
+  - Multi-agent architecture
+  - MCP server support
+  - Support for declaring Agents as well as workflows in pure YAML
+  - LiteLLM / Pydantic / Human-in-the loop support
+  - Strong focus on async usage patterns as well as typing
+
+
+
+
