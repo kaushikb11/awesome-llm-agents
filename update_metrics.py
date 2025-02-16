@@ -1,3 +1,4 @@
+import argparse
 import os
 import re
 from datetime import datetime
@@ -57,33 +58,31 @@ def get_repo_metrics(repo_url):
 
 def format_metrics_badges(metrics):
     return (
-        f"{metrics['stars']:,} stars · {metrics['forks']:,} forks · {metrics['contributors']:,} contributors · "
-        f"{metrics['open_issues']:,} issues · {metrics['language']} · {metrics['license']}"
+        f"{metrics['stars']:,} stars · {metrics['forks']:,} forks · "
+        f"{metrics['contributors']:,} contributors · "
+        f"{metrics['open_issues']:,} issues · "
+        f"{metrics['language']} · {metrics['license']}"
     )
 
 
-def update_readme_with_metrics(readme_path):
+def update_readme_with_metrics(readme_path, args):
     with open(readme_path, "r") as f:
         content = f.read()
 
     current_time = datetime.now().strftime("%Y-%m-%d")
-    intro_end = content.find("suggestion, feel free to open an issue or pull request.")
-    if intro_end != -1:
-        content = (
-            content[
-                : intro_end
-                + len("suggestion, feel free to open an issue or pull request.")
-            ]
-            + f" (Last updated: {current_time})\n"
-            + content[
-                intro_end
-                + len("suggestion, feel free to open an issue or pull request.") :
-            ]
-        )
+    pattern = r"Last updated: \d{4}-\d{2}-\d{2}"
+    try:
+        if not re.search(pattern, content):
+            raise Exception(
+                "Could not find 'Last updated: YYYY-MM-DD' pattern in the text"
+            )
+        content = re.sub(pattern, f"Last updated: {current_time}", content)
+    except Exception as e:
+        raise e
 
     parts = content.split("## Frameworks")
     if len(parts) < 2:
-        return
+        raise Exception("Frameworks empty!")
 
     header = parts[0]
     frameworks_section = parts[1]
@@ -93,7 +92,10 @@ def update_readme_with_metrics(readme_path):
 
     for entry in framework_entries:
         match = re.search(
-            r"- \[([^\]]+)\]\((https://github\.com/[^/]+/[^/)\s]+)\)(.*?)(?=\n\n|\n  -|$)",
+            (
+                r"- \[([^\]]+)\]\((https://github\.com/"
+                r"[^/]+/[^/)\s]+)\)(.*?)(?=\n\n|\n  -|$)"
+            ),
             entry,
             re.DOTALL,
         )
@@ -103,7 +105,7 @@ def update_readme_with_metrics(readme_path):
 
             if metrics:
                 first_line = (
-                    f"- [{name}]({url}){desc}\n  {format_metrics_badges(metrics)}"
+                    f"- [{name}]({url}){desc}\n\n  " f"{format_metrics_badges(metrics)}"
                 )
 
                 features_start = entry.find("\n  -")
@@ -112,18 +114,36 @@ def update_readme_with_metrics(readme_path):
                 else:
                     rest_of_entry = ""
 
-                entry = f"{first_line}\n{rest_of_entry}\n\n"
+                entry = f"{first_line}\n\n  {rest_of_entry.strip()}\n\n\n"
 
         new_frameworks_section += entry
+
+    if args.url and args.name:
+        first_line = (
+            f"- [{args.name}]({args.url}) - Description\n\n  "
+            f"{format_metrics_badges(metrics)}"
+        )
+        new_frameworks_section += f"{first_line}\n\n  - Add description here."
 
     with open(readme_path, "w") as f:
         f.write(header + "## Frameworks\n" + new_frameworks_section)
 
 
-def process_readme(readme_path):
-    update_readme_with_metrics(readme_path)
+def process_readme(readme_path, args):
+    update_readme_with_metrics(readme_path, args)
     print("✨ README updated successfully with repository metrics!")
 
 
 if __name__ == "__main__":
-    process_readme("README.md")
+    parser = argparse.ArgumentParser(
+        description="Update README with repository metrics"
+    )
+    framework = parser.add_argument_group("framework")
+    framework.add_argument("--url", help="URL of the GitHub repository")
+    framework.add_argument("--name", help="Name of the repository")
+    args = parser.parse_args()
+
+    if bool(args.url) != bool(args.name):
+        parser.error("--url and --name must be given together")
+
+    process_readme("README.md", args)
