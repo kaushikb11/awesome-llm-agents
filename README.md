@@ -15,7 +15,6 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-02-1
   - Flexible memory system
   - Built-in error handling
 
-
 - [Langchain](https://github.com/hwchase17/langchain) - Building applications with LLMs
   through composability
 
@@ -28,7 +27,6 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-02-1
   - Python and Pandas integration
   - Vector store capabilities
 
-
 - [Microsoft AutoGen](https://github.com/microsoft/autogen) - Framework for building
   multi-agent conversational systems
 
@@ -39,7 +37,6 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-02-1
   - Code execution support
   - Flexible human involvement
   - Advanced conversation management
-
 
 - [Llama Index](https://github.com/run-llama/llama_index) - Data framework for LLM
   applications
@@ -52,7 +49,6 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-02-1
   - Structured data handling
   - Query optimization
 
-
 - [Microsoft Semantic Kernel](https://github.com/microsoft/semantic-kernel) -
   Integration framework for AI models
 
@@ -63,7 +59,6 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-02-1
   - Plugin architecture
   - Responsible AI features
   - Memory management
-
 
 - [Dify](https://github.com/langgenius/dify) - Open-source framework for LLM
   applications
@@ -76,7 +71,6 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-02-1
   - Multi-model support
   - RAG pipeline
 
-
 - [Haystack](https://github.com/deepset-ai/haystack) - End-to-end NLP framework
 
   19,206 stars · 2,050 forks · 263 contributors · 119 issues · Python · Apache-2.0
@@ -86,7 +80,6 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-02-1
   - Question answering
   - Semantic search
   - Agent capabilities
-
 
 - [Embedchain](https://github.com/embedchain/embedchain) - Framework for ChatGPT-like
   bots
@@ -99,7 +92,6 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-02-1
   - Multiple LLM support
   - RAG optimization
 
-
 - [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) - Open-source autonomous AI
   agent framework
 
@@ -111,7 +103,6 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-02-1
   - Resource management
   - Multi-vector memory storage
 
-
 - [AGiXT](https://github.com/Josh-XT/AGiXT) - Scalable framework for AI agents
 
   2,894 stars · 387 forks · 38 contributors · 8 issues · Python · MIT
@@ -122,7 +113,6 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-02-1
   - Command chaining
   - Web UI included
 
-
 - [XAgent](https://github.com/OpenBMB/XAgent) - Autonomous LLM-based agent framework
 
   8,148 stars · 863 forks · 34 contributors · 52 issues · Python · Apache-2.0
@@ -132,7 +122,6 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-02-1
   - Tool learning capabilities
   - Advanced error recovery
   - Built-in action validation
-
 
 - [OpenAgents](https://github.com/xlang-ai/OpenAgents) - Open platform for language
   agents
@@ -145,7 +134,6 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-02-1
   - Plugin ecosystem
   - Interactive visualization
 
-
 - [AI Legion](https://github.com/eumemic/ai-legion) - Swarm framework for autonomous
   agents
 
@@ -156,7 +144,6 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-02-1
   - Emergent behavior support
   - Flexible agent roles
   - Real-time collaboration
-
 
 - [Agent Protocol](https://github.com/e2b-dev/agent-protocol) - Unified interface for AI
   agents
@@ -169,7 +156,6 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-02-1
   - Interoperability focus
   - Protocol versioning
 
-
 - [Agents.js](https://github.com/Webgburnet/Agents.js) - JavaScript framework for
   building AI agents
 
@@ -177,7 +163,9 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-02-1
   - Event-driven architecture
   - Tool abstraction layer
   - Memory management
-  - Real-time processing- [CAMEL](https://github.com/camel-ai/camel) - Communicative Agents for "Mind"
+  - Real-time processing
+
+- [CAMEL](https://github.com/camel-ai/camel) - Communicative Agents for "Mind"
   Exploration
 
   6,304 stars · 750 forks · 72 contributors · 319 issues · Python · Apache-2.0
@@ -188,7 +176,6 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-02-1
   - Behavioral analysis
   - Cognitive architecture
 
-
 - [BabyAGI](https://github.com/yoheinakajima/babyagi) - Lightweight framework for AI
   task management
 
@@ -196,7 +183,9 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-02-1
   - Autonomous execution
   - Memory persistence
   - Goal-oriented planning
-  - Resource optimization- [Autonomous-GPT](https://github.com/Significant-Gravitas/Auto-GPT) - Framework for
+  - Resource optimization
+
+- [Autonomous-GPT](https://github.com/Significant-Gravitas/Auto-GPT) - Framework for
   autonomous GPT-4 agents
 
   171,513 stars · 45,046 forks · 438 contributors · 207 issues · Python · NOASSERTION
@@ -206,7 +195,6 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-02-1
   - Goal-oriented behavior
   - File operations
   - Command execution
-
 
 - [MetaGPT](https://github.com/geekan/MetaGPT) - Multi-agent framework for software
   development
@@ -219,7 +207,6 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-02-1
   - Documentation writing
   - Testing automation
 
-
 - [minions](https://github.com/getminions/minions) - Extensible framework for AI
   assistants
 
@@ -227,7 +214,9 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-02-1
   - Tool integration
   - State management
   - Event handling
-  - Parallel execution- [ix](https://github.com/kreneskyp/ix) - Autonomous agent framework
+  - Parallel execution
+
+- [ix](https://github.com/kreneskyp/ix) - Autonomous agent framework
 
   1,019 stars · 125 forks · 5 contributors · 14 issues · Python · MIT
 
@@ -237,7 +226,6 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-02-1
   - Process monitoring
   - Agent collaboration
 
-
 - [saplings](https://github.com/shobrook/saplings) - Build smarter agents using tree
   search
 
@@ -246,7 +234,6 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-02-1
   - Boost reasoning abilities
   - Supports popular search algorithms
   - Minimal setup, 2 lines of code
-
 
 - [Smolagents](https://github.com/huggingface/smolagents) - Minimalist framework for
   building powerful agents
@@ -259,7 +246,6 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-02-1
   - Tool integration
   - Hub integration for sharing
 
-
 - [Flowise](https://github.com/FlowiseAI/Flowise) - Drag & drop UI framework for
   building LLM flows
 
@@ -271,7 +257,6 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-02-1
   - Authentication support
   - Docker deployment
 
-
 - [Pydantic AI](https://github.com/pydantic/pydantic-ai) - Production-grade agent
   framework built on Pydantic
 
@@ -282,5 +267,3 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-02-1
   - Structured responses
   - Dependency injection
   - Logfire integration
-
-
