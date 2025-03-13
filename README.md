@@ -277,4 +277,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-03-0
   - Dependency injection
   - Logfire integration
 
+- [Upsonic](https://github.com/upsonic/upsonic) - Reliable agent framework that
+  support MCP.
+
+  6870 stars · 650 forks · 26 contributors · 98 issues · Python · MIT
+
+  - Easy-to-activate reliability layers
+  - Model Context Protocol (MCP)
+  - Integrated Browser Use and Computer Use
+  - Isolated environment to run agents
+  - Task-Centric Design
 
