@@ -287,3 +287,10 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-03-1
   - Task-Centric Design
 
 
+- [CoreAgent](https://github.com/CoreAgent-Project/CoreAgent) - The Simplest Agent Framework. 
+
+  1 stars · 0 forks · 1 contributors · 0 issues · Python · MIT
+
+  - Simplicity First: Ease of use and minimal boilerplate.
+  - Multi-Agent: Share the same tool instances states across multiple agents.
+  - Built-in Tools: Lots of built-in tools to get you started fast!
