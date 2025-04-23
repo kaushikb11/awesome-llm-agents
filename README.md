@@ -279,3 +279,13 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-04-2
   - Task-Centric Design
 
 
+- [Agentic Radar](https://github.com/splx-ai/agentic-radar) - A security scanner for
+  agentic workflows
+
+  439 stars · 47 forks · 8 contributors · 8 issues · Python · Apache-2.0
+
+  - Scans agentic workflow source code
+  - Finds vulnerabilities (CVE & OWASP)
+  - Generates interactive reports
+  - Suggests remediation steps
+  - Supports popular agentic workflows
