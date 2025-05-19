@@ -273,5 +273,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-05-1
   - Integrated Browser Use and Computer Use
   - Isolated environment to run agents
   - Task-Centric Design
+    
+ 
+- [EvoAgentX](https://github.com/EvoAgentX/EvoAgentX) -Building a Self-Evolving Ecosystem of AI Agents
+ 
+    281 stars · 25 forks · 8 contributors · 0 issues · Python · MIT
+    
+  -  Easy Agent and Workflow Customization
+  -  Workflow Optimization & Self-Evolving
+  -  Agent/workflow evolution algorithms integrated
+  -  Execution Toolkit
 
 
