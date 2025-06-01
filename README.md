@@ -177,7 +177,10 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-06-0
   - Event-driven architecture
   - Tool abstraction layer
   - Memory management
-  - Real-time processing- [CAMEL](https://github.com/camel-ai/camel) - Communicative Agents for "Mind"
+  - Real-time processing
+
+
+- [CAMEL](https://github.com/camel-ai/camel) - Communicative Agents for "Mind"
   Exploration
 
   6,380 stars · 762 forks · 76 contributors · 305 issues · Python · Apache-2.0
@@ -186,14 +189,20 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-06-0
   - Task-oriented dialogue
   - Multi-agent conversations
   - Behavioral analysis
-  - Cognitive architecture- [BabyAGI](https://github.com/yoheinakajima/babyagi) - Lightweight framework for AI
+  - Cognitive architecture
+
+
+- [BabyAGI](https://github.com/yoheinakajima/babyagi) - Lightweight framework for AI
   task management
 
   - Task prioritization
   - Autonomous execution
   - Memory persistence
   - Goal-oriented planning
-  - Resource optimization- [Autonomous-GPT](https://github.com/Significant-Gravitas/Auto-GPT) - Framework for
+  - Resource optimization
+
+
+- [Autonomous-GPT](https://github.com/Significant-Gravitas/Auto-GPT) - Framework for
   autonomous GPT-4 agents
 
   171,792 stars · 45,107 forks · 438 contributors · 201 issues · Python · NOASSERTION
@@ -202,7 +211,10 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-06-0
   - Long-term memory
   - Goal-oriented behavior
   - File operations
-  - Command execution- [MetaGPT](https://github.com/geekan/MetaGPT) - Multi-agent framework for software
+  - Command execution
+
+
+- [MetaGPT](https://github.com/geekan/MetaGPT) - Multi-agent framework for software
   development
 
   52,472 stars · 6,208 forks · 116 contributors · 89 issues · Python · MIT
@@ -211,14 +223,20 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-06-0
   - Code generation
   - Project management
   - Documentation writing
-  - Testing automation- [minions](https://github.com/getminions/minions) - Extensible framework for AI
+  - Testing automation
+
+
+- [minions](https://github.com/getminions/minions) - Extensible framework for AI
   assistants
 
   - Custom behavior definition
   - Tool integration
   - State management
   - Event handling
-  - Parallel execution- [ix](https://github.com/kreneskyp/ix) - Autonomous agent framework
+  - Parallel execution
+
+
+- [ix](https://github.com/kreneskyp/ix) - Autonomous agent framework
 
   1,018 stars · 125 forks · 5 contributors · 14 issues · Python · MIT
 
@@ -226,14 +244,20 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-06-0
   - Sandbox environments
   - Tool integration
   - Process monitoring
-  - Agent collaboration- [saplings](https://github.com/shobrook/saplings) - Build smarter agents using tree
+  - Agent collaboration
+
+
+- [saplings](https://github.com/shobrook/saplings) - Build smarter agents using tree
   search
 
   230 stars · 13 forks · 3 contributors · 2 issues · Python · Apache-2.0
 
   - Boost reasoning abilities
   - Supports popular search algorithms
-  - Minimal setup, 2 lines of code- [Smolagents](https://github.com/huggingface/smolagents) - Minimalist framework for
+  - Minimal setup, 2 lines of code
+
+
+- [Smolagents](https://github.com/huggingface/smolagents) - Minimalist framework for
   building powerful agents
 
   16,448 stars · 1,446 forks · 123 contributors · 209 issues · Python · Apache-2.0
@@ -242,7 +266,10 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-06-0
   - Multi-agent orchestration
   - LLM provider flexibility
   - Tool integration
-  - Hub integration for sharing- [Flowise](https://github.com/FlowiseAI/Flowise) - Drag & drop UI framework for
+  - Hub integration for sharing
+
+
+- [Flowise](https://github.com/FlowiseAI/Flowise) - Drag & drop UI framework for
   building LLM flows
 
   37,674 stars · 19,592 forks · 213 contributors · 600 issues · TypeScript · Apache-2.0
@@ -251,7 +278,10 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-06-0
   - Custom LLM integrations
   - API generation
   - Authentication support
-  - Docker deployment- [Pydantic AI](https://github.com/pydantic/pydantic-ai) - Production-grade agent
+  - Docker deployment
+
+
+- [Pydantic AI](https://github.com/pydantic/pydantic-ai) - Production-grade agent
   framework built on Pydantic
 
   9,574 stars · 854 forks · 117 contributors · 297 issues · Python · MIT
@@ -261,6 +291,8 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-06-0
   - Structured responses
   - Dependency injection
   - Logfire integration
+
+
 - [Upsonic](https://github.com/upsonic/upsonic) - Reliable agent framework that
   support MCP.
 
