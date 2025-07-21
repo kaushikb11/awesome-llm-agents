@@ -272,3 +272,8 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-07-2
   - Task-Centric Design
 
 
+- [Open Responses](https://docs.julep.ai/open-responses) - Serverless open-source platform for building long-running LLM agents with tool use.
+
+  5.1k stars · 933 forks · 32 contributors · 34 issues · Python · Apache-2.0
+
+  - Try now: `npx -y open-responses init`
