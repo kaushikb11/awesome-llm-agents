@@ -271,4 +271,10 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-08-1
   - Isolated environment to run agents
   - Task-Centric Design
 
+- [Mastra](https://github.com/mastra-ai/mastra) - Mastra is an opinionated TypeScript framework that helps you build AI applications and features quickly.
 
+  - Type-safe development
+  - Multi-model support
+  - Structured responses
+  - API generation
+  - Tool integration
