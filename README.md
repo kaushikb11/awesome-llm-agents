@@ -211,7 +211,22 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-10-1
   - Code generation
   - Project management
   - Documentation writing
-  - Testing automation- [minions](https://github.com/getminions/minions) - Extensible framework for AI
+  - Testing automation
+
+
+- [GenoMAS](https://github.com/Liu-Hy/GenoMAS) - Multi-agent framework for scientific
+  discovery and automated data analysis
+
+  123 stars · 16 forks · 1 contributors · 0 issues · Python · MIT
+
+  - Guided planning framework
+  - Typed message-passing protocol
+  - Heterogeneous LLM architecture
+  - Domain-agnostic design
+  - Scientific workflow automation
+
+
+- [minions](https://github.com/getminions/minions) - Extensible framework for AI
   assistants
 
   - Custom behavior definition
