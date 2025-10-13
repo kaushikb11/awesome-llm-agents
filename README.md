@@ -134,6 +134,20 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-10-1
   - Built-in action validation
 
 
+- [Neurolink](https://github.com/juspay/neurolink) - Multi-provider AI agent framework
+  with workflow orchestration capabilities, unifying 12+ providers (OpenAI, Google,
+  Anthropic, AWS, Azure, Groq, Together AI, Mistral, Cohere, Fireworks, Cloudflare,
+  Ollama)
+
+  STARS · FORKS · CONTRIBUTORS · ISSUES · TypeScript · MIT
+
+  - Multi-agent framework with workflow orchestration
+  - Unified interface for 12+ AI providers
+  - Edge-first architecture with local/cloud deployment
+  - Production-grade streaming and tool calling
+  - Battle-tested at Juspay (15M+ requests/month)
+
+
 - [OpenAgents](https://github.com/xlang-ai/OpenAgents) - Open platform for language
   agents
 
