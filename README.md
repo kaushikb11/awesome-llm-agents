@@ -310,6 +310,17 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-10-1
   -  Agent/workflow evolution algorithms integrated
   -  Execution Toolkit
 
+- [Portia AI](https://github.com/portiaAI/portia-sdk-python) - Open source framework for predictable,
+  controllable and authenticated agents.
+
+  New kid on the block, give us a try 🙏🏼 · Python · MIT
+  
+  - Structured planning
+  - Stateful execution
+  - Human in the loop controls
+  - Tool catalogue with built-in auth
+  - MCP support
+
 
 - [Agentic Radar](https://github.com/splx-ai/agentic-radar) - A security scanner for
   agentic workflows
