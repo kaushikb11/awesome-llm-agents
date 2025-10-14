@@ -41,6 +41,18 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-10-1
   - Advanced conversation management
 
 
+- [OpenManus](https://github.com/FoundationAgents/OpenManus) - Open-source AI agent
+  platform for building general-purpose agents
+
+  50,282 stars · 8,797 forks · 364 issues · Python · MIT
+
+  - Modular architecture for customization
+  - Data analysis and visualization agents
+  - Reinforcement learning integration (OpenManus-RL)
+  - No invitation code required
+  - Built by MetaGPT contributors
+
+
 - [Llama Index](https://github.com/run-llama/llama_index) - Data framework for LLM
   applications
 
@@ -100,6 +112,18 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-10-1
   - RAG optimization
 
 
+- [Google ADK](https://github.com/google/adk-python) - Agent Development Kit for
+  building, evaluating, and deploying AI agents
+
+  13,686 stars · 2,038 forks · 488 issues · Python · Apache-2.0
+
+  - Code-first development approach
+  - Modular multi-agent systems
+  - Model-agnostic and deployment-agnostic
+  - Built-in developer UI (adk-web)
+  - Deploy on Cloud Run or Vertex AI
+
+
 - [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) - Open-source autonomous AI
   agent framework
 
@@ -110,6 +134,18 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-10-1
   - Performance monitoring
   - Resource management
   - Multi-vector memory storage
+
+
+- [Kiln AI](https://github.com/Kiln-AI/Kiln) - Tools for building AI products including
+  agents, evals, RAG systems, and fine-tuning
+
+  4,306 stars · 310 forks · 26 issues · Python · Other
+
+  - Free desktop application for no-code development
+  - Evaluation frameworks
+  - RAG system building
+  - Synthetic data generation
+  - Agent development tools
 
 
 - [AGiXT](https://github.com/Josh-XT/AGiXT) - Scalable framework for AI agents
@@ -365,6 +401,18 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-10-1
   - Supports popular agentic workflows
 
 
+- [AgentFlow](https://github.com/lupantech/AgentFlow) - Trainable multi-agent framework
+  with in-the-flow optimization
+
+  710 stars · 77 forks · 2 issues · Python · MIT
+
+  - Four specialized modules (planner, executor, verifier, generator)
+  - Flow-GRPO reinforcement learning
+  - Tool integration (math, coding, scientific, search)
+  - Stanford research project
+  - Performance gains over monolithic approaches
+
+
 - [Mastra](https://github.com/mastra-ai/mastra) - TypeScript AI agent framework with
   assistants, RAG, and observability
 
@@ -386,6 +434,18 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-10-1
   - Multi-language support
   - Performance optimized
   - Developer-friendly SDK
+
+
+- [CleverBee](https://github.com/SureScaleAI/cleverbee) - Deep research assistant agent
+  with web browsing capabilities
+
+  306 stars · 17 forks · 1 issues · Python · AGPL-3.0
+
+  - Interactive web UI via Chainlit
+  - MCP tool support for external integrations
+  - Multi-LLM research (configurable LLMs)
+  - Automated web browsing with Playwright
+  - Token tracking and cost estimation
 
 
 - [RAI](https://github.com/RobotecAI/rai) - Agentic framework for robotics using ROS 2
@@ -420,3 +480,27 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-10-1
   - Multi-agent coordination
   - Shared state management
   - Built-in tools library
+
+
+- [Project Alice](https://github.com/MarianoMolina/project_alice) - Framework and
+  platform for building and deploying agentic workflows
+
+  252 stars · 33 forks · 1 issues · Python · BSD-3-Clause
+
+  - No-code and coding interface
+  - Visual workflow builder
+  - Live demo available
+  - Workflow deployment platform
+  - Alpha stage development
+
+
+- [AgentSquare](https://github.com/tsinghua-fib-lab/AgentSquare) - Automatic LLM agent
+  search in modular design space
+
+  199 stars · 14 forks · 10 issues · HTML
+
+  - Module evolution and recombination
+  - Planning, Reasoning, Tool Use, Memory modules
+  - Adaptive agent search framework
+  - Unified framework for six agent tasks
+  - Tsinghua University research project
