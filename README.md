@@ -332,3 +332,60 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-10-1
   - Generates interactive reports
   - Suggests remediation steps
   - Supports popular agentic workflows
+
+
+- [Mastra](https://github.com/mastra-ai/mastra) - TypeScript AI agent framework with
+  assistants, RAG, and observability
+
+  17,372 stars · 1,177 forks · Python · Other
+
+  - Type-safe development
+  - Multi-model support (GPT-4, Claude, Gemini, Llama)
+  - Structured responses
+  - API generation
+  - Tool integration
+
+
+- [Flappy](https://github.com/pleisto/flappy) - Production-ready LLM agent SDK
+
+  308 stars · 23 forks · 1 issues · Rust · Apache-2.0
+
+  - Production-grade reliability
+  - Type-safe agent development
+  - Multi-language support
+  - Performance optimized
+  - Developer-friendly SDK
+
+
+- [RAI](https://github.com/RobotecAI/rai) - Agentic framework for robotics using ROS 2
+
+  390 stars · 51 forks · 42 issues · Python · Apache-2.0
+
+  - ROS 2 integration
+  - Complex action execution
+  - Scenario-based testing
+  - Voice interaction support
+  - Vendor-agnostic architecture
+
+
+- [Floom](https://github.com/FloomAI/Floom) - AI gateway and agent/pipeline marketplace
+
+  44 stars · 4 forks · 0 issues · C# · MIT
+
+  - AI pipeline orchestration
+  - Agent marketplace integration
+  - Kubernetes-style architecture
+  - Streamlined AI integration
+  - DevOps-friendly deployment
+
+
+- [CoreAgent](https://github.com/CoreAgent-Project/CoreAgent) - Minimalist agent framework
+  with stateful tools
+
+  25 stars · 3 forks · 2 issues · Python
+
+  - Simplicity-first design
+  - Stateful tool support
+  - Multi-agent coordination
+  - Shared state management
+  - Built-in tools library
