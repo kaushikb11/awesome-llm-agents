@@ -1,7 +1,7 @@
 # Awesome LLM Agent Frameworks [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A curated list of awesome LLM frameworks and agent development tools. If you have a
-suggestion, feel free to open an issue or pull request. (Last updated: 2025-10-12)
+suggestion, feel free to open an issue or pull request. (Last updated: 2025-10-14)
 
 ## Frameworks
 
@@ -139,7 +139,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-10-1
   Anthropic, AWS, Azure, Groq, Together AI, Mistral, Cohere, Fireworks, Cloudflare,
   Ollama)
 
-  STARS · FORKS · CONTRIBUTORS · ISSUES · TypeScript · MIT
+  21 stars · 62 forks · 0 issues · TypeScript · MIT
 
   - Multi-agent framework with workflow orchestration
   - Unified interface for 12+ AI providers
@@ -191,7 +191,10 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-10-1
   - Event-driven architecture
   - Tool abstraction layer
   - Memory management
-  - Real-time processing- [CAMEL](https://github.com/camel-ai/camel) - Communicative Agents for "Mind"
+  - Real-time processing
+
+
+- [CAMEL](https://github.com/camel-ai/camel) - Communicative Agents for "Mind"
   Exploration
 
   6,380 stars · 762 forks · 76 contributors · 305 issues · Python · Apache-2.0
@@ -200,14 +203,20 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-10-1
   - Task-oriented dialogue
   - Multi-agent conversations
   - Behavioral analysis
-  - Cognitive architecture- [BabyAGI](https://github.com/yoheinakajima/babyagi) - Lightweight framework for AI
+  - Cognitive architecture
+
+
+- [BabyAGI](https://github.com/yoheinakajima/babyagi) - Lightweight framework for AI
   task management
 
   - Task prioritization
   - Autonomous execution
   - Memory persistence
   - Goal-oriented planning
-  - Resource optimization- [Autonomous-GPT](https://github.com/Significant-Gravitas/Auto-GPT) - Framework for
+  - Resource optimization
+
+
+- [Autonomous-GPT](https://github.com/Significant-Gravitas/Auto-GPT) - Framework for
   autonomous GPT-4 agents
 
   171,792 stars · 45,107 forks · 438 contributors · 201 issues · Python · NOASSERTION
@@ -216,7 +225,10 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-10-1
   - Long-term memory
   - Goal-oriented behavior
   - File operations
-  - Command execution- [MetaGPT](https://github.com/geekan/MetaGPT) - Multi-agent framework for software
+  - Command execution
+
+
+- [MetaGPT](https://github.com/geekan/MetaGPT) - Multi-agent framework for software
   development
 
   52,472 stars · 6,208 forks · 116 contributors · 89 issues · Python · MIT
@@ -247,7 +259,10 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-10-1
   - Tool integration
   - State management
   - Event handling
-  - Parallel execution- [ix](https://github.com/kreneskyp/ix) - Autonomous agent framework
+  - Parallel execution
+
+
+- [ix](https://github.com/kreneskyp/ix) - Autonomous agent framework
 
   1,018 stars · 125 forks · 5 contributors · 14 issues · Python · MIT
 
@@ -255,14 +270,20 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-10-1
   - Sandbox environments
   - Tool integration
   - Process monitoring
-  - Agent collaboration- [saplings](https://github.com/shobrook/saplings) - Build smarter agents using tree
+  - Agent collaboration
+
+
+- [saplings](https://github.com/shobrook/saplings) - Build smarter agents using tree
   search
 
   230 stars · 13 forks · 3 contributors · 2 issues · Python · Apache-2.0
 
   - Boost reasoning abilities
   - Supports popular search algorithms
-  - Minimal setup, 2 lines of code- [Smolagents](https://github.com/huggingface/smolagents) - Minimalist framework for
+  - Minimal setup, 2 lines of code
+
+
+- [Smolagents](https://github.com/huggingface/smolagents) - Minimalist framework for
   building powerful agents
 
   16,448 stars · 1,446 forks · 123 contributors · 209 issues · Python · Apache-2.0
@@ -271,7 +292,10 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-10-1
   - Multi-agent orchestration
   - LLM provider flexibility
   - Tool integration
-  - Hub integration for sharing- [Flowise](https://github.com/FlowiseAI/Flowise) - Drag & drop UI framework for
+  - Hub integration for sharing
+
+
+- [Flowise](https://github.com/FlowiseAI/Flowise) - Drag & drop UI framework for
   building LLM flows
 
   37,674 stars · 19,592 forks · 213 contributors · 600 issues · TypeScript · Apache-2.0
@@ -280,7 +304,10 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-10-1
   - Custom LLM integrations
   - API generation
   - Authentication support
-  - Docker deployment- [Pydantic AI](https://github.com/pydantic/pydantic-ai) - Production-grade agent
+  - Docker deployment
+
+
+- [Pydantic AI](https://github.com/pydantic/pydantic-ai) - Production-grade agent
   framework built on Pydantic
 
   9,574 stars · 854 forks · 117 contributors · 297 issues · Python · MIT
@@ -289,7 +316,10 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-10-1
   - Multi-model support
   - Structured responses
   - Dependency injection
-  - Logfire integration- [Upsonic](https://github.com/upsonic/upsonic) - Reliable agent framework that
+  - Logfire integration
+
+
+- [Upsonic](https://github.com/upsonic/upsonic) - Reliable agent framework that
   support MCP.
 
   7,517 stars · 698 forks · 24 contributors · 53 issues · Python · MIT
@@ -299,16 +329,17 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-10-1
   - Integrated Browser Use and Computer Use
   - Isolated environment to run agents
   - Task-Centric Design
-    
- 
-- [EvoAgentX](https://github.com/EvoAgentX/EvoAgentX) -Building a Self-Evolving Ecosystem of AI Agents
- 
-    281 stars · 25 forks · 8 contributors · 0 issues · Python · MIT
-    
-  -  Easy Agent and Workflow Customization
-  -  Workflow Optimization & Self-Evolving
-  -  Agent/workflow evolution algorithms integrated
-  -  Execution Toolkit
+
+
+- [EvoAgentX](https://github.com/EvoAgentX/EvoAgentX) - Building a Self-Evolving
+  Ecosystem of AI Agents
+
+  281 stars · 25 forks · 8 contributors · 0 issues · Python · MIT
+
+  - Easy Agent and Workflow Customization
+  - Workflow Optimization & Self-Evolving
+  - Agent/workflow evolution algorithms integrated
+  - Execution Toolkit
 
 - [Portia AI](https://github.com/portiaAI/portia-sdk-python) - Open source framework for predictable,
   controllable and authenticated agents.
@@ -337,7 +368,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-10-1
 - [Mastra](https://github.com/mastra-ai/mastra) - TypeScript AI agent framework with
   assistants, RAG, and observability
 
-  17,372 stars · 1,177 forks · Python · Other
+  17,372 stars · 1,177 forks · TypeScript · Other
 
   - Type-safe development
   - Multi-model support (GPT-4, Claude, Gemini, Llama)
