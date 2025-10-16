@@ -464,11 +464,10 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-10-1
   70 stars · 9 forks · 10 contributors · 21 issues · Python · MIT
 
   - Blackboard coordination pattern
-  - Multi-output fan-out (multiple complex typed objects in single LLM call)
-  - Fluent DX (complex patterns in a single line of code)
-  - Type-safe contracts with Pydantic
-  - Production-grade observability
-  - Zero-trust security model
+  - Easily orchestrate complex patterns like multi-output fan-out 
+  - Fluent DX - write complex flows in a few lines of code
+  - Agents adhere to strict contracts instead of brittle natural language prompts
+  - Production-grade observability & Zero-trust security model
 
 
 - [Floom](https://github.com/FloomAI/Floom) - AI gateway and agent/pipeline marketplace
