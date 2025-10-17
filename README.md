@@ -230,6 +230,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-10-1
   - Real-time processing
 
 
+- [Cache-to-Cache](https://github.com/thu-nics/C2C) - Novel paradigm for direct 
+  semantic communication between LLMs via KV-Cache
+
+  71 stars · 4 forks · 2 contributors · Python · Apache-2.0
+
+  - Direct semantic communication via KV-Cache
+  - Multi-agent system integration
+  - Neural cache projection and fusion
+
 - [CAMEL](https://github.com/camel-ai/camel) - Communicative Agents for "Mind"
   Exploration
 
