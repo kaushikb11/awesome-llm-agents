@@ -427,9 +427,10 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-10-1
   17,557 stars · 1,193 forks · 228 contributors · 384 issues · TypeScript · NOASSERTION
 
   - Type-safe development
-  - Multi-model support (GPT-4, Claude, Gemini, Llama)
+  - Multi-model support, and router (GPT-4, Claude, Gemini, Llama)
   - Structured responses
   - API generation
+  - MCP generation
   - Tool integration
 
 
