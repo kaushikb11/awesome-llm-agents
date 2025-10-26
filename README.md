@@ -507,3 +507,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-10-2
   - Adaptive agent search framework
   - Unified framework for six agent tasks
   - Tsinghua University research project
+
+
+- [DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze) - Agentic LLM for autonomous data science
+
+  1000+ stars · 110+ forks · 5 issues · Python
+
+  
+  - Agentic LLM without and predefined workflow
+  - Autonomous Orchestration + Adaptive Optimization
+  - Curriculum-based agentic training in real-world environments
+  - Suppoting Data Tasks: Automated data preparation, data analysis, data modeling, data visualization, data insight, and report generation
+  - Suppoting Data Research: Open-ended deep research across unstructured data (TXT, Markdown), semi-structured data (JSON, XML, YAML), and structured data (databases, CSV, Excel), with the ability to produce comprehensive research reports
