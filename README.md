@@ -326,6 +326,16 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-11-1
   - Hub integration for sharing
 
 
+- [Tambo](https://github.com/tambo-ai/tambo) - React framework for building AI-powered applications with generative UI and MCP support
+
+  810 stars · 78 forks · 22 contributors · 36 issues · TypeScript · MIT
+
+  - Component library for AI-driven UI composition
+  - MCP (Model Context Protocol) integration
+  - TypeScript-first with full type safety
+  - SSR compatible (Next.js, Remix, etc.)
+
+
 - [Flowise](https://github.com/FlowiseAI/Flowise) - Drag & drop UI framework for
   building LLM flows
 
