@@ -488,3 +488,5 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-11-3
   - Adaptive agent search framework
   - Unified framework for six agent tasks
   - Tsinghua University research project
+
+- [AgentsKB](https://agentskb.com) - Upgrade your AI with researched answers. We did the research so your AI gets it right the first time.
