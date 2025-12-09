@@ -484,3 +484,12 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-0
   - Adaptive agent search framework
   - Unified framework for six agent tasks
   - Tsinghua University research project
+
+## Memory Systems & Protocols
+
+- [MirrorDNA / ActiveMirrorOS](https://zenodo.org/record/YOUR_RECORD_ID) - Reflective / continuity-first memory governance
+
+  - Implements Sovereign Context Diffusion (SCD v3.1)
+  - Identity preservation protocol
+  - Cross-session continuity
+
