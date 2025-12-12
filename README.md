@@ -422,6 +422,16 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-0
   - Developer-friendly SDK
 
 
+- [ADK-Rust](https://github.com/zavora-ai/adk-rust) - Production-ready AI agent development
+  kit for Rust
+
+  - Model-agnostic (Gemini, OpenAI, Anthropic, DeepSeek)
+  - Multiple agent types (LLM, Graph, Workflow, Realtime)
+  - Built-in tools (browser automation, MCP, UI generation)
+  - Sessions, artifacts, and telemetry
+  - Deploy anywhere with adk-server
+
+
 - [CleverBee](https://github.com/SureScaleAI/cleverbee) - Deep research assistant agent
   with web browsing capabilities
 
