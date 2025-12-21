@@ -1,14 +1,14 @@
 # Awesome LLM Agent Frameworks [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A curated list of awesome LLM frameworks and agent development tools. If you have a
-suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-14)
+suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-21)
 
 ## Frameworks
 
 - [CrewAI](https://github.com/joaomdmoura/crewAI) - Framework for orchestrating
   role-playing AI agents
 
-  41,340 stars · 5,542 forks · 268 contributors · 163 issues · Python · MIT
+  41,600 stars · 5,571 forks · 269 contributors · 196 issues · Python · MIT
 
   - Role-based agent design
   - Multi-agent collaboration
@@ -19,7 +19,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-1
 - [Langchain](https://github.com/hwchase17/langchain) - Building applications with LLMs
   through composability
 
-  121,842 stars · 20,091 forks · 470 contributors · 267 issues · Python · MIT
+  122,325 stars · 20,162 forks · 470 contributors · 286 issues · Python · MIT
 
   - Modular and extensible architecture
   - Unified interface for LLMs
@@ -32,7 +32,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-1
 - [Microsoft AutoGen](https://github.com/microsoft/autogen) - Framework for building
   multi-agent conversational systems
 
-  52,480 stars · 7,981 forks · 446 contributors · 525 issues · Python · CC-BY-4.0
+  52,702 stars · 8,006 forks · 446 contributors · 529 issues · Python · CC-BY-4.0
 
   - Multi-agent architecture
   - Customizable agents
@@ -44,7 +44,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-1
 - [OpenManus](https://github.com/FoundationAgents/OpenManus) - Open-source AI agent
   platform for building general-purpose agents
 
-  51,274 stars · 8,950 forks · 53 contributors · 524 issues · Python · MIT
+  51,384 stars · 8,963 forks · 53 contributors · 526 issues · Python · MIT
 
   - Modular architecture for customization
   - Data analysis and visualization agents
@@ -56,7 +56,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-1
 - [Llama Index](https://github.com/run-llama/llama_index) - Data framework for LLM
   applications
 
-  45,798 stars · 6,626 forks · 475 contributors · 268 issues · Python · MIT
+  45,920 stars · 6,651 forks · 475 contributors · 272 issues · Python · MIT
 
   - Advanced indexing and retrieval
   - Support for 160+ data sources
@@ -68,7 +68,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-1
 - [Microsoft Semantic Kernel](https://github.com/microsoft/semantic-kernel) -
   Integration framework for AI models
 
-  26,842 stars · 4,389 forks · 389 contributors · 566 issues · C# · MIT
+  26,886 stars · 4,394 forks · 389 contributors · 568 issues · C# · MIT
 
   - Enterprise-grade security
   - Multi-language support
@@ -80,7 +80,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-1
 - [Dify](https://github.com/langgenius/dify) - Open-source framework for LLM
   applications
 
-  121,607 stars · 18,897 forks · 464 contributors · 712 issues · TypeScript · NOASSERTION
+  122,290 stars · 19,013 forks · 461 contributors · 711 issues · TypeScript · NOASSERTION
 
   - Visual prompt orchestration
   - Long context integration
@@ -91,7 +91,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-1
 
 - [Haystack](https://github.com/deepset-ai/haystack) - End-to-end NLP framework
 
-  23,602 stars · 2,516 forks · 305 contributors · 108 issues · MDX · Apache-2.0
+  23,689 stars · 2,533 forks · 307 contributors · 113 issues · MDX · Apache-2.0
 
   - Document processing
   - Neural search
@@ -103,7 +103,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-1
 - [Embedchain](https://github.com/embedchain/embedchain) - Framework for ChatGPT-like
   bots
 
-  44,242 stars · 4,809 forks · 245 contributors · 549 issues · Python · Apache-2.0
+  44,503 stars · 4,831 forks · 245 contributors · 560 issues · Python · Apache-2.0
 
   - Multi-source data ingestion
   - Automated embedding
@@ -115,7 +115,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-1
 - [Google ADK](https://github.com/google/adk-python) - Agent Development Kit for
   building, evaluating, and deploying AI agents
 
-  16,398 stars · 2,609 forks · 210 contributors · 469 issues · Python · Apache-2.0
+  16,592 stars · 2,645 forks · 213 contributors · 492 issues · Python · Apache-2.0
 
   - Code-first development approach
   - Modular multi-agent systems
@@ -127,7 +127,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-1
 - [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) - Open-source autonomous AI
   agent framework
 
-  16,938 stars · 2,130 forks · 63 contributors · 202 issues · Python · MIT
+  16,957 stars · 2,138 forks · 63 contributors · 202 issues · Python · MIT
 
   - Customizable agent workflows
   - Tool creation framework
@@ -139,7 +139,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-1
 - [Kiln AI](https://github.com/Kiln-AI/Kiln) - Tools for building AI products including
   agents, evals, RAG systems, and fine-tuning
 
-  4,471 stars · 327 forks · 12 contributors · 35 issues · Python · NOASSERTION
+  4,485 stars · 327 forks · 12 contributors · 35 issues · Python · NOASSERTION
 
   - Free desktop application for no-code development
   - Evaluation frameworks
@@ -150,7 +150,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-1
 
 - [AGiXT](https://github.com/Josh-XT/AGiXT) - Scalable framework for AI agents
 
-  3,132 stars · 442 forks · 41 contributors · 2 issues · Python · MIT
+  3,135 stars · 442 forks · 41 contributors · 1 issues · Python · MIT
 
   - Multi-provider support
   - Chain of thought processing
@@ -161,7 +161,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-1
 
 - [XAgent](https://github.com/OpenBMB/XAgent) - Autonomous LLM-based agent framework
 
-  8,469 stars · 893 forks · 33 contributors · 55 issues · Python · Apache-2.0
+  8,480 stars · 892 forks · 33 contributors · 55 issues · Python · Apache-2.0
 
   - Human-like planning
   - Autonomous task decomposition
@@ -175,7 +175,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-1
   Anthropic, AWS, Azure, Groq, Together AI, Mistral, Cohere, Fireworks, Cloudflare,
   Ollama)
 
-  103 stars · 81 forks · 47 contributors · 396 issues · TypeScript · MIT
+  101 stars · 85 forks · 48 contributors · 397 issues · TypeScript · MIT
 
   - Multi-agent framework with workflow orchestration
   - Unified interface for 12+ AI providers
@@ -187,7 +187,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-1
 - [OpenAgents](https://github.com/xlang-ai/OpenAgents) - Open platform for language
   agents
 
-  4,633 stars · 507 forks · 16 contributors · 12 issues · Python · Apache-2.0
+  4,648 stars · 512 forks · 16 contributors · 12 issues · Python · Apache-2.0
 
   - Data analysis capabilities
   - Web browsing integration
@@ -211,7 +211,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-1
 - [Agent Protocol](https://github.com/e2b-dev/agent-protocol) - Unified interface for AI
   agents
 
-  1,428 stars · 171 forks · 14 contributors · 42 issues · Python · MIT
+  1,429 stars · 171 forks · 14 contributors · 42 issues · Python · MIT
 
   - Standardized communication
   - Language-agnostic design
@@ -279,7 +279,6 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-1
   - Domain-agnostic design
   - Scientific workflow automation
 
-
 - [minions](https://github.com/getminions/minions) - Extensible framework for AI
   assistants
 
@@ -313,11 +312,10 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-1
   - Tool integration
   - Hub integration for sharing
 
-
 - [Flowise](https://github.com/FlowiseAI/Flowise) - Drag & drop UI framework for
   building LLM flows
 
-  47,293 stars · 23,328 forks · 266 contributors · 718 issues · TypeScript · NOASSERTION
+  47,464 stars · 23,416 forks · 266 contributors · 743 issues · TypeScript · NOASSERTION
 
   - Visual flow builder
   - Custom LLM integrations
@@ -329,7 +327,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-1
 - [Pydantic AI](https://github.com/pydantic/pydantic-ai) - Production-grade agent
   framework built on Pydantic
 
-  13,763 stars · 1,466 forks · 315 contributors · 402 issues · Python · MIT
+  13,895 stars · 1,492 forks · 325 contributors · 403 issues · Python · MIT
 
   - Type-safe development
   - Multi-model support
@@ -341,7 +339,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-1
 - [Upsonic](https://github.com/upsonic/upsonic) - Reliable agent framework that
   support MCP.
 
-  7,728 stars · 716 forks · 33 contributors · 78 issues · Python · MIT
+  7,731 stars · 715 forks · 33 contributors · 78 issues · Python · MIT
 
   - Easy-to-activate reliability layers
   - Model Context Protocol (MCP)
@@ -353,7 +351,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-1
 - [EvoAgentX](https://github.com/EvoAgentX/EvoAgentX) - Building a Self-Evolving
   Ecosystem of AI Agents
 
-  2,371 stars · 182 forks · 24 contributors · 12 issues · Python · NOASSERTION
+  2,382 stars · 185 forks · 24 contributors · 12 issues · Python · NOASSERTION
 
   - Easy Agent and Workflow Customization
   - Workflow Optimization & Self-Evolving
@@ -370,11 +368,10 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-1
   - Stateful execution
   - Human in the loop controls
   - Tool catalogue with built-in auth
-  - MCP support
-- [Agentic Radar](https://github.com/splx-ai/agentic-radar) - A security scanner for
+  - MCP support- [Agentic Radar](https://github.com/splx-ai/agentic-radar) - A security scanner for
   agentic workflows
 
-  836 stars · 104 forks · 8 contributors · 10 issues · Python · Apache-2.0
+  848 stars · 106 forks · 8 contributors · 10 issues · Python · Apache-2.0
 
   - Scans agentic workflow source code
   - Finds vulnerabilities (CVE & OWASP)
@@ -386,7 +383,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-1
 - [AgentFlow](https://github.com/lupantech/AgentFlow) - Trainable multi-agent framework
   with in-the-flow optimization
 
-  1,407 stars · 183 forks · 4 contributors · 6 issues · Python · MIT
+  1,425 stars · 184 forks · 4 contributors · 5 issues · Python · MIT
 
   - Four specialized modules (planner, executor, verifier, generator)
   - Flow-GRPO reinforcement learning
@@ -398,7 +395,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-1
 - [Mastra](https://github.com/mastra-ai/mastra) - TypeScript AI agent framework with
   assistants, RAG, and observability
 
-  18,802 stars · 1,347 forks · 270 contributors · 301 issues · TypeScript · NOASSERTION
+  18,917 stars · 1,356 forks · 276 contributors · 289 issues · TypeScript · NOASSERTION
 
   - Type-safe development
   - Multi-model support (GPT-4, Claude, Gemini, Llama)
@@ -421,7 +418,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-1
 - [CleverBee](https://github.com/SureScaleAI/cleverbee) - Deep research assistant agent
   with web browsing capabilities
 
-  308 stars · 16 forks · 1 contributors · 1 issues · Python · AGPL-3.0
+  309 stars · 16 forks · 1 contributors · 1 issues · Python · AGPL-3.0
 
   - Interactive web UI via Chainlit
   - MCP tool support for external integrations
@@ -432,7 +429,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-1
 
 - [RAI](https://github.com/RobotecAI/rai) - Agentic framework for robotics using ROS 2
 
-  422 stars · 52 forks · 21 contributors · 53 issues · Python · Apache-2.0
+  425 stars · 54 forks · 21 contributors · 59 issues · Python · Apache-2.0
 
   - ROS 2 integration
   - Complex action execution
