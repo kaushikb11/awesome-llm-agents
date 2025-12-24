@@ -477,3 +477,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2025-12-2
   - Adaptive agent search framework
   - Unified framework for six agent tasks
   - Tsinghua University research project
+
+
+- [AgentField](https://github.com/Agent-Field/agentfield) - Open-source infrastructure
+  for AI backends. Kubernetes for orchestration, Okta for identity.
+
+  Python/TypeScript · MIT
+
+  - W3C DIDs give every agent cryptographic identity; Verifiable Credentials create tamper-proof audit trails
+  - Guided autonomy: agents reason freely within policy boundaries you define
+  - Async-native execution for workflows running minutes to days
+  - Cross-agent discovery and RPC without pre-federation or shared IdPs
+  - Built-in memory fabric with vector search—zero integration tax
