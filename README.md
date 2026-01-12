@@ -472,7 +472,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-01-1
 
 - [Axar](https://github.com/axar-ai/axar) – Minimal TypeScript agentic framework for building production-ready LLM applications
 
-   154+ stars · TypeScript · MIT
+   154+ stars · 12 forks · TypeScript · MIT
 
   - Strongly-typed agent architecture with first-class TypeScript support  
   - Decorator-based API for defining agents, tools, and workflows  
