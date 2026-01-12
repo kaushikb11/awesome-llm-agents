@@ -469,3 +469,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-01-1
   - Adaptive agent search framework
   - Unified framework for six agent tasks
   - Tsinghua University research project
+
+- [Axar](https://github.com/axar-ai/axar) – Minimal TypeScript agentic framework for building production-ready LLM applications
+
+   154+ stars · TypeScript · MIT
+
+  - Strongly-typed agent architecture with first-class TypeScript support  
+  - Decorator-based API for defining agents, tools, and workflows  
+  - Built-in structured I/O and validation (Zod-powered)  
+  - Lightweight, production-oriented design  
+  - Easy integration with OpenAI, Anthropic, Gemini, and other models  
+  - Clear documentation & examples: https://axar-ai.gitbook.io/axar
