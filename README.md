@@ -463,3 +463,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-0
   - Adaptive agent search framework
   - Unified framework for six agent tasks
   - Tsinghua University research project
+
+
+- [Autonomous Agents](https://github.com/KeepALifeUS/autonomous-agents) - Production
+  multi-agent orchestration using stigmergy pattern
+
+  0 stars · 0 forks · 0 issues · TypeScript · MIT
+
+  - Indirect coordination through shared environment
+  - 4 specialized agents (Sales, Scheduler, Analyst, Coordinator)
+  - 80% reduction in API token usage
+  - Built with Claude API
+  - Inspired by ant colony coordination
