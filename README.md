@@ -5,6 +5,18 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-0
 
 ## Frameworks
 
+- [Cordum](https://github.com/cordum-io/cordum) - Governance-first control plane for AI agents
+  and external workers
+
+  546 stars · 15 forks · 3 contributors · 12 issues · Go · BUSL-1.1
+
+  - Policy-before-dispatch safety kernel
+  - Human-in-the-loop approval gates
+  - Audit trails and signed workflow runs
+  - Workflow DAGs with external workers
+  - MCP tool support
+
+
 - [CrewAI](https://github.com/joaomdmoura/crewAI) - Framework for orchestrating
   role-playing AI agents
 
