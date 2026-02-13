@@ -461,3 +461,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-0
   - Adaptive agent search framework
   - Unified framework for six agent tasks
   - Tsinghua University research project
+
+
+- [everyrow](https://github.com/futuresearch/everyrow-sdk) - AI-powered data operations
+  SDK for running LLM agents on pandas DataFrames
+
+  15 stars · 1 forks · 11 contributors · 9 issues · Python · MIT
+
+  - Screen, rank, dedupe, merge rows with natural language
+  - Web research agents applied per row 
+  - Scales to tens of thousands of rows
+  - Claude Code integration
