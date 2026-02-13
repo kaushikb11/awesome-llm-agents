@@ -461,3 +461,5 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-0
   - Adaptive agent search framework
   - Unified framework for six agent tasks
   - Tsinghua University research project
+
+- [AgentIndex](https://github.com/agentidx/agentindex) - Discovery and indexing service for AI agents. Semantic search across 36,000+ agents. A2A protocol, REST API, and MCP server.
