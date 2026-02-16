@@ -1,4 +1,6 @@
 # Awesome LLM Agent Frameworks [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+- [Orchard Kit](https://github.com/OrchardHarmonics/orchard-kit) — Alignment, safety & cognitive architecture for autonomous AI agents. Membrane security, epistemic hygiene, cognitive architecture, collective cognition. Zero dependencies.
+
 
 A curated list of awesome LLM frameworks and agent development tools. If you have a
 suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-15)
