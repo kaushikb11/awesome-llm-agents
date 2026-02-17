@@ -148,6 +148,28 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-1
   - Agent development tools
 
 
+- [Agent OS](https://github.com/imran-siddique/agent-os) - Safety-first kernel for
+  governing autonomous AI agents with POSIX-inspired primitives
+
+  40 stars · 8 forks · 1 contributors · 141 issues · Python · MIT
+
+  - Policy engine with 0% violation guarantee
+  - Resource quotas and audit logging
+  - Integrations with CrewAI, LangChain, AutoGen, Semantic Kernel
+  - MCP server support
+
+
+- [AgentMesh](https://github.com/imran-siddique/agent-mesh) - Secure trust layer for
+  multi-agent ecosystems with zero-trust governance
+
+  6 stars · 2 forks · 1 contributors · 72 issues · Python · Apache-2.0
+
+  - Ed25519 cryptographic agent identity
+  - Delegation chains with bounded depth
+  - HTTP trust middleware for Flask/FastAPI
+  - A2A protocol compatible
+
+
 - [AGiXT](https://github.com/Josh-XT/AGiXT) - Scalable framework for AI agents
 
   3,152 stars · 441 forks · 41 contributors · 7 issues · Python · MIT
