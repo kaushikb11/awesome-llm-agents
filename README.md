@@ -386,6 +386,16 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-1
   - Structured responses
   - API generation
   - Tool integration
+- [Taskade Genesis](https://taskade.com/genesis) - AI-powered platform for building
+  custom AI agents, workflows, and apps using natural language
+
+  - Multi-model support (GPT-4o, Claude, Gemini)
+  - Natural language agent builder
+  - Visual workflow automation
+  - Real-time team collaboration
+  - Cross-platform deployment
+
+
 - [Flappy](https://github.com/pleisto/flappy) - Production-ready LLM agent SDK
 
   307 stars · 23 forks · 7 contributors · 10 issues · Rust · Apache-2.0
