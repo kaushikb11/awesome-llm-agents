@@ -459,3 +459,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-1
   - Adaptive agent search framework
   - Unified framework for six agent tasks
   - Tsinghua University research project
+
+
+- [LaikaTest](https://github.com/ForecloseAI/laikatest_client_js) – Prompt management & A/B testing SDK for AI-driven apps
+
+  1 star · 0 forks · 3 contributors · 0 issues · JavaScript · MIT
+
+  - Enterprise-ready prompt version-control
+  - Real-time A/B testing & experiment monitoring
+  - Efficient prompt fetching with intelligent caching
+  - Minimal, zero-dependency JS SDK for easy integration
+  - Built-in error handling and performance metrics
