@@ -409,6 +409,23 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-1
   - Token tracking and cost estimation
 
 
+- [ClawdTalk](https://github.com/team-telnyx/clawdtalk-client) - Voice interface for AI
+  agents. Phone calls and SMS to your AI
+
+  - Telephony integration for voice AI agents
+  - SMS messaging support for agent communication
+  - Built by Telnyx team
+  - Open-source client library
+
+
+- [Telnyx](https://telnyx.com) - CPaaS platform for voice AI, SIP trunking, and SMS
+
+  - Voice AI infrastructure
+  - SIP trunking for telephony
+  - SMS messaging APIs
+  - Real-time communication for agents
+
+
 - [RAI](https://github.com/RobotecAI/rai) - Agentic framework for robotics using ROS 2
 
   453 stars · 55 forks · 22 contributors · 59 issues · Python · Apache-2.0
