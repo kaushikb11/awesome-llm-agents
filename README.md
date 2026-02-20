@@ -16,6 +16,20 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-1
   - Built-in error handling
 
 
+- [PraisonAI](https://github.com/MervinPraison/PraisonAI) - Production-ready Multi-AI
+  Agents framework with self-reflection
+
+  3,200+ stars · Python & JavaScript · MIT
+
+  - Fastest agent instantiation (3.77μs benchmark)
+  - 100+ LLM support via LiteLLM
+  - MCP Protocol integration
+  - Agentic workflows (route, parallel, loop, repeat)
+  - Built-in memory (short-term, long-term, entity)
+  - Self-reflection for improved responses
+  - Both Python & JavaScript SDKs
+
+
 - [Langchain](https://github.com/hwchase17/langchain) - Building applications with LLMs
   through composability
 
