@@ -420,6 +420,17 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-1
   - Vendor-agnostic architecture
 
 
+- [Flock](https://github.com/whiteducksoftware/flock) - Declarative multi-agent LLM orchestration using blackboard architecture and typed contracts
+
+  70 stars · 9 forks · 10 contributors · 21 issues · Python · MIT
+
+  - Blackboard coordination pattern
+  - Easily orchestrate complex patterns like multi-output fan-out 
+  - Fluent DX - write complex flows in a few lines of code
+  - Agents adhere to strict contracts instead of brittle natural language prompts
+  - Production-grade observability & Zero-trust security model
+
+
 - [Floom](https://github.com/FloomAI/Floom) - AI gateway and agent/pipeline marketplace
 
   46 stars · 4 forks · 2 contributors · 0 issues · C# · MIT
