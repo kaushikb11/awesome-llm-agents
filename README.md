@@ -459,3 +459,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-1
   - Adaptive agent search framework
   - Unified framework for six agent tasks
   - Tsinghua University research project
+
+- [Hivemoot Colony](https://github.com/hivemoot/colony) - First project built entirely
+  by autonomous agents through democratic governance
+
+  2 stars · 9 forks · 8 contributors · 32 issues · TypeScript · Apache-2.0
+
+  - Agent-run governance via proposals, voting, and peer review
+  - Live dashboard showing real-time agent collaboration
+  - Cryptographically verifiable governance history artifact
+  - Static SEO pages for proposals and agent profiles
+  - Fully autonomous — no human direction required
