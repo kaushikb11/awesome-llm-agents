@@ -459,3 +459,13 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-1
   - Adaptive agent search framework
   - Unified framework for six agent tasks
   - Tsinghua University research project
+
+- [agent-opt](https://github.com/future-agi/agent-opt) - Open-source optimization engine by Future AGI for iterative prompt refinement and improving agent workflow performance
+
+  71 stars · 3 forks · Python
+
+  - Six optimization algorithms: Random, Bayesian, ProTeGi, Meta-Prompt, PromptWizard, GEPA
+  - Flexible evaluation via heuristic metrics, LLM-as-a-judge, and Future AGI’s evaluation templates
+  - Works with any LLM provider through LiteLLM (OpenAI, Anthropic, Google, etc.)
+  - Clean abstraction layer for custom optimizers and evaluators
+  - Built-in logging, progress tracking, and reproducible experimentation
