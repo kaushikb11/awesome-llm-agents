@@ -459,3 +459,16 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-1
   - Adaptive agent search framework
   - Unified framework for six agent tasks
   - Tsinghua University research project
+
+
+- [Agents Squads](https://agents-squads.com) - Squad-based AI agent platform with full
+  execution traces and cost tracking
+
+  Commercial · TypeScript/Python · Claude Code native
+
+  - Domain-aligned squad organization (marketing, engineering, etc.)
+  - Full execution traces for every agent decision
+  - Real-time cost tracking with per-run budgets
+  - Memory persistence between agent runs
+  - MCP server integrations (Supabase, GitHub, etc.)
+  - CLI for managing agents, memory, and goals
