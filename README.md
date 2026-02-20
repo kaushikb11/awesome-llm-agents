@@ -459,3 +459,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-1
   - Adaptive agent search framework
   - Unified framework for six agent tasks
   - Tsinghua University research project
+
+- [Openwork](https://github.com/accomplish-ai/openwork) - MIT-licensed, open alternative
+  to Anthropic's Cowork for browser automation
+
+  1,891 stars · 283 forks · TypeScript · MIT
+
+  - Multi-provider LLM support
+  - Computer-use agent automation
+  - Built on Opencode and dev-browser
+  - Real browser workflow automation
+  - Fully open source
