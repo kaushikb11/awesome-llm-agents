@@ -382,9 +382,10 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-1
   20,636 stars · 1,483 forks · 297 contributors · 366 issues · TypeScript · NOASSERTION
 
   - Type-safe development
-  - Multi-model support (GPT-4, Claude, Gemini, Llama)
+  - Multi-model support, and router (GPT-4, Claude, Gemini, Llama)
   - Structured responses
   - API generation
+  - MCP generation
   - Tool integration
 - [Flappy](https://github.com/pleisto/flappy) - Production-ready LLM agent SDK
 
