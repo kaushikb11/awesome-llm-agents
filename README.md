@@ -459,3 +459,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-1
   - Adaptive agent search framework
   - Unified framework for six agent tasks
   - Tsinghua University research project
+
+
+- [Quorum](https://github.com/Detrol/quorum-cli) - Multi-agent AI discussion system for
+  structured debates
+
+  Python · BSL-1.1
+
+  - 7 discussion methods: Standard, Oxford, Socratic, Delphi, Brainstorm, Tradeoff, Advocate
+  - Multi-phase consensus: independent answers → critique → discussion → synthesis
+  - Supports Claude, GPT, Gemini, Grok, and local Ollama models
+  - Terminal UI with real-time streaming
+  - Auto-discovery of local Ollama models
