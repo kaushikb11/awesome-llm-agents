@@ -431,6 +431,17 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-1
   - DevOps-friendly deployment
 
 
+- [Cordum](https://github.com/cordum-io/cordum) - Safety-first agent orchestration
+  platform with pre-dispatch policy evaluation, output scanning, job scheduling,
+  workflow engine, and MCP server for running LLM agents with safety guardrails.
+
+  - Pre-dispatch safety policy evaluation
+  - Output scanning and quarantine
+  - Job scheduling and workflow engine
+  - MCP server integration
+  - gRPC safety kernel
+
+
 - [CoreAgent](https://github.com/CoreAgent-Project/CoreAgent) - Minimalist agent framework
   with stateful tools
 
