@@ -459,3 +459,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-1
   - Adaptive agent search framework
   - Unified framework for six agent tasks
   - Tsinghua University research project
+
+
+## Tools / Infrastructure
+
+- [Lava AI Spend](https://lava.so) - Per-tool budget controls and spend limits
+  for AI API keys
+
+  - Hard spend limits per key
+  - Model restrictions and instant revoke
+  - 38+ provider support via OpenAI-compatible endpoint
+  - Cost tracking and usage monitoring
