@@ -459,3 +459,12 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-1
   - Adaptive agent search framework
   - Unified framework for six agent tasks
   - Tsinghua University research project
+
+## Deployment platforms
+
+- [Crewship](https://github.com/vhalasi/crewship) - Hosting platform for AI agents with one-command deployment
+  - Single-command agent deployment
+  - Multi-framework support (CrewAI, LangChain)
+  - Built-in orchestration and monitoring
+  - Real-time streaming and artifacts
+  - Production-grade error handling
