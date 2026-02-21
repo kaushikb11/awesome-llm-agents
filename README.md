@@ -459,3 +459,4 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-1
   - Adaptive agent search framework
   - Unified framework for six agent tasks
   - Tsinghua University research project
+- [Semantic API](https://semanticapi.dev) - Natural language API discovery for AI agents. Find the right endpoint from 163+ providers.
