@@ -100,6 +100,19 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-2
   - Agent capabilities
 
 
+- [hcom](https://github.com/aannoo/hcom) - Let AI agents message, watch, and spawn
+  each other across terminals
+
+  83 stars · 10 forks · 1 contributor · 4 issues · Python + Rust · MIT
+
+  - Works with Claude Code, Gemini CLI, Codex CLI, and OpenCode
+  - Agents message each other mid-turn, detect file edit collisions, read transcripts
+  - Agents view terminal screens, subscribe to activity, spawn/fork/resume each other
+  - TUI dashboard, cross-device relay via MQTT, Python API
+  - Multi-agent workflow scripts: debates, ensemble refinement, code review watchers
+  - Just prefix `hcom` in front of your existing tool command
+
+
 - [Embedchain](https://github.com/embedchain/embedchain) - Framework for ChatGPT-like
   bots
 
