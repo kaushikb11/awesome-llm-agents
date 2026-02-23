@@ -457,3 +457,13 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-2
   - Adaptive agent search framework
   - Unified framework for six agent tasks
   - Tsinghua University research project
+
+
+- [OpenAgents](https://github.com/openagents-org/openagents) - Open-source platform for building AI agent networks with multi-protocol communication and orchestration
+
+  ![GitHub stars](https://img.shields.io/github/stars/openagents-org/openagents) · Python · Apache 2.0
+
+  - Multi-protocol support: WebSocket, gRPC, HTTP, MCP, A2A
+  - Multi-agent orchestration with centralized and decentralized topologies
+  - Compatible with Model Context Protocol (MCP) and Google's Agent-to-Agent (A2A) protocol
+  - Python SDK available on PyPI (`pip install openagents`)
