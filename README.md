@@ -623,3 +623,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-2
   - Supports Claude, GPT, Gemini, Grok, and local Ollama models
   - Terminal UI with real-time streaming
   - Auto-discovery of local Ollama models
+
+
+- [WAIaaS](https://github.com/minhoyoo-iotrust/WAIaaS) - Self-hosted wallet-as-a-service
+  for AI agents with multi-chain blockchain operations and DeFi integrations
+
+  11 stars · 2 forks · 2 contributors · 0 issues · TypeScript · MIT
+
+  - Multi-chain wallet management (EVM + Solana)
+  - Built-in DeFi: Jupiter Swap, 0x DEX, LI.FI Bridge, Lido/Jito Staking, Aave V3
+  - 3-tier auth (master/owner/session) and 4-tier policy engine
+  - MCP server with 30+ tools for autonomous agent integration
+  - Owner approval via Telegram, WalletConnect, or Wallet SDK
