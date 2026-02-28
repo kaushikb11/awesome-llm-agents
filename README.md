@@ -623,3 +623,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-2
   - Supports Claude, GPT, Gemini, Grok, and local Ollama models
   - Terminal UI with real-time streaming
   - Auto-discovery of local Ollama models
+
+
+- [AIR Blackbox](https://github.com/airblackbox/air-blackbox-mcp) - EU AI Act compliance scanner and trust layer for Python AI agents
+
+-   Python · Apache-2.0
+
+-     - Scans code against EU AI Act Articles 9, 10, 11, 12, 14, and 15
+-   - Framework-specific trust layers for LangChain, CrewAI, AutoGen, OpenAI, and Anthropic
+    -   - HMAC-SHA256 tamper-evident audit chains
+        -   - PII tokenization and data governance
+            -   - Prompt injection detection with 15+ weighted patterns
+                - 
