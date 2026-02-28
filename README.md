@@ -623,3 +623,17 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-2
   - Supports Claude, GPT, Gemini, Grok, and local Ollama models
   - Terminal UI with real-time streaming
   - Auto-discovery of local Ollama models
+
+
+- [Wee-Orchestrator](https://github.com/leprachuan/Wee-Orchestrator) - Self-hosted multi-agent
+  AI orchestrator for Claude, Gemini, and Copilot CLI
+
+  3 stars · 0 forks · 1 contributor · 12 issues · Python · GPL-3.0
+
+  - 5 AI runtimes: Copilot CLI, Claude Code, OpenCode, Gemini, Codex
+  - 3 channels: Telegram bot, WebEx bot (RabbitMQ), glassmorphism Web UI
+  - Multi-agent with per-task agent switching via slash commands
+  - Built-in task scheduler with natural language scheduling
+  - Extensible skill plugin architecture (Cisco Meraki, Home Assistant, etc.)
+  - Background task delegation to sub-agents
+  - Secure pairing-code auth with per-user ACLs
