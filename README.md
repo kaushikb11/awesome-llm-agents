@@ -623,3 +623,5 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-2
   - Supports Claude, GPT, Gemini, Grok, and local Ollama models
   - Terminal UI with real-time streaming
   - Auto-discovery of local Ollama models
+
+- [Ratchet](https://github.com/ratchet-framework/Ratchet) - Framework for building AI agents that continuously self-improve through structured incident management, persistent memory, and autonomous backlog execution. ([Website](https://getratchet.dev))
