@@ -623,3 +623,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-02-2
   - Supports Claude, GPT, Gemini, Grok, and local Ollama models
   - Terminal UI with real-time streaming
   - Auto-discovery of local Ollama models
+
+
+- [DNA Claude Analysis](https://github.com/shmlkv/dna-claude-analysis) - Personal genome
+  analysis toolkit using Claude to analyze raw DNA data across 17 categories and generate
+  a terminal-style single-page HTML visualization
+
+  - Analyzes health risks, ancestry, pharmacogenomics, nutrition, psychology, and more
+  - Python scripts producing structured markdown reports per category
+  - Single-file HTML output with terminal/hacker aesthetic (Matrix-style green-on-black)
+  - Color-coded findings: green for normal, amber for warnings, red for risks
+  - Privacy-first design with local processing of raw DNA data
