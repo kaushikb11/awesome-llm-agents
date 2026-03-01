@@ -609,6 +609,17 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-0
   - A2A protocol compatible
 
 
+- [OpenPaw](https://github.com/daxaur/openpaw) - Open-source CLI tool that turns Claude
+  Code into a personal assistant with 38 built-in skills
+
+  2 stars · 0 forks · 1 contributors · 0 issues · JavaScript · MIT
+
+  - 38 skills including Telegram, Discord, Obsidian memory, daily briefings
+  - Zero-config setup via `npx pawmode`
+  - No daemon or cloud dependency
+  - Skill dependency resolution and catalog system
+
+
 - [Quorum](https://github.com/Detrol/quorum-cli) - Multi-agent AI discussion system for
   structured debates
 
