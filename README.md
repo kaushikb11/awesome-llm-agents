@@ -621,3 +621,12 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-0
   - Auto-discovery of local Ollama models
 
 
+- [clawr.ing](https://clawr.ing) - Phone calling skill for AI agents. Lets agents
+  make real outbound phone calls to users for alerts, briefings, and notifications.
+
+  - Managed service, no telephony setup required
+  - 100+ countries, 70+ voices
+  - Works with any LLM that can make HTTP calls
+  - Built for OpenClaw but usable by any agent framework
+
+
