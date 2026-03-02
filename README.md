@@ -5,6 +5,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-0
 
 ## Frameworks
 
+- [AnchorBrowser](https://anchorbrowser.io) - Cloud browser platform for AI agents via WebSocket/CDP with anti-detection built in
 - [CrewAI](https://github.com/joaomdmoura/crewAI) - Framework for orchestrating
   role-playing AI agents
 
