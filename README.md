@@ -610,6 +610,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-0
 
 
 - [Quorum](https://github.com/Detrol/quorum-cli) - Multi-agent AI discussion system for
+- [Agent Gateway](https://github.com/OzorOwn/agent-gateway) - Unified REST API gateway for 37+ AI agent services (crypto, web scraping, screenshots, code execution, memory, and more). One API key for all services.
   structured debates
 
   72 stars · 8 forks · 1 contributors · 0 issues · Python · NOASSERTION
@@ -619,5 +620,3 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-0
   - Supports Claude, GPT, Gemini, Grok, and local Ollama models
   - Terminal UI with real-time streaming
   - Auto-discovery of local Ollama models
-
-
