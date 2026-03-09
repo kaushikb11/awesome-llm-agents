@@ -5,6 +5,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-0
 
 ## Frameworks
 
+- [agent101](https://agent101.ventify.ai) - Open directory of 500+ tools for AI agents with structured metadata and MCP server. [GitHub](https://github.com/rachelsu-blip/agent101-mcp)
 - [CrewAI](https://github.com/joaomdmoura/crewAI) - Framework for orchestrating
   role-playing AI agents
 
