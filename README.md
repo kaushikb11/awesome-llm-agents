@@ -89,6 +89,18 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-0
   - RAG pipeline
 
 
+- [Dorothy](https://github.com/Charlie85270/Dorothy) - Open-source desktop app to
+  orchestrate multiple AI CLI agents simultaneously
+
+  153 stars · 22 forks · 4 contributors · 7 issues · TypeScript · MIT
+
+  - Multi-agent orchestration for Claude Code, Codex, and Gemini CLI
+  - Kanban management and automation workflows
+  - Remote control via Telegram and REST API
+  - 5 built-in MCP servers (Kanban, Vault, Orchestrator, Telegram, World)
+  - Skills marketplace and real-time agent monitoring
+
+
 - [Haystack](https://github.com/deepset-ai/haystack) - End-to-end NLP framework
 
   24,426 stars · 2,636 forks · 321 contributors · 115 issues · MDX · Apache-2.0
