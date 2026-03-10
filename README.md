@@ -629,3 +629,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-0
   - Shared markdown consensus file as the cross-cycle relay baton
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
+
+
+- [Familiar](https://github.com/bedda-tech/familiar) - Open-source AI agent platform
+  built on Claude Code with persistent task orchestration
+
+  1 stars · 0 forks · 1 contributors · 36 issues · TypeScript · MIT
+
+  - Persistent task queue with priority scheduling
+  - Multi-project and multi-agent support
+  - Web dashboard, Telegram bot, and webhooks
+  - Self-hostable TypeScript/Node.js platform
