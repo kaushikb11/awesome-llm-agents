@@ -346,6 +346,20 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-0
   - Execution Toolkit
 
 
+- [FIM Agent](https://github.com/fim-ai/fim-agent) - AI-powered Connector Hub — Python
+  async framework for building agents that plan and execute across connected systems
+
+  Python, TypeScript · Source Available
+
+  - Dynamic DAG planning with concurrent execution
+  - ReAct agent loop with native function calling
+  - Full RAG pipeline with grounded generation
+  - MCP client support
+  - Connector platform (turns any API into agent tools)
+  - Three delivery modes: Standalone portal, Copilot, Hub
+  - Provider-agnostic, self-hosted
+
+
 - [Portia AI](https://github.com/portiaAI/portia-sdk-python) - Open source framework for predictable,
   controllable and authenticated agents.
 
