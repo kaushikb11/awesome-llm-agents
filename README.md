@@ -623,9 +623,18 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-0
   with 14 specialized agents that run a startup end-to-end
 
   0 stars · 0 forks · 1 contributors · 0 issues · Shell · MIT
+  
 
   - 14 expert-persona agents: CEO (Bezos), CTO (Vogels), Critic (Munger), CFO, marketer, engineer, QA, DevOps, and more
   - Continuous bash loop — agents debate, decide, and ship real deployments autonomously
   - Shared markdown consensus file as the cross-cycle relay baton
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
+ 
+  - https://github.com/devi-collab/OpenSymbolicAI - OpenSymbolicAI.com
+  - OpenSymbolicAI — Open-source framework for building AI agents using typed primitives, explicit decompositions, and unit tests.
+
+   - Modular  architecture
+  - PlanAndExecute calling 
+  - Pre-built agent toolkits
+  - Multi agent collaboration
