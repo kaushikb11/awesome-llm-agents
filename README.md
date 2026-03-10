@@ -383,7 +383,18 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-0
   - Structured responses
   - API generation
   - MCP generation
-  - Tool integration- [Flappy](https://github.com/pleisto/flappy) - Production-ready LLM agent SDK
+  - Tool integration- [Lumen](https://github.com/omxyz/lumen) - Vision-first browser agent with
+  self-healing deterministic replay over CDP
+
+  TypeScript · MIT
+
+  - Screenshot → model → action loop over Chrome DevTools Protocol
+  - Self-healing action cache for deterministic replay
+  - Multi-provider support (Anthropic, Google)
+  - Built-in stuck detection and completion verification
+
+
+- [Flappy](https://github.com/pleisto/flappy) - Production-ready LLM agent SDK
 
   307 stars · 23 forks · 7 contributors · 10 issues · Rust · Apache-2.0
 
