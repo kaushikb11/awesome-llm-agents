@@ -629,3 +629,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-0
   - Shared markdown consensus file as the cross-cycle relay baton
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
+
+
+- [Riverse](https://github.com/wangjiake/JKRiver) - Personal AI agent with persistent
+  memory powered by the River Algorithm
+
+  7 stars · 1 forks · 2 contributors · 0 issues · Python · AGPL-3.0
+
+  - River Algorithm: knowledge settles like sediment, upgrading from "suspected" to "confirmed" via multi-turn verification
+  - Offline cognition via Sleep pipeline for background processing
+  - Contradiction detection across conversation history
+  - Multi-channel support (Telegram, Discord, CLI, REST API)
+  - Fully local data storage for privacy
