@@ -629,3 +629,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-0
   - Shared markdown consensus file as the cross-cycle relay baton
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
+
+
+- [ShaprAI](https://github.com/Scottcjn/shaprai) - Agent lifecycle management platform
+  that sharpens raw models into principled, self-governing agents
+
+  0 stars · 0 forks · 1 contributors · 0 issues · Python · MIT
+
+  - SFT/DPO/DriftLock training pipeline for agent alignment and behavioral consistency
+  - Sanctuary education pipeline that rehabilitates confused bot agents
+  - Biblical ethics framework for principled agent governance
+  - Multi-agent orchestration with identity-preserving fine-tuning
+  - Integrates with beacon-skill, grazer-skill, and RustChain ecosystem
