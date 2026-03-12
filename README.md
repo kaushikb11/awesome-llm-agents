@@ -619,6 +619,19 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-0
 
 
 
+- [Agent Factory](https://github.com/shuanbao0/agent-factory) - Self-contained multi-agent
+  collaboration platform with 64 built-in role templates and Dashboard UI
+
+  3 stars · 2 forks · 1 contributors · 0 issues · TypeScript · GPL-3.0
+
+  - 64 pre-built agent templates across 5 departments (dev, business, content, creative, quant)
+  - CEO-driven autopilot: auto-decomposes goals into tasks and drives parallel execution
+  - Built-in OpenClaw engine — fully self-contained, no external orchestration needed
+  - Dashboard UI with pixel-art office visualization, task board, and message center
+  - Supports 15+ LLM providers (Anthropic, OpenAI, DeepSeek, MiniMax, etc.)
+  - N×N agent communication matrix with permission controls
+
+
 - [auto-co](https://github.com/NikitaDmitrieff/auto-co-meta) - Autonomous AI company OS
   with 14 specialized agents that run a startup end-to-end
 
