@@ -629,3 +629,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-0
   - Shared markdown consensus file as the cross-cycle relay baton
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
+
+
+- [AnimaWorks](https://github.com/xuiltul/animaworks) - Organization-as-Code framework
+  where agents have identity, memory, and hierarchy to run as a real organization
+
+  159 stars · 21 forks · 1 contributors · 13 issues · Python · Apache-2.0
+
+  - Brain-inspired memory: RAG recall, daily consolidation, active forgetting
+  - Supervisor/subordinate hierarchy with delegation and escalation routes
+  - Heartbeat and cron for fully autonomous continuous operation
+  - Multi-model: each agent can run on different LLM (Claude, GPT, Gemini, Ollama)
+  - 3D office workspace with real-time agent activity visualization
