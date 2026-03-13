@@ -629,3 +629,18 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-0
   - Shared markdown consensus file as the cross-cycle relay baton
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
+
+
+- [ORCH](https://github.com/oxgeneral/ORCH) - CLI orchestrator for AI agent teams
+  with parallel task dispatch and autonomous mode
+
+  3 stars · 0 forks · 1 contributors · 0 issues · TypeScript · MIT
+
+  - State machine task flow: todo → in_progress → review → done with retrying/failed branches
+  - Multi-adapter support: Claude Code, OpenAI Codex, Cursor IDE, any shell command
+  - Autonomous mode: set a Goal, ORCH generates and dispatches tasks to idle agents automatically
+  - Inter-agent messaging and context store for sharing findings mid-run
+  - Teams API: group agents into squads with shared task pools and auto-claiming
+  - File-only state: .orchestry/ YAML + JSONL, no database, no Docker, no cloud
+  - Reactive dispatch: new tasks dispatch in <500ms (not on the next 30s poll cycle)
+  - Terminal UI (Ink/React) with Tasks/Agents/Goals tabs
