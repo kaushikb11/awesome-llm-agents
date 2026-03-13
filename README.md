@@ -629,3 +629,16 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-0
   - Shared markdown consensus file as the cross-cycle relay baton
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
+
+
+- [ORCH](https://github.com/oxgeneral/ORCH) - CLI orchestrator for LLM agent teams (Claude
+  Code, OpenAI Codex, Cursor IDE). Built for developers who run multiple AI agents
+  simultaneously and need coordination, parallelism, and fault tolerance.
+
+  - Multi-agent dispatch — run Claude, Codex, Cursor, and shell scripts in parallel from one CLI
+  - State machine — tasks flow through `todo → in_progress → review → done` with retries and stall detection
+  - Autonomous mode — set a Goal and ORCH auto-generates tasks for idle agents
+  - Inter-agent messaging — agents share context mid-run via built-in message bus
+  - File-only storage — `.orchestry/` directory with YAML + JSONL, no database required
+
+  TypeScript, MIT license, 987 passing tests, Node 20+.
