@@ -362,6 +362,16 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-1
   - Scans agentic workflow source code
   - Finds vulnerabilities (CVE & OWASP)
   - Generates interactive reports
+
+- [ClawGuard](https://github.com/NeuZhou/clawguard) - AI agent immune system with
+  285+ threat patterns, OWASP Agentic AI Top 10 coverage
+
+  [![GitHub stars](https://img.shields.io/github/stars/NeuZhou/clawguard?style=social)](https://github.com/NeuZhou/clawguard)
+
+  - Prompt injection detection (25+ patterns, multilingual)
+  - PII sanitizer (100% local, zero cloud)
+  - Intent-action mismatch detection
+  - Supply chain security (typosquatting, obfuscation)
   - Suggests remediation steps
   - Supports popular agentic workflows- [AgentFlow](https://github.com/lupantech/AgentFlow) - Trainable multi-agent framework
   with in-the-flow optimization
