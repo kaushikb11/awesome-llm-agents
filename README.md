@@ -629,3 +629,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-0
   - Shared markdown consensus file as the cross-cycle relay baton
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
+
+
+- [AgentWatch](https://github.com/nicofains1/agentwatch) - Multi-agent observability SDK
+  with cascade failure detection, heartbeats, and forensic replay
+
+  1 stars · 0 forks · 1 contributors · 0 issues · TypeScript · MIT
+
+  - Heartbeat-based liveness detection across agent fleets
+  - Cross-agent failure correlation
+  - Cascade failure detection and replay
+  - Fleet dashboard and alert dedup via CLI
