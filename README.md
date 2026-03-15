@@ -625,3 +625,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [widemem-ai](https://github.com/remete618/widemem-ai) - Memory layer SDK for AI agents
+  with importance scoring, temporal decay, and hierarchical memory
+
+  8 stars · 3 forks · 1 contributors · 0 issues · Python · Apache-2.0
+
+  - Importance scoring (1-10) and temporal decay
+  - 3-tier hierarchical memory (facts, summaries, themes)
+  - YMYL prioritization for critical information
+  - Batch conflict resolution
+  - Local-first with SQLite + FAISS, zero external services
+
