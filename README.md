@@ -523,6 +523,19 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-1
   - SSR compatible (Next.js, Remix, etc.)
 
 
+- [TITAN](https://github.com/Djtony707/TITAN) - Open-source autonomous AI agent framework
+  with 149 tools, 34 LLM providers, and P2P mesh networking
+
+  TypeScript · MIT
+
+  - Multi-provider support (34 providers including OpenAI, Anthropic, Ollama)
+  - 149 built-in tools with tool search and sandbox code execution
+  - P2P mesh networking for distributed agent communication
+  - WebRTC voice chat via LiveKit integration
+  - React dashboard (Mission Control) for agent management
+  - MCP server mode for inter-agent tool sharing
+
+
 - [OpenAgents](https://github.com/openagents-org/openagents) - Open-source platform for
   building AI agent networks with multi-protocol communication and orchestration
 
