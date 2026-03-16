@@ -16,6 +16,17 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-1
   - Built-in error handling
 
 
+- [ClawSwarm](https://github.com/trietphan/clawswarm) - Open-source multi-agent
+  orchestration framework with quality gates
+
+  TypeScript · MIT
+
+  - Specialist agents (Research, Code, Ops, Planner) that collaborate on goals
+  - 3-tier chief review quality gate (auto-approve, human review, auto-reject)
+  - Real-time dashboard with pixel art agent visualization
+  - WebSocket bridge for live agent coordination
+
+
 - [Langchain](https://github.com/hwchase17/langchain) - Building applications with LLMs
   through composability
 
