@@ -625,3 +625,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [TrashClaw](https://github.com/Scottcjn/trashclaw) - Local LLM tool-use agent with zero
+  dependencies, runs on anything from a 2013 Mac Pro to modern hardware
+
+  7 stars · 0 forks · 1 contributors · 0 issues · Python · MIT
+
+  - Pure Python with zero external dependencies
+  - Supports llama.cpp, Ollama, and LM Studio backends
+  - Function calling, file operations, and shell commands
+  - Built for vintage and resource-constrained hardware
+
+
