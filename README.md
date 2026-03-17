@@ -625,3 +625,13 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Hermit](https://github.com/heggria/Hermit) - Task-first governed agent kernel with
+  approval workflows, receipts, proofs, and rollback
+
+  2 stars · 1 forks · 2 contributors · 4 issues · Python · MIT
+
+  - Governed execution with approvals, decisions, permits, and receipts
+  - Event-sourced ledger with SQLite-backed persistent journal
+  - Artifact-native context and evidence-bound memory primitives
+  - Plugin system with CLI, Feishu, scheduler, webhook, and MCP surfaces
+  - Rollback support with cryptographic proof bundles
