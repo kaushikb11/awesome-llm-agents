@@ -624,4 +624,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-1
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
+- [ORCH](https://github.com/oxgeneral/ORCH) - CLI runtime for orchestrating AI agent teams from the terminal
 
+  13 stars · 0 forks · 1 contributors · 0 issues · TypeScript · MIT
+
+  - Coordinates Claude Code, OpenCode (Codex/Gemini/Mistral), Cursor, and shell scripts
+  - Formal state machine: todo → in_progress → review → done
+  - Auto-retry on failure with configurable attempts
+  - Inter-agent messaging and shared context store
+  - Goal/team hierarchy for multi-agent coordination
+  - Real-time TUI dashboard (Ink/React)
+  - Available as `@oxgeneral/orch` npm package with programmatic API
