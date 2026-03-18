@@ -625,3 +625,12 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+
+- [Kybernis Audit](https://github.com/Kybernis/kybernis-audit) - The open-source chaos engineering fuzzer and risk scanner for AI Agents
+
+  24 stars · 2 forks · 1 contributors · 0 issues · Python · MIT
+
+  - Deterministic execution fuzzing
+  - Simulates backend failures (504s)
+  - Detects semantic double-spends and retry hazards
+  - Hard-blocks duplicate API calls
