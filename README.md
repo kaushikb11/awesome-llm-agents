@@ -624,4 +624,16 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-1
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
+- [TeamHero](https://github.com/sagiyaacoby/TeamHero) - Open-source multi-agent
+  orchestration platform with built-in web dashboard and task lifecycle management
+
+  JavaScript/Node.js - MIT
+
+  - Built-in web dashboard for real-time agent and task management
+  - Full task lifecycle: draft, working, pending approval, accepted, closed
+  - Knowledge base with document promotion from completed tasks
+  - Autopilot mode for fully automated agent workflows
+  - Role-based agent orchestration with personality and rules
+  - Zero cloud dependency, runs entirely locally
+  - Built on Claude Code / Anthropic SDK
 
