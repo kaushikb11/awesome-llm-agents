@@ -546,6 +546,18 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-1
   - gRPC safety kernel
 
 
+- [ClawFleet](https://github.com/weiyong1024/ClawFleet) - Self-hosted AI fleet
+  management for deploying multiple isolated AI agent instances via Docker
+
+  8 stars · 1 forks · 2 contributors · Go · MIT
+
+  - Browser dashboard for fleet monitoring and configuration
+  - Docker container isolation per agent instance
+  - Bot-to-bot collaboration in Discord with automatic task division
+  - Soul/character system for agent personalities
+  - Skills marketplace with 13,000+ community skills
+
+
 - [AgentField](https://github.com/Agent-Field/agentfield) - Open-source infrastructure
   for AI backends with cryptographic identity
 
