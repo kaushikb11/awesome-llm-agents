@@ -625,3 +625,13 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [AnveVoice](https://anvevoice.app) - AI voice agent for websites that trains on
+  site content to handle customer interactions
+
+  - Navigates pages and fills forms autonomously
+  - Books appointments and captures leads
+  - 50+ language support with <700ms latency
+  - Trains on website content for contextual responses
+  - Embeddable widget for any website
+
+
