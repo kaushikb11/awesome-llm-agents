@@ -613,6 +613,19 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-1
   - Auto-discovery of local Ollama models
 
 
+- [Agent Skill Bus](https://github.com/ShunsukeHayashi/agent-skill-bus) - Self-improving
+  task orchestration framework for AI agent systems with DAG-based task queue and
+  automatic skill quality monitoring
+
+  35 stars · 0 forks · 1 contributors · 0 issues · JavaScript · MIT
+
+  - DAG-based task queue with dependency resolution and file-level locking
+  - Automatic skill quality monitoring and self-repair loop
+  - External change detection triggering automatic improvement
+  - Framework-agnostic (OpenClaw, Claude Code, Codex, LangGraph, CrewAI)
+  - Deduplication, priority routing, and multi-source ingestion
+
+
 - [auto-co](https://github.com/NikitaDmitrieff/auto-co-meta) - Autonomous AI company OS
   with 14 specialized agents that run a startup end-to-end
 
