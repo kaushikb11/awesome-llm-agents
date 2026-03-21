@@ -613,6 +613,18 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-1
   - Auto-discovery of local Ollama models
 
 
+- [Skillfold](https://github.com/byronxlg/skillfold) - Configuration language and
+  compiler for multi-agent AI pipelines
+
+  2 stars · 0 forks · 1 contributors · 4 issues · TypeScript · MIT
+
+  - Compiles single YAML config into agent skills for 11 platforms
+  - Targets Claude Code, Cursor, Copilot, Gemini, Codex, Windsurf, Goose, Roo Code, Kiro, and Junie
+  - Typed state schema with compile-time validation
+  - Team flow graphs with conditional routing, loops, and parallel map
+  - Pipeline runner with checkpoint-based resumption
+
+
 - [auto-co](https://github.com/NikitaDmitrieff/auto-co-meta) - Autonomous AI company OS
   with 14 specialized agents that run a startup end-to-end
 
@@ -623,5 +635,3 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-1
   - Shared markdown consensus file as the cross-cycle relay baton
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
-
-
