@@ -621,3 +621,18 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-2
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Aegis](https://github.com/Acacian/aegis) - The simplest way to govern AI agent
+  actions — YAML policy, approval gates, audit logging. Works with LangChain,
+  CrewAI, OpenAI, Anthropic, MCP.
+
+  1 stars · 2 forks · 2 contributors · 4 issues · Python · MIT
+
+  - YAML-based policy engine with pattern matching
+  - Approval gates (auto/human/block) per action type
+  - Cross-framework: LangChain, CrewAI, OpenAI, Anthropic, MCP
+  - Audit logging with JSONL export
+  - Hot-reload, dry-run, policy merge
+  - MCP server for Claude Desktop integration
+  - 531 tests, mypy strict, 92% coverage
+
+
