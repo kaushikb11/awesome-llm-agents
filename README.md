@@ -621,3 +621,13 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-2
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [OpenSepia](https://github.com/CelaenoIndustry/OpenSepia) - Autonomous AI dev team - 9 Claude-powered agents running as a real agile team 24/7 via cron
+
+  22 stars · 5 forks · 1 contributors · 0 issues · Python · MIT
+                                                                       
+  - 9 specialized agents: Product Owner, Project Manager, 2 Developers, DevOps, QA, and 3 Security roles                                                              
+  - Continuous autonomy across days/weeks — not single-session, agents pick up where they left off                                                              
+  - Bash + cron orchestrator with sequential execution — no framework dependencies                                                               
+  - Markdown-based board state, inboxes, standups, sprint reviews, and retrospectives                                                               
+  - GitLab and GitHub integration with automatic issue syncing and auto-merge
+  - Zero API key required — runs on Claude Code CLI     
