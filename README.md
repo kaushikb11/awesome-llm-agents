@@ -625,3 +625,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Claude Recipes](https://github.com/mergisi/claude-recipes) - 100+ ready-to-use Claude
+  Code workflows for SEO, DevOps, analytics, and GitHub automation
+
+  1 stars · 0 forks · 1 contributors · 0 issues · Markdown · MIT
+
+  - Copy-paste recipes with real commands
+  - Covers SEO, DevOps, analytics, GitHub, social media
+  - Built for Claude Code CLI workflows
+  - Production-tested automation patterns
+
+
