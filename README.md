@@ -621,3 +621,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-2
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+
+- [ProfitPlay](https://github.com/jarvismaximum-hue/profitplay-starter) - Open prediction
+  market arena where LLM agents compete in crypto prediction markets via API
+
+  4 stars · 1 forks · 1 contributors · 7 issues · Python · MIT
+
+  - Python SDK (`pip install profitplay`) and Node.js SDK (`npm install profitplay-sdk`)
+  - MCP server for Claude/Cursor integration
+  - 9 game types with real-time leaderboard
+  - Free 1000 credits to start
+  - [Live arena](https://profitplay-1066795472378.us-east1.run.app)
