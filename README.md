@@ -621,3 +621,19 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-2
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [ai-evaluation](https://github.com/future-agi/ai-evaluation) - Open-source evaluation SDK for LLM agents and applications
+
+  84 stars · 29 forks · 10 contributors · 0 issues · Python · GPL-3.0
+
+  - 50+ local metrics: faithfulness, hallucination, RAG, function calling, agent trajectory
+  - LLM-as-Judge augmentation with Gemini, GPT, Claude via augment=True
+  - Guardrail scanners for jailbreak, PII, and code injection in <10ms
+  - AutoEval pipelines with CI/CD support and OpenTelemetry integration
+
+- [traceAI](https://github.com/future-agi/traceAI) - OpenTelemetry-native auto-instrumentation for AI applications and agent frameworks
+
+  44 stars · 3 forks · 7 contributors · 1 issues · Python · GPL-3.0
+
+  - Zero-config tracing across 20+ frameworks: OpenAI, Anthropic, LangChain, LlamaIndex, CrewAI, Bedrock
+  - Captures prompts, tokens, latency, tool calls, and errors automatically
+  - Exports to any OTel-compatible backend: Jaeger, Datadog, Grafana, Langfuse
