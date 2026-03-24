@@ -621,3 +621,13 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-2
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [claw-army/claude-node](https://github.com/claw-army/claude-node) - Python subprocess
+  bridge for Claude Code CLI, giving Python code direct access to Claude Code native capabilities via stream-json.
+
+  12 stars · 1 forks · 1 contributors · 0 issues · Python · MIT
+
+  - Stream-json based communication
+  - Direct access to Claude Code capabilities
+  - Easy Python integration
+
+
