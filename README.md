@@ -621,3 +621,13 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-2
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+
+
+- [CoWorker Protocol](https://github.com/ZiwayZhao/agent-coworker) - Peer-to-peer agent
+  collaboration with encrypted messaging and schema-based skill invocation
+
+  Python · MIT
+
+  - Schema-based skill sharing without exposing implementation details
+  - Revocable trust levels for cross-agent collaboration
+  - Built on XMTP for end-to-end encrypted agent messaging
