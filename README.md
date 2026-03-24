@@ -620,4 +620,10 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-2
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
+- [arsenal](https://github.com/darshjme/arsenal) - 20 zero-dependency Python libraries covering every LLM agent failure mode in production
+
+  - Covers: routing, budget management, guardrails, memory compression, observability, retry/fallback, state management, schema validation, caching, rate limiting, circuit breaking
+  - 808 tests, pure Python stdlib — no external dependencies
+  - Production-grade building blocks for resilient LLM agents
+
 
