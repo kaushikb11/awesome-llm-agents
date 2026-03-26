@@ -220,6 +220,18 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-2
   - Protocol versioning
 
 
+- [AVP: Agent Vector Protocol](https://github.com/VectorArc/avp-python) - Agents communicate
+  via KV-cache and hidden states instead of text
+
+  12 stars · 1 forks · 1 contributors · 0 issues · Python · Apache-2.0
+
+  - Latent thinking steps (internal reasoning without text output)
+  - Same-model KV-cache transfer (lossless, 2x faster)
+  - Cross-model vocabulary-mediated projection (zero training)
+  - HuggingFace, vLLM, llama.cpp, Ollama engine connectors
+  - LangChain, CrewAI, AutoGen framework integrations
+
+
 - [Agents.js](https://github.com/Webgburnet/Agents.js) - JavaScript framework for
   building AI agents
 
