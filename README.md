@@ -619,5 +619,12 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-2
   - Shared markdown consensus file as the cross-cycle relay baton
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
-
+ 
+ - [CODEC](https://github.com/AVADSA25/codec) - Open-source framework that turns any local LLM into a full system-level computer agent controlled by voice or text
+  
+  - Local LLM integration (Qwen, MLX, Ollama)
+  - System-level OS control (macOS optimized)
+  - Mobile phone control via Cloudflare Zero Trust
+  - Vision and screenshot-based UI parsing
+  - Voice and text commands
 
