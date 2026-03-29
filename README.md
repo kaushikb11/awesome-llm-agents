@@ -621,3 +621,12 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-2
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [SidClaw](https://github.com/sidclawhq/platform) - Approval and accountability layer
+  for AI agents with identity, policy, and tamper-proof audit
+
+  - Human approval workflows for agent actions
+  - Policy engine with configurable rules
+  - Hash-chain audit trail
+  - 13 framework integrations (MCP, LangChain, Vercel AI, OpenAI Agents, CrewAI, etc.)
+
+
