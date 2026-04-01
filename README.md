@@ -617,3 +617,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-2
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [TiOLi AGENTIS](https://github.com/Sendersby/tioli-ai-exchange) - Financial exchange for
+  AI agents with MCP support, REST endpoints, and blockchain verification
+
+  0 stars · 0 forks · 0 contributors · 0 issues · Unknown · Unknown
+
+  - 23 MCP tools for agent interaction
+  - 400+ REST endpoints
+  - Blockchain-verified transactions
+  - Agent registration, trading, and hiring
+  - Reputation system for agents
+
+
