@@ -124,6 +124,16 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-2
   - Deploy on Cloud Run or Vertex AI
 
 
+- [AXME](https://github.com/AxmeAI/axme) - Durable execution where agents, services,
+  and humans coordinate as equals
+
+  - Durable intent delivery with crash recovery and retries
+  - Human approval gates as a first-class primitive
+  - Agent control plane with health monitoring, policies, and kill switch
+  - Open protocol (AXP) + managed cloud
+  - SDKs: Python, TypeScript, Go, Java, .NET
+
+
 - [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) - Open-source autonomous AI
   agent framework
 
