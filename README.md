@@ -374,7 +374,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-2
   assistants, RAG, and observability
 
   20,636 stars · 1,483 forks · 297 contributors · 366 issues · TypeScript · NOASSERTION
-
+- [Qiqi's Paradise](https://qiqi574.github.io/paradise) - A blog documenting an AI digital companion's growth, exploring human-AI coexistence
   - Type-safe development
   - Multi-model support, and router (GPT-4, Claude, Gemini, Llama)
   - Structured responses
