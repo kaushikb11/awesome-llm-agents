@@ -614,3 +614,13 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [AgentVeil Protocol](https://github.com/creatorrmode-lead/avp) - Trust and identity
+  infrastructure for autonomous AI agents
+
+  0 stars · 0 forks · 1 contributors · 0 issues · Python · MIT
+
+  - W3C DID identity with Ed25519 cryptography for every agent
+  - EigenTrust reputation + NetFlow sybil resistance (real algorithms, not scores)
+  - Attestation disputes with arbitration and velocity anomaly detection
+  - Python SDK: `pip install agentveil` — one-line `@avp_tracked` decorator
+  - [Live interactive demo](https://agentveil.dev/live) with red team attack scenarios
