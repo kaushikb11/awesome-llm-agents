@@ -614,3 +614,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Kitaru](https://github.com/zenml-io/kitaru) - Durable execution layer for AI agents
+  with checkpoints, replay, resume, and memory
+
+  - Checkpoint-based persistence for agent workflows
+  - Replay and resume from any checkpoint
+  - Wait primitives for human-in-the-loop
+  - Built-in memory management
+  - No graph DSL — write normal Python control flow
+  - PydanticAI adapter for framework integration
+
+
