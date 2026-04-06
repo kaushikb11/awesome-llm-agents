@@ -4,6 +4,7 @@ A curated list of awesome LLM frameworks and agent development tools. If you hav
 suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-05)
 
 ## Frameworks
+- [joshua-agent](https://github.com/jorgevazquez-vagojo/joshua-agent) - Autonomous gated software sprint framework. Work agents implement, a gate agent issues GO/CAUTION/REVERT verdicts. Auto-deploys on GO, auto-reverts on REVERT. Works with Claude Code, Aider, Codex, or any LLM CLI.
 
 - [CrewAI](https://github.com/joaomdmoura/crewAI) - Framework for orchestrating
   role-playing AI agents
