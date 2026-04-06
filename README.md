@@ -199,6 +199,16 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-0
 - [AI Legion](https://github.com/eumemic/ai-legion) - Swarm framework for autonomous
   agents
 
+- [asqav](https://github.com/jagmarques/asqav-sdk) - Quantum-safe AI agent governance
+  SDK for policy enforcement, audit trails, and threat detection
+
+  Python · MIT
+
+  - ML-DSA-65 signed tamper-proof audit trails
+  - Real-time policy enforcement for AI agents
+  - Threat detection and anomaly monitoring
+  - MCP server available for IDE integration
+
   1,430 stars · 175 forks · 6 contributors · 9 issues · TypeScript · MIT
 
   - Multi-agent coordination
