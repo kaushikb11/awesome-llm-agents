@@ -16,6 +16,17 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-0
   - Built-in error handling
 
 
+
+- [Guardian Agent Prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested
+  system prompts for building multi-agent AI systems
+
+  0 stars · 0 forks · 1 contributors · 0 issues · Markdown · MIT
+
+  - Production-ready AGENT.md prompt templates
+  - Covers 49 specialized roles (orchestrator, security, code review, trading, OSINT)
+  - Anti-hallucination rules and quality gate patterns
+  - Works with any LLM (Claude, GPT, Gemini) and any framework
+
 - [Langchain](https://github.com/hwchase17/langchain) - Building applications with LLMs
   through composability
 
