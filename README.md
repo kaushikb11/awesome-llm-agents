@@ -614,3 +614,16 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Global Chat](https://github.com/pumanitro/global-chat) - Cross-protocol AI agent
+  discovery platform aggregating agents across MCP, A2A, agents.txt, and 9+ other
+  protocols
+
+  0 stars · 0 forks · 1 contributors · 0 issues · TypeScript
+
+  - Searchable directory of 100,000+ agents across 15+ registries
+  - Protocol-agnostic: MCP, A2A, agents.txt, ACDP, and more
+  - Free agents.txt validator and linter
+  - MCP server for programmatic agent discovery
+  - Open source with npm package (@global-chat/mcp-server)
+
+
