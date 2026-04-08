@@ -614,3 +614,13 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Hindsight](https://github.com/vectorize-io/hindsight) - State-of-the-art long-term
+  memory for AI agents by Vectorize
+
+  - Biomimetic memory with retain, recall, and reflect operations
+  - Four parallel retrieval strategies: semantic, BM25, graph, temporal
+  - Integrations with LangChain, CrewAI, LlamaIndex, Pydantic AI, and more
+  - Fully open-source (MIT) with self-hosted and cloud options
+  - Python, Node.js, Rust SDKs and MCP server support
+
+
