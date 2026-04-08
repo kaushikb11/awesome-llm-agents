@@ -614,3 +614,16 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+
+
+- [JamJet](https://github.com/jamjet-labs/jamjet) - Durable, agent-native AI runtime
+  with native MCP and A2A support
+
+  2 stars · 1 forks · 2 contributors · 9 issues · Rust/Python · BSL-1.1
+
+  - Rust core for performance, Python authoring for ergonomics
+  - Graph-based workflows with durable execution
+  - Native MCP client + server support
+  - Native A2A protocol support
+  - Multi-agent coordination with dynamic routing
+  - Web companion for execution inspection
