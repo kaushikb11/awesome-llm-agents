@@ -196,6 +196,18 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-0
   - Interactive visualization
 
 
+- [GNAP](https://github.com/farol-team/gnap) - Git-Native Agent Protocol for
+  coordinating AI agent teams with zero infrastructure
+
+  MIT
+
+  - 4 JSON entities on top of git (agents, tasks, runs, messages)
+  - No server, no database — just git push/pull
+  - Works across any runtime (OpenClaw, Claude, Codex, custom)
+  - Git history = audit log
+  - Cost tracking via runs (tokens, USD)
+
+
 - [AI Legion](https://github.com/eumemic/ai-legion) - Swarm framework for autonomous
   agents
 
