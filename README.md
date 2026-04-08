@@ -590,6 +590,18 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-0
   - A2A protocol compatible
 
 
+
+- [agent-wallet-sdk](https://github.com/up2itnow0822/AgentNexus2) - Non-custodial TypeScript wallet SDK for AI agents. Agents hold their own private keys — no custodial proxy or vendor API dependency.
+
+  681 weekly downloads · TypeScript · MIT
+
+  - x402 payments — auto-pay for HTTP 402 resources
+  - CCTP cross-chain USDC bridge (Circle)
+  - Uniswap V3 + Jupiter token swaps
+  - Per-transaction and daily USD spend limits
+  - EVM (Base, Ethereum, Arbitrum, Polygon) + Solana
+  - AP2 / A2A / MCP compatible
+
 - [Quorum](https://github.com/Detrol/quorum-cli) - Multi-agent AI discussion system for
   structured debates
 
