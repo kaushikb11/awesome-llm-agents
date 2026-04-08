@@ -590,6 +590,19 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-0
   - A2A protocol compatible
 
 
+- [AIP (Agent Identity Protocol)](https://github.com/The-Nexus-Guard/aip) - Cryptographic
+  identity, trust, and encrypted messaging for AI agents
+
+  6 stars · 0 forks · 1 contributors · 1 issues · Python · MIT
+
+  - Ed25519 keypair identity with Decentralized Identifiers (DIDs)
+  - Challenge-response verification and message signing
+  - Vouch-based trust chains with transitive trust scoring
+  - End-to-end encrypted agent-to-agent messaging
+  - Framework integrations for LangChain, CrewAI, AutoGen
+  - MCP server for AI-native identity operations
+
+
 - [Quorum](https://github.com/Detrol/quorum-cli) - Multi-agent AI discussion system for
   structured debates
 
