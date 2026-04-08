@@ -602,6 +602,17 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-0
   - Auto-discovery of local Ollama models
 
 
+- [OMEGA](https://github.com/omega-memory/omega-memory) - Persistent memory system for
+  AI coding agents with semantic search and cross-session learning via MCP
+
+  81 stars · 15 forks · 4 contributors · 0 issues · Python · Apache-2.0
+
+  - Semantic search with ONNX embeddings
+  - Auto-capture and intelligent forgetting
+  - Cross-session learning via MCP protocol
+  - Local-first with zero cloud dependency
+
+
 - [auto-co](https://github.com/NikitaDmitrieff/auto-co-meta) - Autonomous AI company OS
   with 14 specialized agents that run a startup end-to-end
 
