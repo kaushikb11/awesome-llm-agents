@@ -614,3 +614,16 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+
+- [TeamHero](https://github.com/sagiyaacoby/TeamHero) - Multi-agent orchestration
+  platform for Claude Code with a web dashboard
+
+  JavaScript · Open Source
+
+  - Manage teams of AI agents with distinct roles, personalities, and memory
+  - Task lifecycle with version tracking and owner review
+  - Knowledge base for promoting research deliverables
+  - Round-table coordination sessions for team alignment
+  - Subtask dependencies and autopilot mode
+  - No database - JSON file storage, single Node.js server
+
