@@ -614,3 +614,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [zymi-core](https://github.com/zumi-core) - Event-sourced agent engine - CLI and
+  Python bindings for auditable AI workflows
+
+  0 stars · 0 forks · 1 contributors · 0 issues · Rust
+
+  - Auditable by default: every state change is persisted as an event with hash-chain verification
+  - Safer side effects: agents emit intentions first; contracts and approvals decide what is allowed to execute.
+  - Practical workflows: define agents and DAG pipelines in YAML, then run them from a small CLI.
+  - Flexible integration points: use the Rust crate, Python bindings, or both — Python can drive pipelines
+    directly via Runtime.for_project(...).run_pipeline(...), no subprocess.
+  - LLM-provider ready: OpenAI-compatible providers, Anthropic support, Python tools, and LangFuse event services.
