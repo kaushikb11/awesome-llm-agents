@@ -361,7 +361,20 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-0
   - Finds vulnerabilities (CVE & OWASP)
   - Generates interactive reports
   - Suggests remediation steps
-  - Supports popular agentic workflows- [AgentFlow](https://github.com/lupantech/AgentFlow) - Trainable multi-agent framework
+  - Supports popular agentic workflows
+
+- [AgentGuard](https://github.com/momenbasel/AgentGuard) - AI agent supply chain
+  security tool that intercepts every package install, git clone, and script download
+  triggered by AI coding agents before execution
+
+  0 stars · 0 forks · 1 contributors · 0 issues · Python · MIT
+
+  - Detects typosquatting, known malicious packages, and dangerous patterns
+  - Works as a Claude Code hook, CLI, MCP server, or skill
+  - Blocks threats before execution in real time
+  - Protects AI agent workflows from supply chain attacks
+
+- [AgentFlow](https://github.com/lupantech/AgentFlow) - Trainable multi-agent framework
   with in-the-flow optimization
 
   1,477 stars · 190 forks · 4 contributors · 7 issues · Python · MIT
