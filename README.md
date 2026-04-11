@@ -614,3 +614,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Cicada](https://github.com/lewiswigmore/cicada) - Multi-agent orchestrator for GitHub
+  Copilot CLI with MCP coordination in Windows Terminal
+
+  0 stars · 1 forks · 1 contributors · 5 issues · PowerShell · MIT
+
+  - Role-based agent teams: PM, Engineer, Reviewer, Tester with customisable roles
+  - MCP coordination server with messaging, shared task board, and status tracking
+  - Autopilot re-prompt loop for continuous autonomous agent work
+  - Needs-rework cycle enabling review-driven iterative development
+  - Windows Terminal multi-pane orchestration with staggered agent launches
+
+
