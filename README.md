@@ -277,7 +277,23 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-0
   - Typed message-passing protocol
   - Heterogeneous LLM architecture
   - Domain-agnostic design
-  - Scientific workflow automation- [minions](https://github.com/getminions/minions) - Extensible framework for AI
+  - Scientific workflow automation
+
+
+- [10000 Mentors Research Workflow](https://github.com/wd041216-bit/10000-mentors-research-workflow) -
+  Source-gated expert council, submission advisor, and small-step autonomous
+  research loop for GitHub research repos
+
+  0 stars · 0 forks · 1 contributors · 0 issues · Python · MIT
+
+  - Source-gated AI luminary council and self-extending expert forum
+  - Submission advisor for evidence-bound research gap analysis
+  - Small-step execution loop that writes artifacts back to GitHub
+  - Ollama Cloud and local-model routing with thinking-required contracts
+  - Private-first runtime state with public release packaging
+
+
+- [minions](https://github.com/getminions/minions) - Extensible framework for AI
   assistants
 
   - Custom behavior definition
@@ -612,5 +628,3 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-0
   - Shared markdown consensus file as the cross-cycle relay baton
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
-
-
