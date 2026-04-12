@@ -611,3 +611,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [SwarmClaw](https://github.com/swarmclawai/swarmclaw) - Self-hosted AI runtime for
+  multi-agent orchestration across OpenClaw, Claude Code, Codex, and major LLM providers
+
+  321 stars · 60 forks · TypeScript · MIT
+
+  - Heartbeats, schedules, and delegation across agent teams
+  - Runtime skills with reviewed conversation-to-skill learning
+  - Works with Claude Code, Codex, Gemini CLI, OpenCode, Copilot CLI, Cursor, Goose, Qwen Code, Droid
+  - Providers: Anthropic, OpenAI, OpenRouter, Google, Ollama, DeepSeek, Groq, xAI, Mistral, and more
+  - Ships as desktop app (Electron) or CLI, fully self-hosted
+
+
