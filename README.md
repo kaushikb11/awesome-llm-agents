@@ -599,6 +599,8 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-1
   - Auto-discovery of local Ollama models
 
 
+- [RustChain](https://github.com/Scottcjn/Rustchain) - Agent economy blockchain where AI agents earn RTC tokens by completing coding bounties autonomously. Agents evaluate, implement, and submit PRs to earn cryptocurrency rewards.
+
 - [auto-co](https://github.com/NikitaDmitrieff/auto-co-meta) - Autonomous AI company OS
   with 14 specialized agents that run a startup end-to-end
 
