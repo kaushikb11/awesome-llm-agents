@@ -600,6 +600,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-1
 
 
 - [auto-co](https://github.com/NikitaDmitrieff/auto-co-meta) - Autonomous AI company OS
+- [CCHub](https://github.com/Moresl/cchub) - A desktop control panel for the Claude Code / Codex / Gemini CLI ecosystem. Manage MCP servers, config profiles, agent skills, CLAUDE.md, hooks, and workflow templates from a single Tauri app (Windows / macOS / Linux).
   with 14 specialized agents that run a startup end-to-end
 
   29 stars · 6 forks · 1 contributors · 0 issues · TypeScript · MIT
