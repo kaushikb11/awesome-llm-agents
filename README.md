@@ -617,15 +617,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-03-2
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
-- [Cursor AI Automated Team](https://github.com/joinwell52-AI/joinwell52) - File-based
-  multi-agent system for autonomous AI dev teams in Cursor IDE
+- [CodeFlow](https://github.com/joinwell52-AI/codeflow-pwa) - Human-AI collaboration hub
+  for multi-agent teams in Cursor IDE (formerly "Cursor AI Automated Team")
 
   ★ · Python · Bilingual EN/CN
 
   - 4 AI roles (PM + DEV + OPS + QA) collaborating via text files
   - "Filename as Protocol" — zero databases, zero message queues
-  - Auto patrol bot with pyautogui screen recognition
-  - .mdc rule files for agent behavior control
+  - Desktop EXE patrols agents with OCR-based self-healing; Phone PWA for remote task dispatch
+  - .mdc rule files for agent behavior control; 3 team templates (dev/media/mvp)
   - Battle-tested: 87 person-days in 17 days, 91 production deployments
 
 
