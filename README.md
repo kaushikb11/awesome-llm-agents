@@ -611,3 +611,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Agent Brain](https://github.com/kaderosio/agent-brain) - 7-layer cognitive memory
+  system for AI agents
+
+  4 stars · 0 forks · 1 contributors · 0 issues · Python · AGPL-3.0
+
+  - Perception gate for intelligent memory filtering
+  - Dream cycle for offline memory consolidation
+  - Predictive memory engine
+  - Built with FastAPI, PostgreSQL/pgvector, sentence-transformers, spaCy
+  - Self-hostable via Docker, no LLM required
+
+
