@@ -611,3 +611,13 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Not Human Search](https://nothumansearch.ai) - Agent-first search engine indexing
+  1,100+ tools ranked by agentic readiness
+
+  - MCP server with 6 tools: search_agents, get_site_details, get_stats, submit_site, register_monitor, verify_mcp
+  - Ranks tools by agentic readiness score (API availability, MCP support, documentation quality)
+  - Helps LLM agents discover and evaluate tools programmatically
+  - JSON-RPC endpoint at /mcp for direct agent integration
+  - Real-time MCP verification via live JSON-RPC probe
+
+
