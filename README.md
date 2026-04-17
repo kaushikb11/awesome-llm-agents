@@ -599,6 +599,18 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-1
   - Auto-discovery of local Ollama models
 
 
+- [OpenClaw](https://github.com/openclaw/openclaw) - Config-first AI agent framework
+  for defining autonomous agents via SOUL.md configuration files
+
+  250,000+ stars · Python · MIT
+
+  - Declarative agent definition via SOUL.md files
+  - Built-in identity, rules, tools, and integration system
+  - Multi-agent orchestration support
+  - 177 production-ready templates available at [awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents)
+  - 24 categories: Marketing, DevOps, Finance, Healthcare, Legal, HR, and more
+
+
 - [auto-co](https://github.com/NikitaDmitrieff/auto-co-meta) - Autonomous AI company OS
   with 14 specialized agents that run a startup end-to-end
 
