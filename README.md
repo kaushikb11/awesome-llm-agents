@@ -611,3 +611,21 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Overloop CLI](https://github.com/sortlist/overloop-cli) - AI-powered outbound sales
+  engine as a CLI tool
+
+  - Source contacts from a 450M+ database
+  - Run multi-channel campaigns (email + LinkedIn)
+  - Enroll prospects and manage conversations
+  - JSON output for agent integration
+  - Install via npm: `npm install -g overloop-cli`
+
+
+- [Signals CLI](https://github.com/sortlist/signals-cli) - B2B intent signal monitoring
+  from the terminal
+
+  - Track LinkedIn engagement and keyword posters
+  - Detect job changers and funding events
+  - JSON output for agent pipelines
+  - Install via npm: `npm install -g signals-sortlist-cli`
+
