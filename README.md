@@ -608,3 +608,13 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+
+- [grugbot420](https://github.com/grug-group420/grugbot420) - Neuromorphic cognitive engine
+  in Julia for multi-model AI orchestration
+
+  6 stars · 0 forks · 1 contributors · 0 issues · Julia · MIT
+
+  - Deploys domain-expert AI specimens through architectural configuration
+  - Multi-model orchestration without traditional training
+  - Neuromorphic cognitive architecture
+  - Configuration-driven agent deployment
