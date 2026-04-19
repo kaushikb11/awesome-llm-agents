@@ -608,3 +608,27 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+
+
+
+- [Agent Shadow Brain](https://github.com/theihtisham/agent-shadow-brain) - Self-evolving AI coding intelligence with infinite memory, genetic algorithm self-evolution, and predictive bug detection
+
+  108 stars · 7 forks · 1 contributors · 2 issues · TypeScript · MIT
+
+  - TurboQuant compressed memory for infinite context retention
+  - Genetic algorithm self-evolution with fitness scoring
+  - Predictive bug detection using Bayesian inference
+  - PageRank-based knowledge graph
+  - Swarm intelligence for distributed analysis
+  - Adversarial defense with pattern recognition
+
+
+- [Omni Skills Forge](https://github.com/theihtisham/omni-skills-forge) - 50,000+ curated AI agent skills for Claude Code, Cursor, Copilot, and Windsurf with one-click install
+
+  42 stars · 2 forks · 1 contributors · 0 issues · TypeScript · MIT
+
+  - Visual dashboard for browsing 50,000+ skills
+  - One-click install for Claude Code, Cursor, Copilot, Windsurf, Cline
+  - Skill Doctor for automated diagnosis and repair
+  - Auto-update system for keeping skills current
+  - Cross-editor compatibility
