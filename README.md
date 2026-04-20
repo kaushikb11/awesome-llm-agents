@@ -607,4 +607,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-1
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
+- [Agent Shadow Brain](https://github.com/theihtisham/agent-shadow-brain) - AI-powered
+  background code analysis agent for Claude Code
+
+  8 stars · 1 forks · 1 contributors · 0 issues · TypeScript · MIT
+
+  - Continuous background codebase monitoring and analysis
+  - Intelligent suggestions and code improvement recommendations
+  - Seamless integration with Claude Code workflows
+  - npm package: @theihtisham/agent-shadow-brain
+
 
