@@ -5,6 +5,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-1
 
 ## Frameworks
 
+- [claw-army/claude-node](https://github.com/claw-army/claude-node) - Python subprocess bridge for Claude Code CLI, giving Python code direct access to Claude Code native capabilities via stream-json.
 - [CrewAI](https://github.com/joaomdmoura/crewAI) - Framework for orchestrating
   role-playing AI agents
 
