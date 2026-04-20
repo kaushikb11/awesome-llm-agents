@@ -608,3 +608,13 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Hive](https://github.com/aden-hive/hive) - Open-source AI agent framework for
+  building goal-driven, self-improving autonomous agents
+
+  9,348 stars · 5,395 forks · 30 contributors · 1,380 issues · Python · Apache-2.0
+
+  - Define outcomes in natural language and auto-generate agent graphs
+  - Built-in evolution loops for self-improving agents
+  - MCP integration with 100+ tools and human-in-the-loop support
+  - Real-time observability and cost controls
+  - 20+ pre-built agent templates
