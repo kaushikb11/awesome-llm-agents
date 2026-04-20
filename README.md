@@ -112,6 +112,18 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-1
   - RAG optimization
 
 
+- [RapidFire AI](https://github.com/RapidFireAI/rapidfireai) - Rapid AI experimentation
+  framework for agentic RAG pipelines and context engineering
+
+  141 stars · Python · Apache-2.0
+
+  - Hyperparallelized, shard-based execution to compare RAG configs concurrently
+  - Interactive Control (IC Ops): stop, resume, and clone-modify live runs in real time
+  - Online aggregation of eval metrics displayed live in-notebook as data is processed
+  - Supports closed model APIs (OpenAI, Anthropic, etc.) and self-hosted models
+  - 16-24x higher experimentation throughput without extra resources
+
+
 - [Google ADK](https://github.com/google/adk-python) - Agent Development Kit for
   building, evaluating, and deploying AI agents
 
