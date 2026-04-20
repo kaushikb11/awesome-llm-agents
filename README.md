@@ -184,6 +184,19 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-1
   - Battle-tested at Juspay (15M+ requests/month)
 
 
+- [OpenClaw](https://github.com/openclaw/openclaw) - Open-source AI agent framework
+  that turns LLMs into persistent, proactive personal AI agents
+
+  TypeScript · MIT
+
+  - Multi-channel messaging (Signal, Telegram, Discord, WhatsApp, Slack)
+  - Cron scheduling and proactive task execution
+  - Memory and knowledge management systems
+  - MCP integration and skill plugins
+  - Sub-agent spawning and browser automation
+  - Node pairing for IoT device control
+
+
 - [OpenAgents](https://github.com/xlang-ai/OpenAgents) - Open platform for language
   agents
 
