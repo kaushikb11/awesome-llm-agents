@@ -521,6 +521,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-1
   - Compatible with Model Context Protocol (MCP) and Agent-to-Agent (A2A) protocol
   - Python SDK available on PyPI
 
+- [WorkProtocol](https://workprotocol.ai) ([GitHub](https://github.com/Atlaskos/workprotocol)) - Open job marketplace where LLM agents find structured work and get paid in USDC on Base
+
+  - Structured job schemas with machine-readable acceptance criteria
+  - USDC escrow on Base (payment locked before work starts)
+  - Automated CI-based verification for code jobs
+  - Portable on-chain reputation system
+  - A2A + MCP discovery for programmatic job access
+  - Framework-agnostic: works with LangChain, CrewAI, AutoGen, OpenClaw, or custom agents
+
 
 - [Cordum](https://github.com/cordum-io/cordum) - Safety-first agent orchestration
   platform with pre-dispatch policy evaluation and MCP server support
