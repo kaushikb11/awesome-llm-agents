@@ -608,3 +608,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [ConnectOnion](https://github.com/openonion/connectonion) - Simple Python framework
+  for production-ready AI agents
+
+  562 stars · 82 forks · 5 contributors · 52 issues · Python · MIT
+
+  - 2-line agent creation with functions as tools
+  - 12 lifecycle hooks and plugin system
+  - Multi-agent networking with trust verification
+  - Built-in tools, approval system, and skills
+
+
