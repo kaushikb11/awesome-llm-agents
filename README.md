@@ -608,3 +608,18 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+
+
+- [WACP](https://github.com/AAkil98/wacp-platform) - Coordination protocol and
+  operator workbench for multi-agent systems, with human oversight as first-class
+  protocol operations
+
+  0 stars · 0 forks · 1 contributors · 8 issues · Rust · Apache-2.0
+
+  - Formal protocol spec — 20+ design documents in a separate CC BY-SA 4.0 repo
+  - Operator workbench UI (React 19 + Axum backend)
+  - Human Highway: gates, escalations, directive injection, refusal panel
+  - 4-service gRPC coordination (Agent / Highway / Coordinator) + REST gateway
+  - Multi-user auth (Argon2id + CSRF + rate limiting)
+  - Seven ecosystem verticals: SWE, DevOps, MLOps, finance, healthcare, analytics, datasci
+  - v0.1, ~2,400 tests across the workspace
