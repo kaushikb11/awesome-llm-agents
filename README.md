@@ -597,6 +597,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-1
 
 
 - [auto-co](https://github.com/NikitaDmitrieff/auto-co-meta) - Autonomous AI company OS
+- [Octomind](https://github.com/muvon/octomind) - Open-source, model-agnostic AI agent runtime with community-built specialist agents (developer, medical, legal, DevOps), MCP support, and zero-config setup.
   with 14 specialized agents that run a startup end-to-end
 
   30 stars · 7 forks · 1 contributors · 0 issues · TypeScript · MIT
@@ -606,5 +607,3 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-1
   - Shared markdown consensus file as the cross-cycle relay baton
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
-
-
