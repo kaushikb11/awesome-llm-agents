@@ -578,7 +578,17 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-1
   - MCP server support- [AgentMesh](https://github.com/imran-siddique/agent-mesh) - Secure trust layer for
   multi-agent ecosystems with zero-trust governance
 
-  18 stars · 6 forks · 4 contributors · 0 issues · Python · MIT
+- [PiQrypt](https://github.com/piqrypt/piqrypt) - Cryptographic identity, audit trail and governance layer 
+  for autonomous AI agents
+      Ed25519 + Dilithium3 post-quantum agent signatures
+      Hash-chained tamper-proof event memory (offline-verifiable)
+      A2A co-signed handshakes — cryptographic proof of every agent interaction
+      TrustGate policy engine (ALLOW / REQUIRE_HUMAN / BLOCK)
+      9 framework bridges: LangChain, CrewAI, AutoGen, MCP, Ollama, ROS2, RPi
+      EU AI Act Art.12/14 · ANSSI · NIST AI RMF ready.
+    
+
+- 18 stars · 6 forks · 4 contributors · 0 issues · Python · MIT
 
   - Ed25519 cryptographic agent identity
   - Delegation chains with bounded depth
