@@ -607,4 +607,17 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-1
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
+ 
+- [open-multi-agent](https://github.com/JackChen-me/open-multi-agent) - TypeScript
+  multi-agent framework with one-call task decomposition and parallel execution
+
+  5,808 stars · 2,280 forks · 11 contributors · 15 issues · TypeScript · MIT
+
+  - Coordinator pattern: decompose a goal into a task DAG via one LLM call
+  - Parallel execution of independent tasks with automatic dependency resolution
+  - Three runtime dependencies, Node.js 18+
+  - Structured output with Zod schema validation and one-shot retry
+  - Built-in tools (bash, file I/O, grep, glob) plus a custom tool registry
+
+
 
