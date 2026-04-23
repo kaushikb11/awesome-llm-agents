@@ -608,3 +608,12 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [BabelWrap](https://github.com/babelwrap/babelwrap-mcp) - HTTP API and MCP server
+  that lets AI agents interact with websites through natural language
+
+  - Natural language web interaction — no CSS selectors or XPath needed
+  - 18 MCP tools: navigate, click, fill, submit, extract, screenshot, and more
+  - Works with Claude Desktop, Cursor, Claude Code, and any MCP client
+  - Python SDK with sync and async clients
+
+
