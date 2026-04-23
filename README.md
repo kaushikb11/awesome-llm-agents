@@ -4,6 +4,7 @@ A curated list of awesome LLM frameworks and agent development tools. If you hav
 suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-19)
 
 ## Frameworks
+- [RustChain](https://github.com/Scottcjn/Rustchain) - Proof-of-Antiquity blockchain for the autonomous agent economy. Supports physical hardware attestation and RTC token rewards.
 
 - [CrewAI](https://github.com/joaomdmoura/crewAI) - Framework for orchestrating
   role-playing AI agents
