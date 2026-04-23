@@ -595,6 +595,16 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-1
   - Terminal UI with real-time streaming
   - Auto-discovery of local Ollama models
 
+- [Xquik](https://github.com/Xquik-dev/x-twitter-scraper) - X/Twitter data platform for
+  LLM agents with MCP server and REST API
+
+  TypeScript · NOASSERTION
+
+  - MCP server with 20 tools for Claude Code, Cursor, Codex, and 40+ agents
+  - 76 REST API endpoints with HMAC webhook delivery
+  - 20 bulk extraction tools for followers, tweets, replies, and more
+  - Real-time account monitoring with WebSocket streaming
+
 
 - [auto-co](https://github.com/NikitaDmitrieff/auto-co-meta) - Autonomous AI company OS
   with 14 specialized agents that run a startup end-to-end
