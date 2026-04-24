@@ -608,3 +608,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Promptise Foundry](https://github.com/promptise-com/foundry) - Production Python
+  framework for agentic AI with controllable reasoning, a full MCP server SDK, and an
+  autonomous runtime
+
+  - Tunable reasoning strategies (chain-of-thought, self-critique, plan-and-execute)
+  - Full MCP server SDK with JWT auth, guards, middleware, audit logging, and metrics
+  - Autonomous runtime with triggers, journals, and crash recovery
+  - Governance: budgets, health checks, missions, secrets
+  - Memory providers (in-memory, Chroma, Mem0), semantic caching, and guardrails
+
+
