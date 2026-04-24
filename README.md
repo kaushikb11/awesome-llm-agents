@@ -5,6 +5,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-1
 
 ## Frameworks
 
+- [EnigmAgent](https://github.com/Agnuxo1/EnigmAgent) - Keep AI agent credentials encrypted locally. Browser extension + MCP server that resolves {{PLACEHOLDER}} references at submit time. Secrets never reach the LLM. AES-256-GCM + Argon2id.
 - [CrewAI](https://github.com/joaomdmoura/crewAI) - Framework for orchestrating
   role-playing AI agents
 
