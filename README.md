@@ -5,6 +5,9 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-2
 
 ## Frameworks
 
+- [Arachne](https://github.com/Strategic-Automation/arachne) - DSPy-native autonomous
+  agent runtime with dynamic graph weaving, parallel wave execution,
+  triangulated evaluation, and autonomous self-healing.
 - [CrewAI](https://github.com/joaomdmoura/crewAI) - Framework for orchestrating
   role-playing AI agents
 
