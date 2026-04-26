@@ -607,4 +607,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-2
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
+- [scAgent](https://github.com/deepmind11/scAgent) - AI agent for single-cell RNA-seq
+  analysis through natural language — no bioinformatics knowledge required
 
+  0 stars · 0 forks · 1 contributors · 0 issues · Python · MIT
+
+  - Full scRNA-seq pipeline in plain English: QC → normalization → batch integration → clustering → cell type annotation → differential expression
+  - Benchmarked at 85.7% on SC-Bench (394 verifiable problems from real workflows), vs 52.8% top baseline
+  - State-aware data inspector: reads AnnData to infer what analysis has already been done before acting
+  - Dependency resolution: plans the minimal prerequisite steps to reach any requested analysis
+  - W3C PROV-O provenance tracking with auto-generated camera-ready methods sections and reproducibility packages
+  - Long-term ChromaDB memory across sessions — recall any decision from weeks ago
+  - Runs on Feynman (open-source runtime) or Claude Code
