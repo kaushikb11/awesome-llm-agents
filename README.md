@@ -53,6 +53,18 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-2
   - Built by MetaGPT contributors
 
 
+- [Caesar](https://github.com/jasonzliang/caesar-agent) - Autonomous research agent
+  with graph-based deep web exploration and adversarial answer synthesis
+
+  Paper (2026): outperforms ChatGPT / Gemini Deep Research on creative reasoning (p<0.001) · Python · MIT
+
+  - Perceive-Think-Act exploration loop over a dynamic knowledge graph
+  - Adversarial Generator-Verifier synthesis loop with orthogonal query refinement
+  - Multi-draft generation with generative merge for non-derivative answers
+  - Episodic memory with navigational stagnation detection and backtracking
+  - Multi-provider LLM support (OpenAI / Anthropic / Gemini) via litellm
+
+
 - [Llama Index](https://github.com/run-llama/llama_index) - Data framework for LLM
   applications
 
