@@ -608,3 +608,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-2
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+
+
+- [eval-skills](https://github.com/latitude-dev/eval-skills) - 9 Claude Code agent skills for building reliable LLM evaluations from production logs.
+
+  11 stars · 1 fork · 1 contributor · 0 issues · Markdown · MIT
+
+  - Annotate production logs and build scoring rubrics
+  - Discover and cluster failure patterns from annotations
+  - Build LLM-as-judge prompts grounded in real failures
+  - Validate judge alignment against human labels (80%+ threshold)
+  - Curate golden datasets and run regression tests before deploying prompt changes
