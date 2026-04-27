@@ -473,6 +473,18 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-2
   - Claude Code integration
 
 
+- [Agent Express](https://github.com/agent-express-ai/agent-express) - Middleware framework
+  for building AI agents in TypeScript, inspired by Express.js
+
+  0 stars · 0 forks · 1 contributors · 0 issues · TypeScript · MIT
+
+  - Express.js-style `(ctx, next)` middleware pattern for all agent concerns
+  - 5 composable hooks: agent, session, turn, model, tool
+  - Built-in middleware: budget caps, retry, memory compaction, tool approval, observability
+  - Structured output with Zod schemas, SSE streaming, MCP support
+  - 258 tests, TypeScript strict, ESM only
+
+
 - [Axar](https://github.com/axar-ai/axar) - Minimal TypeScript agentic framework for
   building production-ready LLM applications
 
