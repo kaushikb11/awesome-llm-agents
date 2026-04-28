@@ -608,3 +608,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-2
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [langgraph-crosschain](https://github.com/karthyick/langgraph-crosschain) - Cross-chain
+  node communication for LangGraph multi-agent systems
+
+  Python · MIT
+
+  - Direct cross-chain calls: `Chain1.NodeA → Chain2.NodeB`
+  - Shared state management across chains
+  - Message broadcasting to multiple chains
+  - Built specifically as a LangGraph extension for modular multi-agent workflows
+  - `pip install langgraph-crosschain`
+
+
