@@ -304,6 +304,8 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-2
 
   24,406 stars · 2,180 forks · 189 contributors · 327 issues · Python · Apache-2.0
 
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor-frontend) — AI monitoring dashboard for AI agents and LLMs (Vue3 + Node.js, open source). [![Dashboard](https://raw.githubusercontent.com/flik2002/openclaw-monitor-frontend/main/Openclaw%20Monitor.jpg)](https://github.com/flik2002/openclaw-monitor-frontend)
+
   - Code-first approach
   - Multi-agent orchestration
   - LLM provider flexibility
