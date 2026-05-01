@@ -608,3 +608,13 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-04-2
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Not Human Search](https://nothumansearch.ai) - AI-native search engine for MCP
+  servers and AI tools with agentic scoring, REST API, and MCP server
+
+  - 8,600+ AI tools indexed with agentic readiness scoring
+  - MCP server with 6 tools: search_agents, get_site_details, get_stats, submit_site, register_monitor, verify_mcp
+  - Scores tools by API availability, MCP support, OpenAPI spec, and documentation quality
+  - Live MCP verification via JSON-RPC probe
+  - REST API and MCP endpoint for programmatic agent integration
+
+
