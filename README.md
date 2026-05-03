@@ -606,3 +606,12 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [KodeAgent](https://github.com/barun-saha/kodeagent) - The Minimal AI Agent Engine
+
+  40 stars · 2 forks · 1 contributors · 18 issues · Python · Apache-2.0 
+
+  - Minimalist, "glass box" architecture acting as a robust reasoning core
+  - Dynamic planning and self-correction using internal Planner and Observer modules
+  - SLM-optimized function calling with built-in retry and error detection
+  - Multi-environment code execution support (host or secure E2B sandbox)
+  - Model-agnostic and highly extensible with 10+ built-in tools and observability integrations
