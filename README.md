@@ -529,6 +529,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-0
   - MCP server integration
   - gRPC safety kernel
 
+- [Intaris](https://github.com/fpytloun/intaris) - MCP proxy with guardrails for AI
+  agents that evaluates tool-call intent and actions before execution
+
+  - MCP proxy for agent tool execution
+  - Intent and action evaluation before tool calls run
+  - Policy and approval controls for risky operations
+  - Designed for human-in-the-loop autonomous agent workflows
+
 
 - [AgentField](https://github.com/Agent-Field/agentfield) - Open-source infrastructure
   for AI backends with cryptographic identity
