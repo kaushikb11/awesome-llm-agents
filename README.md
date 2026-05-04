@@ -606,3 +606,17 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [MateClaw](https://github.com/matevip/mateclaw) - Personal AI operating system on
+  Spring Boot 3.5 + Spring AI Alibaba
+
+  363 stars · 116 forks · 1 contributors · 10 issues · Java · Apache-2.0
+
+  - ReAct + Plan-and-Execute agents on Spring AI Alibaba's StateGraph runtime
+  - Multi-vendor failover chain (DeepSeek, OpenAI, Anthropic, Gemini, DashScope, Kimi, Ollama, LM Studio, MLX) with health tracker and cooldown
+  - LLM Wiki — knowledge digestion into linked pages with per-sentence citations
+  - Memory lifecycle: post-conversation extraction, scheduled consolidation, dreaming workflows
+  - MCP support over stdio, SSE, and Streamable HTTP transports
+  - Tool Guard with RBAC and approval flow for sensitive tool calls
+  - One JAR ships a web admin, desktop app (bundled JRE 21), embeddable widget, and 8 IM channels (DingTalk, Feishu, WeChat Work, WeChat, Telegram, Discord, QQ, Slack)
+
+
