@@ -606,3 +606,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Maestro Orchestrate](https://github.com/josstei/maestro-orchestrate) - Multi-agent
+  development orchestration platform with 22 specialized agents
+
+  288 stars · 10 forks · 1 contributors · 0 issues · JavaScript · Apache-2.0
+
+  - 22 specialized agents across 8 domains: Engineering, Product, Design, Content, SEO, Compliance, i18n, Analytics
+  - 4-phase structured workflows: Design, Plan, Execute, Complete with complexity-based routing
+  - Native parallel execution with MCP-based session persistence
+  - Least-privilege security with 4-tier agent access model
+  - Runs on Gemini CLI, Claude Code, and Codex from a single canonical source tree
+
+
