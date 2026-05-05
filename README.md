@@ -5,6 +5,18 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-0
 
 ## Frameworks
 
+- [AG2](https://github.com/ag2ai/ag2) - Open-source AgentOS for building multi-agent
+  systems, community fork of AutoGen
+
+  4,300 stars · 569 forks · 400+ contributors · 164 issues · Python · Apache-2.0
+
+  - Multi-agent conversation patterns (two-agent, group chat, swarm)
+  - Native LLM support: OpenAI, Anthropic, Gemini, AWS Bedrock, Mistral, Ollama
+  - Built-in MCP (Model Context Protocol) integration
+  - Tool use with @register_for_llm / @register_for_execution decorators
+  - Secure Docker-based code execution
+
+
 - [CrewAI](https://github.com/joaomdmoura/crewAI) - Framework for orchestrating
   role-playing AI agents
 
