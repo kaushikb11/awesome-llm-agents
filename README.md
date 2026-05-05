@@ -606,3 +606,16 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Thalamus](https://github.com/msbel5/openclaw-thalamus) - Cognitive routing layer
+  for multi-agent AI crews on edge devices (Raspberry Pi 5)
+
+  0 stars · 0 forks · 1 contributors · 0 issues · JavaScript · MIT
+
+  - 3-field packet handoff `{packet_id, resolver_key, inline_vector}` replaces transcript paste between agents
+  - 5-agent crew: Captain, Builder, Inspector, Liaison, Archivist (NASA Mission Control style)
+  - 9-namespace local vector store with Qwen3-Embedding-0.6B Q4_0 GGUF (1024d) on CPU via llama.cpp
+  - Optional Hailo-10H NPU HEFs for Whisper ASR + CLIP vision
+  - FAISS RaBitQ (BBQ) concept-codes lane (raw measurement output in [BENCHMARKS.md](https://github.com/msbel5/openclaw-thalamus/blob/main/BENCHMARKS.md))
+  - MCP server, dashboard with HMAC bearer auth, npm-installable as `openclaw-thalamus`
+
+
