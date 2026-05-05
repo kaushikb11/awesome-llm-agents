@@ -606,3 +606,13 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [OpenLeash](https://github.com/openleash/openleash) - Local-first authorization sidecar
+  for AI agents with YAML policies and cryptographic proof tokens
+
+  13 stars · 3 forks · 4 contributors · 1 issues · TypeScript · Apache-2.0
+
+  - YAML policy engine returning ALLOW / DENY / REQUIRE_APPROVAL / REQUIRE_STEP_UP / REQUIRE_DEPOSIT decisions
+  - PASETO v4.public proof tokens (Ed25519-signed) verifiable offline by any counterparty
+  - Human-in-the-loop approval workflow with append-only audit log
+  - SDKs at full endpoint parity for TypeScript, Python, and Go
+  - Built-in policy playground for testing scenarios before deploying
