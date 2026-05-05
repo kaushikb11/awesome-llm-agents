@@ -196,6 +196,17 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-0
   - Interactive visualization
 
 
+- [OpenAgent](https://github.com/the-open-agent/openagent) - Personal AI assistant
+  platform with LLM, RAG, and agent workflows
+
+  4,533 stars · 536 forks · 42 issues · Go · Apache-2.0
+
+  - Computer-use, browser-use, and coding agents
+  - Self-hostable with admin dashboard and visual workflow builder
+  - MCP and multi-model provider support
+  - Demo at demo.openagentai.org
+
+
 - [AI Legion](https://github.com/eumemic/ai-legion) - Swarm framework for autonomous
   agents
 
