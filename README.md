@@ -606,3 +606,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+
+
+- [OpenHermit](https://github.com/HCF-S/openhermit) - Open-source platform for deploying
+  AI agents as production services with fleet ops
+
+  24 stars · 2 forks · 1 contributors · 0 issues · TypeScript · MIT
+
+  - Internal state (memory, sessions, skills, MCP, schedules, secrets) in Postgres, scoped by agent_id
+  - Per-agent Docker workspaces for isolated execution
+  - Fleet ops via single commands (`hermit skills enable my-skill --all`)
+  - CLI, Web admin UI, and Telegram/Discord/Slack channels
+  - Audit any agent's session from one admin UI
