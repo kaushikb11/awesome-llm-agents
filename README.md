@@ -355,6 +355,16 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-0
   - MCP support- [Agentic Radar](https://github.com/splx-ai/agentic-radar) - A security scanner for
   agentic workflows
 
+- [TealTiger](https://github.com/agentguard-ai/tealtiger) - Deterministic governance SDK for AI agents with runtime policy enforcement
+  3 stars · 3 forks · 2 contributors · Python, TypeScript · Apache-2.0
+
+  - No LLM in the governance path
+  - 7 parallel governance modules (secrets, registry, reliability, memory, audit, cost, evidence)
+  - 7 LLM providers (OpenAI, Anthropic, Gemini, Bedrock, Azure, Cohere, Mistral)
+  - SARIF v2.1.0 and JUnit XML evidence export
+  - Docker sidecar for language-agnostic governance
+
+
   848 stars · 106 forks · 8 contributors · 10 issues · Python · Apache-2.0
 
   - Scans agentic workflow source code
