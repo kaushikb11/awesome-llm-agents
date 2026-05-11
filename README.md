@@ -604,3 +604,24 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [agent-opt](https://github.com/future-agi/agent-opt) - Open-source library for
+  automated optimization of AI agent workflows
+
+  62 stars · Python · Apache-2.0
+
+  - Evaluation-driven prompt and config tuning for agent pipelines
+  - Six optimization algorithms (Random, Bayesian, ProTeGi, Meta-Prompt, PromptWizard, GEPA)
+  - Flexible evaluation via heuristic metrics and LLM-as-a-judge
+  - Works with any LLM provider through LiteLLM
+
+
+- [simulate-sdk](https://github.com/future-agi/simulate-sdk) - Voice AI simulation
+  SDK for testing AI agents
+
+  56 stars · Python · Apache-2.0
+
+  - Generates synthetic conversations to evaluate agent behavior
+  - Edge-case scenario testing before launch
+  - Scenario-driven stress testing of multimodal and agentic systems
+
+
