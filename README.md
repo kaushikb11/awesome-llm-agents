@@ -592,15 +592,20 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-1
   - Auto-discovery of local Ollama models
 
 
-- [auto-co](https://github.com/NikitaDmitrieff/auto-co-meta) - Autonomous AI company OS
-  with 14 specialized agents that run a startup end-to-end
+- [ProtoLink](https://github.com/nMaroulis/protolink) - Lightweight framework for building autonomous multi-agent systems with native LLMs, MCP integration, and A2A-based agent communication
 
-  34 stars · 7 forks · 1 contributors · 4 issues · TypeScript · MIT
+  25 stars · 7 forks · 1 contributors · 1 issues · Python · MIT
 
-  - 14 expert-persona agents: CEO (Bezos), CTO (Vogels), Critic (Munger), CFO, marketer, engineer, QA, DevOps, and more
-  - Continuous bash loop — agents debate, decide, and ship real deployments autonomously
-  - Shared markdown consensus file as the cross-cycle relay baton
-  - Human escalation via Telegram for true blockers only
-  - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
+  - Unified client/server architecture for autonomous AI agents
+  - Native multi-agent communication built on and extending Google’s A2A protocol
+  - Built-in MCP integration and tool-calling support. Also supports multiple LLM providers (api and local).
+  - Multiple transports including HTTP, WebSocket, and in-memory execution
+  - Production-oriented runtime with minimal boilerplate and distributed execution support
 
 
+**Tech Stack**
+`Python` `Agents` `LLMs` `MCP` `A2A` `OpenAI` `Anthropic` `Gemini` `Ollama`
+
+**Links**
+- [Documentation](https://nmaroulis.github.io/protolink/)
+- [PyPI](https://pypi.org/project/protolink/)
