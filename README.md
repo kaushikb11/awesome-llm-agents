@@ -604,3 +604,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+
+
+- [Dakera](https://github.com/dakera-ai/dakera-mcp) - Self-hosted MCP-native agent memory
+  server with decay-weighted recall, HNSW vector search, and cross-agent knowledge sharing
+
+  0 stars · 0 forks · 2 contributors · 0 issues · Rust · MIT
+
+  - MCP-native integration for any MCP-compatible agent framework
+  - Decay-weighted memory recall across sessions
+  - HNSW vector search for semantic retrieval
+  - Cross-agent knowledge sharing via namespaces
+  - Python SDK available
