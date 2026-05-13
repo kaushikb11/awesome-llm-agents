@@ -606,17 +606,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
-- [ejentum-mcp](https://github.com/ejentum/ejentum-mcp) - Reasoning Harness for agentic
-  AI, exposed as MCP tools that catch sycophancy, hallucination, causal shortcuts, and
-  reasoning decay at the moment they would otherwise emerge
+- [ejentum-mcp](https://github.com/ejentum/ejentum-mcp) - MCP server with reasoning,
+  code, anti-deception, and memory tools for AI agents
 
   2 stars · 0 forks · 1 contributors · 0 issues · TypeScript · MIT
 
-  - 4 cognitive operating modes: reasoning, code, anti-deception, memory
-  - 679 engineered cognitive operations matched per task by an external Logic API
-  - Each call returns a structured scaffold the calling LLM absorbs before its first token (named failure pattern, procedure, suppression vectors, falsification test)
-  - Inference-time injection: addresses agent reliability at the moment failures emerge, not after
-  - Stdio MCP transport; works in Claude Desktop, Cursor, Windsurf, Cline, Claude Code, n8n MCP node, and any MCP-compatible client
-  - Listed on the Official MCP Registry as `io.github.ejentum/ejentum-mcp`; published with cryptographic provenance attestation
+  - 4 MCP tools: `harness_reasoning`, `harness_code`, `harness_anti_deception`, `harness_memory`
+  - Each tool returns a structured prompt the calling agent ingests before generating
+  - Stdio MCP transport; works in Claude Desktop, Cursor, Windsurf, Cline, Claude Code, and any MCP-compatible client
+  - Listed on the Official MCP Registry as `io.github.ejentum/ejentum-mcp`
 
 
