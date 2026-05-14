@@ -481,6 +481,8 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-1
   - Easy integration with OpenAI, Anthropic, Gemini, and other models
 
 
+- [APort Agent Guardrails](https://github.com/aporthq/aport-agent-guardrails) - Pre-action authorization and runtime policy guardrails for AI agents, with OpenClaw hooks, blocked-pattern checks, and local or API enforcement.
+
 - [PraisonAI](https://github.com/MervinPraison/PraisonAI) - Production-ready Multi-AI
   Agents framework with self-reflection
 
