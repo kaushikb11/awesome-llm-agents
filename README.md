@@ -604,3 +604,17 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Bernstein](https://github.com/sipyourdrink-ltd/bernstein) - Python orchestrator for
+  40+ CLI coding agents (Claude Code, Codex, Gemini CLI, Cursor, Aider) with
+  deterministic scheduling
+
+  350 stars · Python · Apache-2.0
+
+  - One LLM plan call up front; scheduling, isolation, and merge are deterministic Python
+  - Git worktree per task — parallel agents never collide
+  - Quality gates run tests/lints before any merge into main
+  - HMAC-chained audit log of every step, replayable bit-for-bit
+  - MCP server mode and A2A protocol support
+  - On PyPI as `bernstein`
+
+
