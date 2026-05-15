@@ -604,3 +604,16 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+
+- [RustChain](https://github.com/Scottcjn/Rustchain) - Proof-of-Antiquity blockchain
+  that rewards vintage hardware and enables AI agents to earn cryptocurrency
+
+  100+ stars · 50+ forks · 10+ contributors · 20+ issues · Rust/Python · MIT
+
+  - AI agents earn RTC cryptocurrency on vintage hardware
+  - Proof-of-Antiquity consensus rewards old computers
+  - MCP server for agent integration
+  - Agent economy with RIP-302 standard
+  - Runs LLMs on PowerPC G4 and other vintage hardware
+  - 44+ PRs merged into OpenSSL, Ghidra, vLLM, LLVM
+  - Paper at CVPR 2026
