@@ -559,7 +559,9 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-1
   - Flexible evaluation via heuristic metrics and LLM-as-a-judge
   - Works with any LLM provider through LiteLLM
   - Clean abstraction layer for custom optimizers and evaluators
-  - Built-in logging, progress tracking, and reproducible experimentation- [Agent OS](https://github.com/imran-siddique/agent-os) - Safety-first kernel for
+  - Built-in logging, progress tracking, and reproducible experimentation
+
+- [Agent OS](https://github.com/imran-siddique/agent-os) - Safety-first kernel for
   governing autonomous AI agents with POSIX-inspired primitives
 
   68 stars · 20 forks · 14 contributors · 0 issues · Python · MIT
@@ -567,7 +569,9 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-1
   - Policy engine with violation guarantees
   - Resource quotas and audit logging
   - Integrations with CrewAI, LangChain, AutoGen, Semantic Kernel
-  - MCP server support- [AgentMesh](https://github.com/imran-siddique/agent-mesh) - Secure trust layer for
+  - MCP server support
+
+- [AgentMesh](https://github.com/imran-siddique/agent-mesh) - Secure trust layer for
   multi-agent ecosystems with zero-trust governance
 
   18 stars · 6 forks · 4 contributors · 0 issues · Python · MIT
@@ -576,6 +580,17 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-1
   - Delegation chains with bounded depth
   - HTTP trust middleware for Flask/FastAPI
   - A2A protocol compatible
+
+
+- [MartinLoop](https://github.com/Keesan12/martin-loop) - Governed control plane for AI
+  coding agents with budget caps, halt controls, and audit trails
+
+  14 stars · 2 forks · 2 contributors · 0 issues · TypeScript · NOASSERTION
+
+  - Hard budget caps and kill switches
+  - Inspectable run records and halt reasons
+  - Human approvals and verifier gates
+  - Works across major model providers
 
 
 - [Quorum](https://github.com/Detrol/quorum-cli) - Multi-agent AI discussion system for
