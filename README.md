@@ -602,3 +602,16 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [CLAWVR MCP Server](https://github.com/Steffd415/clawvr-mcp-server) - Model Context
+  Protocol server that gives Claude Desktop 4 tools to generate custom AI Operating
+  Systems for small businesses on demand
+
+  Node.js · MIT
+
+  - Auto-detects the business vertical from a free-text description
+  - Generates a master Claude system prompt + workflow superprompts
+  - Covers 13+ verticals: dentists, contractors, salons, restaurants, lawyers, realtors, vets, photographers, fitness, insurance, CPAs, HVAC
+  - Companion [Claude Agent Skill](https://github.com/Steffd415/clawvr-agent-skill) version available
+  - Already in punkpeye/awesome-mcp-servers (PR #6677 merged)
+
+
