@@ -461,15 +461,6 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-1
   - Multi-agent workflow scripts: debates, ensemble refinement, code review watchers
   - Just prefix `hcom` in front of your existing tool command
 
-- [Alfred](https://github.com/luminik-io/alfred-os) - Local engineering-agent fleet runtime for Claude Code and Codex
-
-  1 star · Python · MIT
-
-  - GitHub issues become scheduled, bounded coding-agent jobs
-  - Isolated git worktrees per run
-  - Label-based state, review/test routing, and Slack reports
-  - launchd and systemd scheduling for local machines
-
 - [everyrow](https://github.com/futuresearch/everyrow-sdk) - AI-powered data operations
   SDK for running LLM agents on pandas DataFrames
 
@@ -612,3 +603,12 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-1
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
+
+- [Alfred](https://github.com/luminik-io/alfred-os) - Local engineering-agent fleet runtime for Claude Code and Codex
+
+  1 star · Python · MIT
+
+  - GitHub issues become scheduled, bounded coding-agent jobs
+  - Isolated git worktrees per run
+  - Label-based state, review/test routing, and Slack reports
+  - launchd and systemd scheduling for local machines
