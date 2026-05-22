@@ -604,11 +604,12 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
-- [Alfred](https://github.com/luminik-io/alfred-os) - Local runtime that turns GitHub issues and specs into autonomous Claude Code and Codex runs
+- [Alfred](https://github.com/luminik-io/alfred-os) - Self-hosted runtime for autonomous
+  Claude Code and Codex agents that turn GitHub issues into pull requests
 
-  1 star · Python · MIT
+  1 star · 0 forks · 0 contributors · 0 issues · Python · MIT
 
-  - GitHub issues become scheduled, bounded coding-agent jobs
-  - Isolated git worktrees per run
-  - Label-based state, review/test routing, and Slack reports
-  - autonomous scheduled runs that survive host restarts on macOS and Linux
+  - GitHub issues and specs become scheduled, bounded coding-agent jobs
+  - Each firing runs in a clean git worktree, so failures cannot pollute other work
+  - Label-driven state machine (agent:in-flight, agent:pr-open, agent:done) plus role-based engine routing across Claude Code and Codex
+  - Scheduled runs survive host restarts (macOS launchd, Linux systemd) with Slack-only reporting
