@@ -604,7 +604,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
-- [Alfred](https://github.com/luminik-io/alfred-os) - Local runtime for autonomous repo teammates on Claude Code and Codex
+- [Alfred](https://github.com/luminik-io/alfred-os) - Local runtime that turns GitHub issues and specs into autonomous Claude Code and Codex runs
 
   1 star · Python · MIT
 
