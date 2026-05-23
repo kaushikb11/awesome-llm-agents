@@ -602,3 +602,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+
+
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) — Real-time monitoring dashboard for OpenClaw AI agents with token tracking, session management, and 7-day trend charts. [#2](https://github.com/flik2002/openclaw-monitor)
+
