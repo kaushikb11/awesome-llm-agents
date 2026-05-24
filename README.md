@@ -459,7 +459,9 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-2
   - Agents view terminal screens, subscribe to activity, spawn/fork/resume each other
   - TUI dashboard, cross-device relay via MQTT, Python API
   - Multi-agent workflow scripts: debates, ensemble refinement, code review watchers
-  - Just prefix `hcom` in front of your existing tool command- [everyrow](https://github.com/futuresearch/everyrow-sdk) - AI-powered data operations
+  - Just prefix `hcom` in front of your existing tool command
+
+- [everyrow](https://github.com/futuresearch/everyrow-sdk) - AI-powered data operations
   SDK for running LLM agents on pandas DataFrames
 
   34 stars · 4 forks · 12 contributors · 3 issues · Python · MIT
@@ -601,3 +603,12 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-2
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Alfred](https://github.com/luminik-io/alfred-os) - Self-hosted runtime for autonomous
+  Claude Code and Codex agents that turn GitHub issues into pull requests
+
+  1 star · 0 forks · 0 contributors · 0 issues · Python · MIT
+
+  - GitHub issues and specs become scheduled, bounded coding-agent jobs
+  - Each firing runs in a clean git worktree, so failures cannot pollute other work
+  - Label-driven state machine (agent:in-flight, agent:pr-open, agent:done) plus role-based engine routing across Claude Code and Codex
+  - Scheduled runs survive host restarts (macOS launchd, Linux systemd) with Slack-only reporting
