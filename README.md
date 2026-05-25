@@ -1,7 +1,7 @@
 # Awesome LLM Agent Frameworks [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A curated list of awesome LLM frameworks and agent development tools. If you have a
-suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-24)
+suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-25)
 
 ## Frameworks
 
@@ -600,4 +600,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-2
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
+
+- [Perseus](https://github.com/tcconnally/perseus) - Live context engine + multi-agent
+  coordination substrate for AI assistants
+
+  - Compile-before-context pre-processor (resolves @query/@services/@waypoint into the file the assistant reads at session start)
+  - Atomic O_CREAT|O_EXCL checkpoint locking — tested with 120 concurrent agents, zero collisions
+  - @agora shared task boards, @inbox point-to-point agent messaging
+  - 22 directives, MCP server façade (`perseus mcp serve` exposes 13 tools)
+  - Assistant-agnostic — works with Claude Code, Cursor, Codex, Rovo Dev, Hermes Agent
+  - MIT, ~600 tests, Python 3.10+, single-file or modular
 
