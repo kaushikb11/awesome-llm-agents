@@ -601,3 +601,13 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-2
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [openma](https://github.com/open-ma/open-managed-agents) - Self-hosted, open-source
+  implementation of Anthropic's Managed Agents API
+
+  8 stars · 2 forks · 4 contributors · 16 issues · TypeScript · Apache-2.0
+
+  - Wire-compatible with the Anthropic Managed Agents API (`/v1/agents`, `/v1/sessions`, `/v1/memory_stores`, ...) — official SDKs work by swapping `base_url`
+  - Two deploy paths: Cloudflare Workers + Durable Objects + Containers, or Node + SQLite/Postgres
+  - App-integration layer: agents become workspace members in Linear / Slack / GitHub (assigned, @mentioned, replied to)
+  - Local ACP bridge daemon: reverse-WebSocket from a laptop to a Worker that routes session events to a locally-installed Claude Code / Codex CLI / Gemini CLI
+  - Active development: 70+ merged PRs in 6 weeks, 600+ commits, 147 test files
