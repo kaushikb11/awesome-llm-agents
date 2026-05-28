@@ -352,7 +352,23 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-2
   - Stateful execution
   - Human in the loop controls
   - Tool catalogue with built-in auth
-  - MCP support- [Agentic Radar](https://github.com/splx-ai/agentic-radar) - A security scanner for
+  - MCP support
+
+
+- [LightAgent](https://github.com/wanxingai/LightAgent) - Lightweight AI agent
+  framework with tools, memory, streaming, MCP integration, skills, structured
+  results, and multi-agent collaboration
+
+  1,024 stars · 129 forks · 8 contributors · 8 issues · Python · Apache-2.0
+
+  - Simple `agent.run()` API with backward-compatible string and streaming output
+  - Runtime tool injection and tool argument validation
+  - MCP integration and skill discovery
+  - Structured results, stable error codes, and opt-in tracing
+  - LightSwarm multi-agent collaboration helper
+
+
+- [Agentic Radar](https://github.com/splx-ai/agentic-radar) - A security scanner for
   agentic workflows
 
   848 stars · 106 forks · 8 contributors · 10 issues · Python · Apache-2.0
@@ -599,5 +615,4 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-2
   - Shared markdown consensus file as the cross-cycle relay baton
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
-
 
