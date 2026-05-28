@@ -601,3 +601,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-2
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+
+
+- [AgentsKit](https://github.com/AgentsKit-io/agentskit) - A composable JavaScript
+  toolkit for building AI agents
+
+  4 stars · 1 forks · 1 contributors · 28 issues · TypeScript · MIT
+
+  - Small core with six contracts (Adapter, Tool, Skill, Memory, Retriever, Runtime)
+  - UI bindings for React, Vue, Svelte, Angular and the terminal (Ink)
+  - Standalone runtime with ReAct loop and multi-agent orchestration
+  - Tools, memory and RAG built in
+  - Provider agnostic via adapters (OpenAI, Anthropic, Gemini)
