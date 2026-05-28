@@ -601,3 +601,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-2
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+
+- [Hermit](https://github.com/orca-ai-admin/hermit) - Self-evolving agent framework
+  that enforces behavior through shell scripts instead of system prompt rules
+
+  1 stars · 0 forks · 1 contributors · 0 issues · Shell/Markdown · MIT
+
+  - 11 Red Gates: enforcement checkpoints that survive context window decay (anti-burst, capability check, liveness verification, blocked path, session rotation, etc.)
+  - Self-improvement engine: logs corrections, categorizes patterns, runs structured experiments (15 run, 14 kept)
+  - Memory consolidation: periodic dream cycles compress daily logs into long-term memory
+  - No runtime, no SDK — just markdown files and shell scripts. Model-agnostic.
+  - Extracted from 3+ months of running an autonomous AI agent 24/7 in production
