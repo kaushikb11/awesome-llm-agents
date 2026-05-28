@@ -601,3 +601,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-2
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [json-correction-loop](https://github.com/warpspaceinc/json-correction-loop) - Critic-driven correction loop for large LLM-generated JSON state
+
+  0 stars · Python · Apache-2.0
+
+  - Domain-neutral `gather → plan → execute` loop with surgical RFC 6902 patching — bring your own critic / patcher prompt
+  - Sub-agent decomposition: `path_finder` redirects critic-flagged symptom pointers to root-cause pointers; context narrowing scopes both sub-agent and patcher to the affected slice
+  - Composable convergence policies (quality-stable, hardcap) and `StorageBackend` / `EventSink` Protocols
+  - Empirical: at 100-entity / 183-edge synthetic KG with 8 mixed defects (gpt-4o-mini), full-regen fixes 0/8 in 73K tokens; this stack fixes 8/8 in 17K tokens
+  - Provider-agnostic — works with OpenAI, Anthropic, OpenRouter
+
+
