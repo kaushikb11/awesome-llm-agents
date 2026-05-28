@@ -53,6 +53,18 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-2
   - Built by MetaGPT contributors
 
 
+- [Agent Teams](https://github.com/777genius/agent-teams-ai) - Open-source desktop app
+  for autonomous AI coding teams across Claude, Codex, and OpenCode
+
+  996 stars · 217 forks · 18 contributors · 10 issues · TypeScript · NOASSERTION
+
+  - High-level command interface for autonomous coding teams
+  - Kanban tasks, inter-agent messaging, code review, logs, and approvals
+  - Works across Claude, Codex, and OpenCode
+  - Supports 200+ models and 75+ LLM providers
+  - Desktop workspace for supervising multi-agent development
+
+
 - [Llama Index](https://github.com/run-llama/llama_index) - Data framework for LLM
   applications
 
