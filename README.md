@@ -601,3 +601,11 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-2
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [spoox](https://github.com/plaume8/spoox) - Terminal-integrated, multi-agent system for developer assistance.
+
+  10 stars · 0 forks · 1 contributors · 0 issues · Python · Apache-2.0
+  
+  - Multi-agent system designed to assist developers directly within their terminal
+  - Assisting with OS tasks, server management workflows, and software engineering challenges
+  - The MAS architectures are based on the 'spoox MAS design framework', a generic architectural framework for multi-agent topology and communication design
+  - TUM research project, now in production
