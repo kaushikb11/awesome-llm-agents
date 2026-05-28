@@ -590,6 +590,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-2
 
 
 - [auto-co](https://github.com/NikitaDmitrieff/auto-co-meta) - Autonomous AI company OS
+- [Septim Agents Pack](https://septimlabs.com/agents) - 10 named Claude Code sub-agents (Atlas, Luca, Canon, Ember, Tally, Nova, Ward, Mira, Juno, Pip) for solo founders. Pip is open-sourced under MIT at github.com/septimlabs-code/septim-agents-pack-sample.
   with 14 specialized agents that run a startup end-to-end
 
   35 stars · 7 forks · 1 contributors · 4 issues · TypeScript · MIT
