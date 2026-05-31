@@ -598,5 +598,6 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-3
   - Shared markdown consensus file as the cross-cycle relay baton
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
+- [HOL Guard](https://github.com/hashgraph-online/hol-guard): Local-first runtime security for AI coding agents. Intercepts shell commands, secret reads, and MCP changes before execution with configurable protection levels.
 
 
