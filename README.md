@@ -534,7 +534,16 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-3
   - Async-native execution for workflows running minutes to days
   - Cross-agent discovery and RPC without pre-federation
   - Built-in memory fabric with vector search
+    
 
+- [MemClaw](https://github.com/caura-ai/memclaw) - Governed shared memory platform for AI agents and agent fleets
+
+  - Persistent memory across sessions
+  - Cross-agent knowledge sharing
+  - Fine-grained permissions and access controls
+  - Audit trails and memory governance
+  - Multi-tenant memory isolation
+    
 
 - [DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze) - Agentic LLM for autonomous
   data science
