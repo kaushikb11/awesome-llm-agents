@@ -600,3 +600,8 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-3
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+
+
+## Resources
+
+- [vybing.dev](https://vybing.dev) - AI dev tool directory with benchmark-backed rankings; covers coding assistants, LLM APIs, agents, and dev tooling.
