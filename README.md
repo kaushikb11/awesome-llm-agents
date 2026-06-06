@@ -576,6 +576,16 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-3
   - A2A protocol compatible
 
 
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - Trust-scoring MCP server for x402 agents on Solana — free preflight check + signed V5 trust receipt via USDC micropayment
+
+  MCP endpoint: https://intel.twzrd.xyz/mcp · Solana · MIT
+
+  - Agent trust scoring via `resolve_agent`, `score_agent`, `get_trust_receipt`, `verify_trust_receipt`
+  - On-chain trust receipts settled via USDC micropayment (<1s) on Solana
+  - x402 payment protocol support for agent-to-agent micropayments
+  - Registered at registry.modelcontextprotocol.io
+
+
 - [Quorum](https://github.com/Detrol/quorum-cli) - Multi-agent AI discussion system for
   structured debates
 
