@@ -588,6 +588,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-3
   - Auto-discovery of local Ollama models
 
 
+- [AgentLine](https://agentline.cloud/docs) - Telephony infrastructure for building
+  AI agents with phone numbers, voice calling, and SMS capabilities via API
+
+  - Provision phone numbers for AI agents
+  - Make and receive voice calls programmatically
+  - Voice pipeline management
+  - REST API with developer documentation
+
 - [auto-co](https://github.com/NikitaDmitrieff/auto-co-meta) - Autonomous AI company OS
   with 14 specialized agents that run a startup end-to-end
 
