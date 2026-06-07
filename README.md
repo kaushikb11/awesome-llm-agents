@@ -29,6 +29,19 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-0
   - Vector store capabilities
 
 
+- [A3M Router](https://github.com/Das-rebel/a3m-router) - Adaptive multi-model LLM router with parallel ensemble orchestration, Shapley value credit allocation, and game-theoretic risk profiling. Supports 47+ providers with circuit breaker, semantic cache, guardrails, ObsidianVault memory integration, and multimodal routing. Highest robustness score (0.8524) on RouterArena. 19K+ npm downloads.
+
+  10 stars · TypeScript · MIT
+
+  - Parallel ensemble multi-model routing
+  - Shapley value credit allocation with Ethnocentrism and Handicap Principle
+  - Game-theoretic risk profiling (Wolfram's ruliology)
+  - MemoryTree persistent memory + ObsidianVault integration
+  - Multimodal routing (image/video/audio auto-detection)
+  - 39+ Google DeepMind science skills adapter
+  - Circuit breaker, semantic cache, guardrails
+
+
 - [Microsoft AutoGen](https://github.com/microsoft/autogen) - Framework for building
   multi-agent conversational systems
 
