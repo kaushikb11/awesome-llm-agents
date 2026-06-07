@@ -1,0 +1,4 @@
+name: A3M Router
+repo: https://github.com/Das-rebel/a3m-router
+section: Agent Infrastructure
+description: Open-source LLM gateway with parallel multi-model routing across 80+ providers, EXP3 diversity, and persistent episodic memory for agents.
