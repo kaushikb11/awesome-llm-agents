@@ -1,7 +1,7 @@
 # Awesome LLM Agent Frameworks [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A curated list of awesome LLM frameworks and agent development tools. If you have a
-suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-07)
+suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-09)
 
 ## Frameworks
 
@@ -535,6 +535,18 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-0
   - Built-in memory fabric with vector search
 
 
+- [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go) - Go framework for building
+  production agent systems
+
+  1,297 stars · 156 forks · 41 contributors · 60 issues · Go · Apache-2.0
+
+  - Graph-based workflow orchestration
+  - Tool calling, memory, and RAG support
+  - MCP, A2A, and AG-UI protocol integration
+  - Evaluation and observability utilities
+  - Provider-agnostic model integration
+
+
 - [DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze) - Agentic LLM for autonomous
   data science
 
@@ -597,5 +609,4 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-0
   - Shared markdown consensus file as the cross-cycle relay baton
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
-
 
