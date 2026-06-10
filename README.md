@@ -522,6 +522,16 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-0
   - MCP server integration
   - gRPC safety kernel
 
+- [Agent Memory Guard](https://github.com/OWASP/www-project-agent-memory-guard) - Runtime defense
+  against memory poisoning attacks (OWASP ASI06) in AI agent memory stores
+
+  Python · Apache-2.0
+
+  - Detects prompt injection persistence, instruction hijacking, cross-agent contamination
+  - Integrates with Mem0, Zep, ChromaDB, LangChain, CrewAI
+  - OWASP project under Agentic Security Initiatives
+  - pip install agent-memory-guard
+
 
 - [AgentField](https://github.com/Agent-Field/agentfield) - Open-source infrastructure
   for AI backends with cryptographic identity
