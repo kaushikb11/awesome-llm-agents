@@ -599,3 +599,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+
+- [Inalpha](https://github.com/mirror29/inalpha) - Multi-agent framework for quant
+  research with an audit-grade engineering harness
+
+  1 stars · 0 forks · 1 contributors · 9 issues · Python · AGPL-3.0
+
+  - Factor timing: agents rank currently-effective factors by time-series rank IC instead of a fixed indicator set
+  - LLM agents write complete Python strategy code that passes sandboxed audit before backtesting
+  - Strategy evolution under multi-objective fitness
+  - Machine approval on every order (Plan/Exec split + one-time tokens) — the LLM never gets a direct order path
+  - Multi-market data and paper trading: crypto, US/CN/HK equities, global indices, FRED macro
