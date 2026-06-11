@@ -599,3 +599,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+
+
+- [NarraNexus](https://github.com/NetMindAI-Open/NarraNexus) - Ready-to-run AI agent team workspace whose agents remember, collaborate, and use tools from day one.
+
+  35 stars · 10 forks · 5 contributors · 12 issues · Python · CC BY-NC 4.0
+
+  - Memory-aware agents with persistent context across sessions and conversations
+  - Multi-agent collaboration between PM, developer, deployment, research, and custom agents
+  - Composable capabilities including Memory, Chat, RAG, Jobs, Skills, and Social Network
+  - MCP-style tool integrations for external tools and workflows
+  - Cloud, macOS, and local source deployment options
