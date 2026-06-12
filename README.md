@@ -599,3 +599,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Eidentic](https://github.com/eidentic/eidentic) - Open-source TypeScript SDK for AI
+  agents with self-improving memory and production fundamentals built in
+
+  1 stars · 0 forks · 1 contributors · 0 issues · TypeScript · Apache-2.0
+
+  - Temporal knowledge-graph memory: facts carry validity over time; contradictions resolve instead of piling up
+  - Self-editing memory blocks + sleep-time consolidation + passive fact extraction
+  - Durable checkpoint/resume, enforced cost ceilings, rate limits/quotas, evals that gate CI
+  - Ports-and-adapters: swap store (SQLite/libSQL/Postgres), vector backend, or model without touching agent code
+  - MCP (with OAuth) + A2A, React hooks and a Next.js handler; runs on Node, Bun, Deno, and the edge
+
+
