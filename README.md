@@ -380,7 +380,23 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-0
   - Structured responses
   - API generation
   - MCP generation
-  - Tool integration- [Flappy](https://github.com/pleisto/flappy) - Production-ready LLM agent SDK
+  - Tool integration
+- [Markus](https://github.com/markus-global/markus) - Open-source AI Digital Employee
+  Platform for running complete AI teams with autonomous agents
+
+  7,600 stars · 227 forks · 40+ contributors · TypeScript · AGPL-3.0
+
+  - Autonomous agent runtime with built-in tools (shell, files, git, web, MCP)
+  - Multi-agent collaboration with role-based architecture and A2A protocol
+  - Three-layer persistent memory (Tulving: Procedural, Semantic, Episodic)
+  - Proactive heartbeat scheduler — agents work autonomously 24/7
+  - Governance system with progressive trust levels and review gates
+  - Responsive web UI — manage your AI workforce from desktop or mobile
+  - One-command install, zero dependencies (SQLite bundled)
+  - Multi-LLM support with automatic failover
+  - Skills marketplace with community templates
+  - Slack, Feishu, WhatsApp, Telegram bridges
+- [Flappy](https://github.com/pleisto/flappy) - Production-ready LLM agent SDK
 
   307 stars · 23 forks · 7 contributors · 10 issues · Rust · Apache-2.0
 
