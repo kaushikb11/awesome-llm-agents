@@ -220,6 +220,17 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-0
   - Protocol versioning
 
 
+- [CommonGround Kernel](https://github.com/Intelligent-Internet/CommonGround) -
+  PostgreSQL-backed shared work substrate for human-agent and multi-agent systems
+
+  135 stars · 19 forks · 6 contributors · 0 issues · Python · Apache-2.0
+
+  - Durable public work records
+  - Turn lifecycle and handoff facts
+  - Claim fencing and causal lineage
+  - Pull-first recovery across runtimes
+
+
 - [Agents.js](https://github.com/Webgburnet/Agents.js) - JavaScript framework for
   building AI agents
 
@@ -597,5 +608,4 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-0
   - Shared markdown consensus file as the cross-cycle relay baton
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
-
 
