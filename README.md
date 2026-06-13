@@ -571,6 +571,40 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-0
   - Includes reusable HTML artifact skills for diagrams, briefs, and explainers
 
 
+- [AGENTS.md Generator](https://github.com/markoblogo/AGENTS.md_generator) - Safe
+  repo-docs generator for AI coding agents with marker-based updates and diff-first
+  workflows
+
+  4 stars · 0 forks · 1 contributors · 0 issues · Python · MIT
+
+  - Generates and updates `AGENTS.md` and `RUNBOOK.md` without overwriting hand-written docs
+  - Emits machine-readable repo context for CI, MCP, and pack workflows
+  - Conservative auto-detect and fail-safe `*.generated.md` fallback model
+  - Built for repeatable agent setup across repositories
+
+
+- [ID](https://github.com/markoblogo/ID) - Portable protocol for structured human-AI
+  interaction context with explicit freshness, trust, and privacy rules
+
+  0 stars · 0 forks · 1 contributors · 0 issues · Python · MIT
+
+  - Externalizes user profile and context instead of hiding it in tool-local memory
+  - Defines auditable contracts for freshness, privacy, and cross-tool portability
+  - Designed to complement orchestrators and repo-doc systems
+  - Ships validation and compact artifact generation for portable context handoff
+
+
+- [SET](https://github.com/markoblogo/SET) - Thin orchestration layer for agent-facing
+  repo workflows in CI
+
+  0 stars · 0 forks · 1 contributors · 0 issues · Python · MIT
+
+  - Orchestrates repo-doc, proof-loop, and registry-driven workflows
+  - Keeps AI-facing repository artifacts in sync through explicit presets
+  - Bridges repo config, optional ID hooks, and public catalog surfaces
+  - Designed as a control plane rather than another assistant runtime
+
+
 - [Agent OS](https://github.com/imran-siddique/agent-os) - Safety-first kernel for
   governing autonomous AI agents with POSIX-inspired primitives
 
@@ -615,4 +649,3 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-0
   - Shared markdown consensus file as the cross-cycle relay baton
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
-
