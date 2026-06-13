@@ -556,7 +556,22 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-0
   - Flexible evaluation via heuristic metrics and LLM-as-a-judge
   - Works with any LLM provider through LiteLLM
   - Clean abstraction layer for custom optimizers and evaluators
-  - Built-in logging, progress tracking, and reproducible experimentation- [Agent OS](https://github.com/imran-siddique/agent-os) - Safety-first kernel for
+  - Built-in logging, progress tracking, and reproducible experimentation
+
+
+- [ABVX Agent Skills](https://github.com/markoblogo/abvx-agent-skills) - Portable,
+  validation-gated agent skills and Codex workflows packaged as reusable `SKILL.md`
+  skillpacks
+
+  2 stars · 0 forks · 1 contributors · 2 issues · Python · MIT
+
+  - Reviewable skillpacks with explicit triggers, risk notes, and attribution
+  - CLI for listing, installing, validating, and security-auditing skills
+  - Designed for progressive disclosure instead of always-loaded prompt bloat
+  - Includes reusable HTML artifact skills for diagrams, briefs, and explainers
+
+
+- [Agent OS](https://github.com/imran-siddique/agent-os) - Safety-first kernel for
   governing autonomous AI agents with POSIX-inspired primitives
 
   68 stars · 20 forks · 14 contributors · 0 issues · Python · MIT
@@ -564,7 +579,10 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-0
   - Policy engine with violation guarantees
   - Resource quotas and audit logging
   - Integrations with CrewAI, LangChain, AutoGen, Semantic Kernel
-  - MCP server support- [AgentMesh](https://github.com/imran-siddique/agent-mesh) - Secure trust layer for
+  - MCP server support
+
+
+- [AgentMesh](https://github.com/imran-siddique/agent-mesh) - Secure trust layer for
   multi-agent ecosystems with zero-trust governance
 
   18 stars · 6 forks · 4 contributors · 0 issues · Python · MIT
@@ -597,5 +615,4 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-0
   - Shared markdown consensus file as the cross-cycle relay baton
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
-
 
