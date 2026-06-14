@@ -599,3 +599,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+
+
+- [Future AGI](https://github.com/future-agi/future-agi) - Open-source end-to-end agent
+  engineering and optimization platform for shipping self-improving AI agents
+
+  1,144 stars · 250 forks · 35 contributors · 267 issues · Python/TS/Go · Apache-2.0
+
+  - Simulation with persona- and scenario-driven testing
+  - 70+ evaluation metrics and LLM-as-a-judge
+  - OpenTelemetry-native tracing across 50+ frameworks
+  - Real-time guardrails for jailbreak, PII, and prompt injection
+  - Prompt and agent auto-optimization from production failures
