@@ -598,3 +598,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [OpenAcme](https://github.com/sandydasari/openacme) - Local-first AI workforce platform
+  where named agents self-organize through task delegation
+
+  TypeScript · MIT
+
+  - Each agent carries a role, persona, tools, memory, and its own MCP servers
+  - Agents assign tasks to each other via a shared board; scheduler wakes coworkers when dependencies clear
+  - BYO model: Anthropic, OpenAI, Google, OpenRouter, Ollama — or use Claude Pro / ChatGPT Plus subscription
+  - Per-agent browser sessions, per-agent SQLite-backed conversation history
+  - Local-first: sessions, tasks, memories, and OAuth tokens stay on your machine; no telemetry
+
+
