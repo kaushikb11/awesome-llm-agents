@@ -598,3 +598,17 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Argus](https://github.com/tecnosor/argus-framework) - Banking compliance SDLC framework
+  for AI agents. Deploys 5 specialized agents (Guardian, Compliance, Builder, Tester, Reviewer)
+  to enforce GDPR, DORA, MiCA, PSD2, PCI-DSS across the entire software lifecycle.
+  Agent-agnostic: works with OpenCode, Cursor, Windsurf, Cline, Aider.
+
+  0 stars · 0 forks · 1 contributors · 0 issues · Other
+
+  - 5-Eye compliance framework: security, compliance, quality, testing, delivery
+  - Multi-agent orchestration with role-based enforcement
+  - Banking regulation coverage: GDPR, DORA, MiCA, PSD2, PCI-DSS, ISO 20022, SEPA, eIDAS
+  - Agent-agnostic installation via .opencode/ or .cursor/ config folders
+  - Automated compliance validation in CI/CD pipelines
+
+
