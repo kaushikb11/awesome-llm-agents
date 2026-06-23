@@ -597,3 +597,4 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-2
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Inite Brain](https://github.com/inite-ai/inite-brain-service) - Open-source memory layer (bitemporal knowledge graph) for LLM agents. MCP server over Streamable HTTP, 18 tools across read/write/admin scopes. AGPL-3.0.
