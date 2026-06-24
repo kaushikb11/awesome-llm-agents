@@ -597,3 +597,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-2
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Loopy](https://github.com/arjunkshah/loopy) - Free, local-first agent operating system
+  that ships work from a board with a fleet of coding agents
+
+  27 stars · 6 forks · 2 contributors · 2 issues · Python · MIT
+
+  - Orchestrates 43 coding-agent CLIs: Codex, Claude Code, Cursor, Gemini, and more
+  - Complexity-aware routing: big tasks spawn dedicated agents, small tasks append to an existing loop
+  - Named subagents (Ada, Turing, Hopper…) that spawn helpers, with live status in the dashboard
+  - Honest ship receipts: real integration status, evidence packs, and token-preservation metrics
+  - Human-in-the-loop steering by email or Linear; runs on your machine and your keys
+
+
