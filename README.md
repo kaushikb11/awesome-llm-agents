@@ -597,3 +597,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-2
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [h5i](https://github.com/h5i-dev/h5i) - CLI that runs multiple coding agents on
+  the same task in isolated sandboxes and merges the verified result
+
+  431 stars · Rust · Apache-2.0
+
+  - Runs Claude Code and Codex on one task, each in its own git worktree sandbox
+  - Agents peer-review each other's candidate solutions
+  - A neutral verifier replays every candidate and runs the tests itself
+  - Merges the candidate that passes
+  - Run metadata versioned in your repo under refs/h5i/*
+
+
