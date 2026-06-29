@@ -586,6 +586,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-2
 
 
 - [auto-co](https://github.com/NikitaDmitrieff/auto-co-meta) - Autonomous AI company OS
+- [SuperCompress](https://supercompress.vercel.app) - Learned prompt compression that reduces LLM token costs by ~65% using a ~5K-param CPU policy (~60ms latency). Open-source (MIT).
   with 14 specialized agents that run a startup end-to-end
 
   36 stars · 8 forks · 1 contributors · 4 issues · TypeScript · MIT
