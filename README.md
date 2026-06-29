@@ -592,3 +592,11 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-07-2
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Perseus](https://github.com/Perseus-Computing-LLC/perseus) - Local-first live context
+  engine and MCP server for AI coding agents
+
+  - Compile-before-context: pre-resolves git, services, tests, and memory into a ready context briefing at session start
+  - Multi-agent coordination — shared task boards and point-to-point agent messaging
+  - MCP server façade exposing Perseus tools to any MCP client
+  - Assistant-agnostic — works with Claude Code, Cursor, Codex, and other MCP clients
+  - MIT, Python, published on PyPI as perseus-ctx
