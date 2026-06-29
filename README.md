@@ -3,6 +3,15 @@
 A curated list of awesome LLM frameworks and agent development tools. If you have a
 suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-28)
 
+
+## Skill Hub
+
+[Skill Hub](https://skill.442595.xyz/) — **4083+** AI Agent Skills across 22 functional categories.
+
+- 🛠️ **Dev Tools** · 🤖 **Agent Framework** · 🎨 **Design UI** · 📊 **Data AI** · 🔒 **Security** and more
+- 🔍 Platform: Claude Code, Codex, Cursor, OpenCode, Hermes
+- 🌐 Bilingual CN+EN  |  🐙 [GitHub](https://github.com/rdone4425/skill)
+
 ## Frameworks
 
 - [CrewAI](https://github.com/joaomdmoura/crewAI) - Framework for orchestrating
