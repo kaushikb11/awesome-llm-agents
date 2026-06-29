@@ -596,3 +596,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-2
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Hivekeep](https://github.com/MarlBurroW/hivekeep) - Self-hosted platform to run a team
+  of specialized AI agents with persistent memory and a web UI
+
+  25 stars · 2 forks · 1 contributors · TypeScript · MIT
+
+  - Team of specialized agents that collaborate and delegate tasks
+  - Persistent long-term memory shared across agents
+  - Agents build their own tools, mini-apps, and plugins
+  - Reachable over Telegram, Slack, Discord, and Matrix
+  - Single container (Bun + SQLite)
+
+
