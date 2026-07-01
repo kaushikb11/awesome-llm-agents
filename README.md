@@ -595,4 +595,12 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-2
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
+- [5dive](https://github.com/5dive-ai/5dive) - Run a company of AI agents on a server you own, each with its own model, memory, and role
 
+  15 stars · 1 forks · 1 contributors · Shell · MIT
+
+  - Named agents on an org chart with a shared backlog; they hand work to each other and report up autonomously
+  - Multi-runtime: works with Claude Code, Codex, Grok, Antigravity, and opencode
+  - Server-resident and persistent — agents keep working while you sleep, not ephemeral chat sessions
+  - Human escalation over Telegram, only when a decision genuinely needs a person
+  - The same MIT binary that runs the hosted 5dive.ai
