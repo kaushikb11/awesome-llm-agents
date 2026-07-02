@@ -112,6 +112,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-2
   - RAG optimization
 
 
+- [EVA](https://github.com/arturkorb3/eva-evolutional-agent) - Research prototype for
+  gated self-evolving LLM agents
+
+  - Immutable kernel boots a minimal seed release
+  - Changes only via forked candidate releases, never live
+  - Candidates must pass tests and gates before promotion
+  - Promoted releases tracked through a rollback ledger
+
+
 - [Google ADK](https://github.com/google/adk-python) - Agent Development Kit for
   building, evaluating, and deploying AI agents
 
