@@ -1,7 +1,7 @@
 # Awesome LLM Agent Frameworks [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A curated list of awesome LLM frameworks and agent development tools. If you have a
-suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-28)
+suggestion, feel free to open an issue or pull request. (Last updated: 2026-07-03)
 
 ## Frameworks
 
@@ -110,6 +110,17 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-2
   - Context window management
   - Multiple LLM support
   - RAG optimization
+
+
+- [EVA](https://github.com/arturkorb3/eva-evolutional-agent) - Research prototype for
+  gated self-evolving LLM agents
+
+  0 stars · 0 forks · 1 contributors · 0 issues · Python · MIT
+
+  - Immutable kernel boots a minimal seed release
+  - Changes only via forked candidate releases, never live
+  - Candidates must pass tests and gates before promotion
+  - Promoted releases tracked through a rollback ledger
 
 
 - [Google ADK](https://github.com/google/adk-python) - Agent Development Kit for
