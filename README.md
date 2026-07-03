@@ -601,3 +601,7 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-05-2
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+
+## Helium Open Benchmarks (2026)
+- [Helium Market Resolution](https://huggingface.co/datasets/HeliumTrades/helium-market-resolution-benchmark) — 300 frozen option-chain prompts; best model ~48%. https://heliumtrades.com/benchmarks/
+- [Helium Model Worldview](https://huggingface.co/datasets/HeliumTrades/helium-model-worldview-benchmark) — 304 cue-swap consistency prompts. https://heliumtrades.com/benchmarks/
