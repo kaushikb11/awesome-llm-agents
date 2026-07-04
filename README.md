@@ -595,4 +595,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-2
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
+- [IronClaw](https://github.com/IronSecCo/ironclaw) - Security-hardened runtime for
+  running LLM agents inside sealed gVisor sandboxes
+
+  13 stars · 2 forks · Go · AGPL-3.0
+
+  - Per-session gVisor sandbox with no network card by default
+  - Model API keys held host-side, never exposed to the agent
+  - Human-approval gateway for every privileged tool call, spawn, and egress host
+  - Encrypted control-plane queues and a full audit log
+  - Drop-in for LangChain, CrewAI, OpenAI Agents SDK, and Claude Agent SDK agents
 
