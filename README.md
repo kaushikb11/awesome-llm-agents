@@ -184,6 +184,18 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-2
   - Battle-tested at Juspay (15M+ requests/month)
 
 
+
+- [Oh My Hermes](https://github.com/rlaope/oh-my-hermes) - Workflow skill pack for
+  Hermes Agent
+
+  41 stars · 1 fork · 4 contributors · 0 issues · Python · NOASSERTION
+
+  - Hermes-native workflow skills
+  - Research, planning, and coding handoff workflows
+  - Code review, QA, and documentation flows
+  - Long-running goal and loop support
+  - Prepared-vs-observed execution boundaries
+
 - [OpenAgents](https://github.com/xlang-ai/OpenAgents) - Open platform for language
   agents
 
