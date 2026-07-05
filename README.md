@@ -595,3 +595,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-07-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Agon](https://github.com/AutoResearch-Factory/Agon) - Prompt-based autonomous research system
+  for topic-to-idea-to-proposal-to-experiment loops
+
+  7 stars · 0 forks · 1 contributors · 1 issues · Python · NOASSERTION
+
+  - Scientist, coder, and auditor roles
+  - Prompt Economy design with minimal reusable loops
+  - Zero-code orchestration through prompt dispatchers
+  - Public paper and setup instructions
+
+
