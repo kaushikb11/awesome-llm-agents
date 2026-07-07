@@ -552,7 +552,22 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-07-0
   - Flexible evaluation via heuristic metrics and LLM-as-a-judge
   - Works with any LLM provider through LiteLLM
   - Clean abstraction layer for custom optimizers and evaluators
-  - Built-in logging, progress tracking, and reproducible experimentation- [Agent OS](https://github.com/imran-siddique/agent-os) - Safety-first kernel for
+  - Built-in logging, progress tracking, and reproducible experimentation
+
+
+- [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) - Framework-agnostic,
+  local-first memory lifecycle layer for AI agents
+
+  2 stars · 0 forks · 1 contributors · 1 issues · Rust · MIT
+
+  - Explicit recall, remember, evidence, redaction, and deletion workflows
+  - Local `.tree-ring` project storage with SQLite/FTS recall
+  - Auditable memory lifecycle: capture, consolidate, forget, and supersede
+  - Rust CLI and Ratatui TUI for operator-visible memory review
+  - DOX/Revolve adapters and framework-agnostic bridge files
+
+
+- [Agent OS](https://github.com/imran-siddique/agent-os) - Safety-first kernel for
   governing autonomous AI agents with POSIX-inspired primitives
 
   68 stars · 20 forks · 14 contributors · 0 issues · Python · MIT
@@ -593,5 +608,4 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-07-0
   - Shared markdown consensus file as the cross-cycle relay baton
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
-
 
