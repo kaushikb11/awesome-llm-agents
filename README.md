@@ -595,3 +595,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-07-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [wechat-mac-rpa](https://github.com/wq19901103wq/wechat-mac-rpa) - Visual AI agent
+  framework for macOS WeChat automation using multimodal LLM and visual perception
+
+  Python · AppleScript
+
+  - Multimodal visual perception — AI "sees" the WeChat interface to auto-reply messages
+  - No protocol reverse engineering or database access — purely vision-driven
+  - Multi-agent architecture with memory system and digital twin capabilities
+  - Extensible Skill system — smart home control, 3D printing, and custom skills
+  - Vector database for long-term memory and context retrieval
+
