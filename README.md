@@ -531,6 +531,16 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-07-0
   - Built-in memory fabric with vector search
 
 
+- [Pramagent](https://github.com/sriram7737/pramagent) - Trust middleware for
+  LLM agents with deterministic tool policy, human approval gates, and
+  tamper-evident audit traces
+
+  - ToolGuard policy with JSON Schema, tenant/action allow-lists, and side-effect classification
+  - Human-in-the-loop escalation before consequential tool execution
+  - Hash-chained traces for auditability
+  - Adapters for LangGraph, CrewAI, AutoGen, and generic Python tools
+
+
 - [DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze) - Agentic LLM for autonomous
   data science
 
