@@ -594,3 +594,27 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-07-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Aeon](https://github.com/aaronjmars/aeon) - Autonomous agent framework that runs
+  unattended on GitHub Actions
+
+  526 stars · 180 forks · 48 contributors · 1 issues · TypeScript · MIT
+
+  - No approval loops — runs on cron and reactive (event) triggers
+  - 90+ skills authored in readable Markdown, not code
+  - Self-healing: scores its own output (1–5 via Haiku) and auto-patches failing skills
+  - Persistent, version-controlled memory stored in the repo
+  - MCP server + A2A gateway; multi-provider LLM routing with failover
+
+
+- [MiroShark](https://github.com/aaronjmars/MiroShark) - Swarm-intelligence engine that
+  simulates how hundreds of LLM personas react to a scenario
+
+  1,310 stars · 273 forks · 22 contributors · 1 issues · Python · AGPL-3.0
+
+  - Interconnected Twitter, Reddit, and a prediction market, simulated hour-by-hour
+  - Personas grounded in a Neo4j knowledge graph built from your input
+  - Per-agent belief state (stance, confidence, trust) tracked across rounds
+  - Counterfactual timeline branching and per-agent MCP tools
+  - ~$1 per run; OpenAI-compatible (OpenRouter or fully local via Ollama)
+
+
