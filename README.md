@@ -594,3 +594,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-07-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Heym](https://github.com/heymrun/heym) - Source-available visual AI workflow
+  automation platform for building and operating agent systems
+
+  747 stars · 70 forks · 12 contributors · 0 issues · Python · NOASSERTION
+
+  - Visual canvas and natural-language workflow generation
+  - Multi-agent orchestration with parallel execution
+  - Built-in RAG, MCP client and server support, and agent skills
+  - Human-in-the-loop approvals and guardrails
+  - Evals, LLM traces, OpenTelemetry export, and token cost tracking
+  - Self-hosted deployment with Docker
+
