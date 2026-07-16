@@ -594,3 +594,16 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-07-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [text2sql-framework](https://github.com/Text2SqlAgent/text2sql-framework) - Agentic
+  text-to-SQL SDK that explores the schema directly instead of using RAG
+
+  149 stars · 17 forks · 1 contributors · 1 issues · Python · MIT
+
+  - Hands the LLM one `execute_sql` tool instead of pre-computed schema retrieval
+  - Iteratively explores tables, tests queries against real data, and self-corrects
+  - 19/20 zero-shot (20/20 with one scenario file) on an 80-table merged Spider benchmark
+  - JSONL query tracing for debugging agent runs
+  - Domain-knowledge "scenario" files to steer ambiguous questions
+  - Bundled dummy-database demo and a LangChain usage example
+
+
