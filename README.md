@@ -593,3 +593,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-07-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [TraderHarness](https://github.com/HephaestLab/TraderHarness) - Contamination-resistant
+  A-share backtesting environment for LLM trading agents
+
+  4 stars · 0 forks · 1 contributors · 0 issues · Python · Apache-2.0
+
+  - Strict point-in-time masking at every agent-facing data outlet
+  - Deterministic entity/date anonymization (anti look-ahead and memorization leakage)
+  - Progressive 5-minute visibility with a single order-matching path
+  - Full-fidelity trajectories, fingerprinted deterministic replay, and SFT export
+
+
