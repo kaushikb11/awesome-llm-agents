@@ -593,3 +593,13 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-07-1
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Agentlas OS](https://github.com/agentlas-ai/Agentlas-OS) - Local-first Agent Operation
+  Environment (AOE) for building, borrowing, and orchestrating specialist agents and teams
+
+  970 stars · 34 forks · 3 contributors · 1 issues · Python · Apache-2.0
+
+  - Model-agnostic execution across Claude Code, Codex, Gemini CLI, Cursor, and local models
+  - Portable single-agent and team packages with explicit roles and handoffs
+  - Local routing, MCP and A2A support, memory, permissions, and verification gates
+  - Public Hub borrowing plus owner-scoped private package storage
+  - Desktop and command-line workflows
