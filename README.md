@@ -4,6 +4,7 @@ A curated list of awesome LLM frameworks and agent development tools. If you hav
 suggestion, feel free to open an issue or pull request. (Last updated: 2026-07-26)
 
 ## Frameworks
+- [Bride Cognitive Engine](https://tools.gracestack.se/bride-api.html) - Cognitive API with anomaly detection, hypothesis generation, memory, and dreams. HDC + Active Inference. 499 SEK/month.
 
 - [CrewAI](https://github.com/joaomdmoura/crewAI) - Framework for orchestrating
   role-playing AI agents
