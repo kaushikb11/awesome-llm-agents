@@ -590,3 +590,13 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-08-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Ouroboros](https://github.com/razzant/ouroboros) - General-purpose AI agent runtime
+  with durable identity, memory, and reviewed self-modification
+
+  1,072 stars · 586 forks · 26 contributors · 91 issues · Python · MIT
+
+  - Persistent identity and memory across tasks and restarts
+  - Self-modification guarded by independent triad and scope review
+  - Multi-agent coordination with durable task and review state
+  - Native desktop and headless web interfaces
+  - Supports configured model APIs or local GGUF inference
