@@ -591,3 +591,12 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-08-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Aeon](https://github.com/aeonfun/aeon) - Autonomous agent framework that runs unattended on GitHub Actions with self-healing skills
+
+  589 stars · 214 forks · TypeScript · Shell · MIT
+
+  - Runs unattended on GitHub Actions (cron schedules or reactive repo triggers)
+  - Dispatches each Markdown skill to one of six coding-agent harnesses (Claude Code, Codex, Grok, Pi, Vibe, Kimi) behind one contract
+  - Output quality scoring (1-5 via Haiku) with a self-healing loop that rewrites underperforming skills
+  - Git-persisted memory and an MCP server exposing every skill as a tool
+
