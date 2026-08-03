@@ -590,4 +590,13 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-08-0
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
+- [Octochains](https://github.com/ahmadvh/octochains) - Parallel isolated multi-agent reasoning framework with centralized aggregator verification
+
+    362 stars · 152 forks · 4 contributors · 2 issues · Python · BSL-1.1
+
+  * Parallel Isolated Threads, zero peer awareness between expert agents
+  * Chief Justice aggregator layer, Synthesizer and ConflictChecker for consensus and conflict detection
+  * Bring-your-own-LLM — one core dependency (Pydantic), no vendor SDK lock-in
+  * 9 official presets across Startup Due-Diligence, Compliance, and Security domains
+  * Markdown-based Skills system for portable, versioned domain expertise
 
