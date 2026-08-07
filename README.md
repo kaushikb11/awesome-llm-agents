@@ -590,4 +590,6 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-08-0
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
+## Directories
 
+- [OpenRuna](https://www.openruna.com/best/ai-agent-templates) — Graph directory of AI agents, prompts, tools, skills, and benchmarks with MCP search.
