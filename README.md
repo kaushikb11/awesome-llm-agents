@@ -591,3 +591,6 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-08-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+## Marketing & SEO
+
+- [awesome-aeo-seo-agents](https://github.com/discoveredlabs/awesome-aeo-seo-agents) - Curated list of agentic GEO/AEO frameworks, MCP servers for SEO data, agent skill packages, and autonomous content optimisation pipelines for AI search.
