@@ -591,3 +591,12 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-08-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [protoAgent](https://github.com/protoLabsAI/protoAgent) - A2A-native agent
+  template built on LangGraph
+
+  - Native Agent2Agent protocol (JSON-RPC, SSE streaming, task lifecycle) plus an OpenAI-compatible /v1 API
+  - GitHub template repo — fork and own the core instead of inheriting a kitchen-sink framework
+  - Extensible via drop-in, git-URL-installable plugins (tools, skills, subagents, routes, console views)
+  - Ships a React operator console, built-in eval harness, cost/observability tracing, and a scheduler
+
+
