@@ -591,3 +591,13 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-08-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+
+- [runlet](https://github.com/DMIAOCHEN/runlet) - A tiny observable runtime for Python agents — provider-neutral, async, streaming, with hooks and context budgeting. Zero required deps.
+
+  0 stars · 0 forks · 1 contributors · 0 issues · Python · MIT
+
+  - Provider-neutral LLM integration
+  - Async and streaming support
+  - Observable hooks system
+  - Context budget management
+  - Zero required dependencies
