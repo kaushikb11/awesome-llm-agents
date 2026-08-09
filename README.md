@@ -590,3 +590,16 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-08-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+
+
+- [SARA](https://github.com/Alessandro114/sara) - Open-source WhatsApp AI agent with
+  vertical industry specialization and autonomous tool execution
+
+  Stars · Forks · Contributors · Issues · TypeScript · AGPL-3.0
+
+  - 30+ function-calling tools with per-vertical whitelists (20 industries)
+  - Multi-provider LLM: Groq, Cerebras, SambaNova, Mistral (free-tier first)
+  - Autonomy gate with risk classifier (low/medium/high actions)
+  - Proactive agent behaviors (follow-ups, reminders, dream cycle)
+  - WAHA bridge for production WhatsApp connectivity
+  - Cross-agent event bus for multi-vertical coordination
