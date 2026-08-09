@@ -405,7 +405,20 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-08-0
   - Complex action execution
   - Scenario-based testing
   - Voice interaction support
-  - Vendor-agnostic architecture- [Floom](https://github.com/FloomAI/Floom) - AI gateway and agent/pipeline marketplace
+  - Vendor-agnostic architecture
+
+
+- [Unified AI System](https://github.com/happy520ai/unified-ai-system) - Self-hosted AI gateway for MCP, coding agents, and governed workflows
+
+  3 stars · 1 fork · 4 contributors · 2 issues · TypeScript · Apache-2.0
+
+  - Natural-language prompt enhancement with the original request preserved
+  - Governed MCP tools for health, readiness, chat, knowledge, workflows, and workforce surfaces
+  - Provider-free Docker and CLI verification with real providers explicitly opt-in
+  - HTTP, SDK, Codex, Cursor, and Cline integration paths
+
+
+- [Floom](https://github.com/FloomAI/Floom) - AI gateway and agent/pipeline marketplace
 
   46 stars · 4 forks · 2 contributors · 0 issues · C# · MIT
 
