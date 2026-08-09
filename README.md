@@ -590,3 +590,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-08-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Declarative Agents](https://github.com/Nokia-Bell-Labs/declarative-agents) - Nokia Bell
+  Labs framework where an agent is a YAML profile interpreted by one Go runtime
+
+  4 stars · 1 forks · 2 contributors · 7 issues · Go · BSD-3-Clause
+
+  - Agent behavior lives in YAML: tools, states, transitions, signals, budgets
+  - One runtime binary interprets any workflow; a new agent needs no new binary
+  - State-machine execution with budget enforcement and lifecycle checkpointing
+  - Packaged applications: chatbot mesh, coding agent (planner → executor → critic)
+  - Companion IEEE white paper: Design Patterns for Declarative Agents (eleven patterns)
+
+
