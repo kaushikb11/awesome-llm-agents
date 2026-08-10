@@ -1,7 +1,7 @@
 # Awesome LLM Agent Frameworks [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A curated list of awesome LLM frameworks and agent development tools. If you have a
-suggestion, feel free to open an issue or pull request. (Last updated: 2026-08-09)
+suggestion, feel free to open an issue or pull request. (Last updated: 2026-08-10)
 
 ## Frameworks
 
@@ -63,6 +63,18 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-08-0
   - Customizable RAG workflows
   - Structured data handling
   - Query optimization
+
+
+- [Open Index](https://github.com/DrDroidLab/open-index) - Structured context layer
+  for building domain-specialized, context-aware AI agents
+
+  16 stars · 1 forks · 5 contributors · 1 issues · Python · MIT
+
+  - Searchable context graphs with typed entities and relationships
+  - Schema-validated agent read and write operations through MCP
+  - SQLite and OpenSearch storage backends
+  - Scheduled ingestion from MCP connectors
+  - CLI, Streamlit explorer, and remote HTTP server
 
 
 - [Microsoft Semantic Kernel](https://github.com/microsoft/semantic-kernel) -
@@ -588,5 +600,4 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-08-0
   - Shared markdown consensus file as the cross-cycle relay baton
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
-
 
