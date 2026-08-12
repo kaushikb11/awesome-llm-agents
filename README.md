@@ -590,3 +590,14 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-08-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Omni-Rewriter](https://github.com/WayneJin0918/Omni-Rewriter) - Agentic prompt-expansion
+  harness for image and video generation (not a general AutoGPT-style agent)
+
+  54 stars · 1 forks · 1 contributors · 0 issues · Python · Apache-2.0
+
+  - Bounded agent loop: analyze → draft → deterministic validate → repair → dialect render
+  - Typed PE profiles (H3 / Seedance / Seedream / Qwen-Image); expand ≠ generate
+  - OpenAI-compatible Writer contract; optional generation adapters are explicit and separate
+  - CLI, HTTP API, and a reusable GitHub Action to lint PE JSON envelopes
+
+
