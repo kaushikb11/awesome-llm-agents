@@ -590,3 +590,11 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-08-0
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
 
+- [Atomic Agent](https://github.com/AtomicBot-ai/atomic-agent) - Local-first CLI and TUI
+  coding agent that runs open-weight models entirely on your machine
+
+  - Runs open-weight models locally via a llama.cpp fork, no account or API key required
+  - 56 built-in tools spanning browser, filesystem, git, memory, and vision
+  - Model Context Protocol (MCP) support for external integrations
+  - Five-layer local memory system
+  - Cross-platform support for macOS, Linux, and Windows
