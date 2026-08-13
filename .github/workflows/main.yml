@@ -4,9 +4,32 @@ on:
   schedule:
     - cron: '0 0 * * 0' # Runs every week on Sunday at midnight
   workflow_dispatch: # Allows manual trigger
+  pull_request: # Validate contributed entries before review
+    paths:
+      - 'data/**'
+      - 'update_metrics.py'
+      - 'tests/**'
 
 jobs:
+  # Runs on every pull request. Catches malformed entries, unknown sections,
+  # over-length descriptions and duplicate repos without touching the API.
+  validate:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v5
+      with:
+        python-version: 3.x
+    - name: Install dependencies
+      run: pip install -r requirements.txt
+    - name: Validate entries
+      run: python update_metrics.py --check
+    - name: Run tests
+      run: python tests/test_update_metrics.py
+
   update-metrics:
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
 
     steps:
