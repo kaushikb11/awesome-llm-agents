@@ -673,3 +673,9 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-08-0
   - Shared markdown consensus file as the cross-cycle relay baton
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
+
+
+## License
+
+[CC0 1.0 Universal](LICENSE) — to the extent possible under law, the contributors
+have waived all copyright and related rights to this work.

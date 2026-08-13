@@ -136,6 +136,31 @@ def test_live_entries_get_refreshed_metrics(tmp_path):
     assert out.count("999 stars") == 2, "live entries were not refreshed"
 
 
+def test_trailing_section_survives(tmp_path):
+    """Anything after the last entry (e.g. ## License) rides along inside the
+    final chunk. It must stay a top-level heading, not get folded into the
+    last framework's bullets."""
+    readme = os.path.join(str(tmp_path), "README.md")
+    with open(readme, "w") as f:
+        f.write(FIXTURE + "\n\n## License\n\n[CC0 1.0](LICENSE)\n")
+
+    original = update_metrics.get_repo_metrics
+    update_metrics.get_repo_metrics = _fake_lookup
+    try:
+        args = argparse.Namespace(url=None, name=None)
+        outs = []
+        for _ in range(3):
+            update_metrics.update_readme_with_metrics(readme, args)
+            with open(readme) as f:
+                outs.append(f.read())
+    finally:
+        update_metrics.get_repo_metrics = original
+
+    assert outs[0] == outs[1] == outs[2], "trailing section not stable"
+    assert re.search(r"^## License", outs[-1], re.M), "License heading was mangled"
+    assert "[CC0 1.0](LICENSE)" in outs[-1]
+
+
 if __name__ == "__main__":
     import shutil
     import tempfile
