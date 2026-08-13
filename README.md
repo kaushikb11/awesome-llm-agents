@@ -674,6 +674,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-08-0
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
+- [ENLIL](https://github.com/conchaestradamiguelangel-droid/enlil) - Open-source multi-agent LLM council where 9 AI models deliberate in parallel, every decision signed with post-quantum cryptography.
+
+  2 stars · 4 forks · 1 contributors · 0 issues · Python · GPL-3.0
+
+  - 9 AI models deliberate in parallel on every query, returning consensus + dissenting views
+  - Every decision signed with ML-DSA-87 (NIST FIPS 204) — first LLM framework with PQC-signed outputs
+  - BYOK: works with any OpenRouter-compatible model (GPT-4o, Claude, Llama, Gemini, local)
+  - Self-hosted, zero vendor lock-in, GPL v3
+  - Live dashboard: https://enlil-council.com/dashboard
 
 ## License
 
