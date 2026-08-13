@@ -1,0 +1,4 @@
+name: AutoGen
+repo: https://github.com/microsoft/autogen
+section: Multi-Agent Orchestration
+description: Conversational multi-agent systems

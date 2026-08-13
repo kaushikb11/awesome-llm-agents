@@ -1,0 +1,4 @@
+name: auto-co
+repo: https://github.com/NikitaDmitrieff/auto-co-meta
+section: Multi-Agent Orchestration
+description: 14 agents run a company in a continuous loop

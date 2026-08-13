@@ -1,0 +1,4 @@
+name: hcom
+repo: https://github.com/aannoo/hcom
+section: Multi-Agent Orchestration
+description: Agents message and spawn each other in terminals

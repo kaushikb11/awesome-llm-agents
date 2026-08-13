@@ -1,0 +1,4 @@
+name: LangChain
+repo: https://github.com/langchain-ai/langchain
+section: Core Frameworks
+description: Compose LLM apps from modular pieces

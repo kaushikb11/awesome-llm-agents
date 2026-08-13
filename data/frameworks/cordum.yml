@@ -1,0 +1,4 @@
+name: Cordum
+repo: https://github.com/cordum-io/cordum
+section: Safety, Security & Evaluation
+description: Evaluates policy before an agent action dispatches

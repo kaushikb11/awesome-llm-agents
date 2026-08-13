@@ -1,0 +1,4 @@
+name: Mem0
+repo: https://github.com/mem0ai/mem0
+section: Agent Infrastructure
+description: Memory layer that persists across agent sessions

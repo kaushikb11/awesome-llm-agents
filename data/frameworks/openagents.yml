@@ -1,0 +1,4 @@
+name: OpenAgents
+repo: https://github.com/openagents-org/openagents
+section: Multi-Agent Orchestration
+description: Agent networks over WebSocket, gRPC, MCP and A2A

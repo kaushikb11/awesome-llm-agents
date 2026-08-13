@@ -1,0 +1,4 @@
+name: MetaGPT
+repo: https://github.com/FoundationAgents/MetaGPT
+section: Multi-Agent Orchestration
+description: Agents role-play a software company

@@ -1,0 +1,4 @@
+name: GenoMAS
+repo: https://github.com/Liu-Hy/GenoMAS
+section: Domain-Specific Agents
+description: Multi-agent pipeline for genomics data analysis

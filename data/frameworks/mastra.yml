@@ -1,0 +1,4 @@
+name: Mastra
+repo: https://github.com/mastra-ai/mastra
+section: Core Frameworks
+description: TypeScript agents with RAG and observability

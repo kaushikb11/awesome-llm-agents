@@ -1,0 +1,4 @@
+name: Haystack
+repo: https://github.com/deepset-ai/haystack
+section: Retrieval & Data
+description: Composable pipelines for search and RAG

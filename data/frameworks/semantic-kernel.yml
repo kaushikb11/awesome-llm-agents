@@ -1,0 +1,4 @@
+name: Semantic Kernel
+repo: https://github.com/microsoft/semantic-kernel
+section: Core Frameworks
+description: Plugin-based AI integration for .NET and Python

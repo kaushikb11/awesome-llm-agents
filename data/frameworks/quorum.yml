@@ -1,0 +1,4 @@
+name: Quorum
+repo: https://github.com/Detrol/quorum-cli
+section: Multi-Agent Orchestration
+description: Structured multi-agent debate in the terminal

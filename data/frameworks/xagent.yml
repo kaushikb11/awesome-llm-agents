@@ -1,0 +1,4 @@
+name: XAgent
+repo: https://github.com/OpenBMB/XAgent
+section: Autonomous Agents (2023 wave)
+description: Autonomous agent with planning and tool learning

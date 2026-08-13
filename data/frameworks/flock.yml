@@ -1,0 +1,4 @@
+name: Flock
+repo: https://github.com/whiteducksoftware/flock
+section: Multi-Agent Orchestration
+description: Declarative agents via blackboard architecture

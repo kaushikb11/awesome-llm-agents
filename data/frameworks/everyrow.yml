@@ -1,0 +1,4 @@
+name: everyrow
+repo: https://github.com/futuresearch/futuresearch-python
+section: Domain-Specific Agents
+description: Run LLM agents over pandas DataFrames

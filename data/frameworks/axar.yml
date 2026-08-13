@@ -1,0 +1,4 @@
+name: Axar
+repo: https://github.com/axar-ai/axar
+section: Core Frameworks
+description: Minimal TypeScript agents with Zod validation

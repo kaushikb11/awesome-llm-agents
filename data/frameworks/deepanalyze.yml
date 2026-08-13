@@ -1,0 +1,4 @@
+name: DeepAnalyze
+repo: https://github.com/ruc-datalab/DeepAnalyze
+section: Domain-Specific Agents
+description: Autonomous data science without fixed workflows

@@ -1,0 +1,4 @@
+name: CleverBee
+repo: https://github.com/SureScaleAI/cleverbee
+section: Domain-Specific Agents
+description: Deep research agent that browses with Playwright

@@ -1,0 +1,4 @@
+name: Agent Protocol
+repo: https://github.com/agi-inc/agent-protocol
+section: Inactive
+description: Standard interface for agent interoperability

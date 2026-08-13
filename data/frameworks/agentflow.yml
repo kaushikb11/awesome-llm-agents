@@ -1,0 +1,4 @@
+name: AgentFlow
+repo: https://github.com/lupantech/AgentFlow
+section: Research & Experimental
+description: Trainable multi-agent system using Flow-GRPO

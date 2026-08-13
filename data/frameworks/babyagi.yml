@@ -1,0 +1,4 @@
+name: BabyAGI
+repo: https://github.com/yoheinakajima/babyagi
+section: Autonomous Agents (2023 wave)
+description: Minimal task-driven autonomous agent loop

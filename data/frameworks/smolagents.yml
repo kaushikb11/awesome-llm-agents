@@ -1,0 +1,4 @@
+name: Smolagents
+repo: https://github.com/huggingface/smolagents
+section: Core Frameworks
+description: Minimal agents that write code to act

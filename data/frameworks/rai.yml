@@ -1,0 +1,4 @@
+name: RAI
+repo: https://github.com/RobotecAI/rai
+section: Domain-Specific Agents
+description: Agent framework for robotics, built on ROS 2

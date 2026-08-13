@@ -1,0 +1,4 @@
+name: CrewAI
+repo: https://github.com/crewAIInc/crewAI
+section: Multi-Agent Orchestration
+description: Orchestrate role-playing agent crews

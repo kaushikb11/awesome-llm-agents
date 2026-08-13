@@ -1,0 +1,4 @@
+name: agent-opt
+repo: https://github.com/future-agi/agent-opt
+section: Research & Experimental
+description: Optimizes prompts and agent workflows

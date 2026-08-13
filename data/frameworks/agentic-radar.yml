@@ -1,0 +1,4 @@
+name: Agentic Radar
+repo: https://github.com/splx-ai/agentic-radar
+section: Safety, Security & Evaluation
+description: Scans agent workflows for CVE and OWASP issues

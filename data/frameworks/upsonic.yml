@@ -1,0 +1,4 @@
+name: Upsonic
+repo: https://github.com/upsonic/upsonic
+section: Core Frameworks
+description: Agents with MCP and isolated execution

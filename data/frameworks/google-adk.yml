@@ -1,0 +1,4 @@
+name: Google ADK
+repo: https://github.com/google/adk-python
+section: Core Frameworks
+description: Code-first agents that deploy to Vertex AI

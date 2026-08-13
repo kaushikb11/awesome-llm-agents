@@ -1,0 +1,4 @@
+name: Tambo
+repo: https://github.com/tambo-ai/tambo
+section: Core Frameworks
+description: React components rendered by AI at runtime

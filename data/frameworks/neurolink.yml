@@ -1,0 +1,4 @@
+name: Neurolink
+repo: https://github.com/juspay/neurolink
+section: Core Frameworks
+description: One interface across 12+ LLM providers

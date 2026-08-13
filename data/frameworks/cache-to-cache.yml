@@ -1,0 +1,4 @@
+name: Cache-to-Cache
+repo: https://github.com/thu-nics/C2C
+section: Research & Experimental
+description: Agents exchange meaning directly via KV-cache

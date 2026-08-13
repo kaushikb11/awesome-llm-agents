@@ -1,0 +1,4 @@
+name: LlamaIndex
+repo: https://github.com/run-llama/llama_index
+section: Retrieval & Data
+description: Connects LLMs to 160+ data sources

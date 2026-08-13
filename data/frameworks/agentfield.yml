@@ -1,0 +1,4 @@
+name: AgentField
+repo: https://github.com/Agent-Field/agentfield
+section: Agent Infrastructure
+description: Agent identity and RPC using W3C DIDs

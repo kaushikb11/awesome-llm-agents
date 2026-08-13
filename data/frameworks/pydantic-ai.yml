@@ -1,0 +1,4 @@
+name: Pydantic AI
+repo: https://github.com/pydantic/pydantic-ai
+section: Core Frameworks
+description: Type-safe agents on Pydantic with structured output
