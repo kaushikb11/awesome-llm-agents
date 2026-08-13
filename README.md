@@ -603,7 +603,16 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-08-0
   - Async-native execution for workflows running minutes to days
   - Cross-agent discovery and RPC without pre-federation
   - Built-in memory fabric with vector search
+    
 
+- [MemClaw](https://github.com/caura-ai/memclaw) - Governed shared memory platform for AI agents and agent fleets
+
+  - Persistent memory across sessions
+  - Cross-agent knowledge sharing
+  - Fine-grained permissions and access controls
+  - Audit trails and memory governance
+  - Multi-tenant memory isolation
+    
 
 - [DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze) - Agentic LLM for autonomous
   data science
@@ -661,6 +670,15 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-08-0
   - Supports Claude, GPT, Gemini, Grok, and local Ollama models
   - Terminal UI with real-time streaming
   - Auto-discovery of local Ollama models
+
+
+- [Statewave](https://github.com/smaramwbc/statewave) - Deterministic memory runtime for AI agents
+
+  - Compiles events into structured memories
+  - Deterministic context assembly
+  - Provenance-linked memory retrieval
+  - Shared memory for long-running agent workflows
+  - Self-hosted on PostgreSQL + pgvector
 
 
 - [auto-co](https://github.com/NikitaDmitrieff/auto-co-meta) - Autonomous AI company OS
