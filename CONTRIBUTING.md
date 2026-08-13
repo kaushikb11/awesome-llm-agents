@@ -53,10 +53,13 @@ An entry is accepted when all of the following hold. These are checked in CI.
 3. **Pushed within the last 12 months.** Entries that go 12 months without a push
    are retired, so new entries are held to the same standard.
 4. **At least 25 stars**, or published by a recognized organization or research lab.
-5. **Has a license.** A repository with no license is not usable by the people
-   reading this list.
-6. **Not a duplicate.** Including renames and redirects of a project already listed.
-7. **Description is 60 characters or fewer.**
+5. **Not a duplicate.** Including renames and redirects of a project already listed.
+6. **Description is 60 characters or fewer.**
+
+A missing license is **not** grounds for rejection. The license is shown in the table
+so readers can judge for themselves, and an unrecognised one is not the same as an
+absent one — GitHub reports any license it cannot match to an SPDX identifier as
+`NOASSERTION`, which appears as "Other".
 
 ## Writing the description
 
