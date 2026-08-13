@@ -86,11 +86,14 @@ def update_readme_with_metrics(readme_path, args):
 
     header = parts[0]
     frameworks_section = parts[1]
-    new_frameworks_section = ""
 
-    framework_entries = re.split(r"\n(?=- \[)", frameworks_section)
+    # The first chunk is whatever sits between the heading and the first entry;
+    # every chunk after it is one framework.
+    chunks = re.split(r"\n(?=- \[)", frameworks_section)
+    preamble = chunks[0].strip()
+    entries = []
 
-    for entry in framework_entries:
+    for entry in chunks[1:]:
         match = re.search(
             (
                 r"- \[([^\]]+)\]\((https://github\.com/"
@@ -114,19 +117,29 @@ def update_readme_with_metrics(readme_path, args):
                 else:
                     rest_of_entry = ""
 
-                entry = f"{first_line}\n\n  {rest_of_entry.strip()}\n\n\n"
+                entry = f"{first_line}\n\n  {rest_of_entry.strip()}"
 
-        new_frameworks_section += entry
+        # Entries whose lookup failed are kept exactly as they were. Trailing
+        # whitespace is stripped so that the join below is the only thing that
+        # writes separators: an entry that loses its blank line gets swallowed
+        # by its neighbour on the next run's split, and the damage compounds.
+        entries.append(entry.rstrip())
 
     if args.url and args.name:
-        first_line = (
+        metrics = get_repo_metrics(args.url)
+        if not metrics:
+            raise Exception(f"Could not fetch metrics for {args.url}")
+        entries.append(
             f"- [{args.name}]({args.url}) - Description\n\n  "
-            f"{format_metrics_badges(metrics)}"
+            f"{format_metrics_badges(metrics)}\n\n  - Add description here."
         )
-        new_frameworks_section += f"{first_line}\n\n  - Add description here."
+
+    new_frameworks_section = "\n\n\n".join(entries)
+    if preamble:
+        new_frameworks_section = f"{preamble}\n\n{new_frameworks_section}"
 
     with open(readme_path, "w") as f:
-        f.write(header + "## Frameworks\n" + new_frameworks_section)
+        f.write(f"{header}## Frameworks\n\n{new_frameworks_section}\n")
 
 
 def process_readme(readme_path, args):
