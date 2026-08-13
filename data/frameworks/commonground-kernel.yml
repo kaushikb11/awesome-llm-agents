@@ -1,0 +1,4 @@
+name: CommonGround Kernel
+repo: https://github.com/Intelligent-Internet/CommonGround
+section: Multi-Agent Orchestration
+description: Postgres-backed shared substrate for agent teams

@@ -1,0 +1,4 @@
+name: KodeAgent
+repo: https://github.com/barun-saha/kodeagent
+section: Core Frameworks
+description: Minimal agent engine, deliberately small

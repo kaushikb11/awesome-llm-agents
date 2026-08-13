@@ -1,0 +1,4 @@
+name: Perseus
+repo: https://github.com/Perseus-Computing-LLC/perseus
+section: Memory & Context
+description: Resolves verified workspace state before a call

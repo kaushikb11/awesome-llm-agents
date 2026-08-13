@@ -1,0 +1,4 @@
+name: OMEGA
+repo: https://github.com/omega-memory/omega-memory
+section: Memory & Context
+description: Persistent memory for coding agents over MCP

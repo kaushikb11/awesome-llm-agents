@@ -1,0 +1,4 @@
+name: Greywall
+repo: https://github.com/GreyhavenHQ/greywall
+section: Safety, Security & Evaluation
+description: Deny-by-default sandbox for coding agents

@@ -1,0 +1,4 @@
+name: ClawFleet
+repo: https://github.com/clawfleet/ClawFleet
+section: CLI Agent Harnesses
+description: Deploys isolated agent instances via Docker

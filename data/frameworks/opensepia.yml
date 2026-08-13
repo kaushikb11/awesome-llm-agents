@@ -1,0 +1,4 @@
+name: OpenSepia
+repo: https://github.com/CelaenoIndustry/OpenSepia
+section: CLI Agent Harnesses
+description: Nine Claude agents running as an agile team

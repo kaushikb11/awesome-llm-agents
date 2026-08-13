@@ -1,0 +1,4 @@
+name: Bernstein
+repo: https://github.com/sipyourdrink-ltd/bernstein
+section: CLI Agent Harnesses
+description: Deterministic orchestrator for 40+ CLI agents

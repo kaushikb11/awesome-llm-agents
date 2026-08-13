@@ -1,0 +1,4 @@
+name: OpenPaw
+repo: https://github.com/daxaur/openpaw
+section: CLI Agent Harnesses
+description: Turns Claude Code into an assistant with 38 skills

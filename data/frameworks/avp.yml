@@ -1,0 +1,4 @@
+name: AVP
+repo: https://github.com/VectorArc/avp-python
+section: Research & Experimental
+description: Transfers KV-cache between agents, not text

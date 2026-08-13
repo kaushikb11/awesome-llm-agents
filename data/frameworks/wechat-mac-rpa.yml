@@ -1,0 +1,4 @@
+name: wechat-mac-rpa
+repo: https://github.com/wq19901103wq/wechat-mac-rpa
+section: Domain-Specific Agents
+description: Visual agent automating WeChat on macOS

@@ -1,0 +1,4 @@
+name: Kitaru
+repo: https://github.com/zenml-io/kitaru
+section: Safety, Security & Evaluation
+description: Record, replay and improve agents in production

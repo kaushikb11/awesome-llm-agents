@@ -1,0 +1,4 @@
+name: APort Guardrails
+repo: https://github.com/aporthq/aport-agent-guardrails
+section: Safety, Security & Evaluation
+description: Pre-action authorization policy for agent calls

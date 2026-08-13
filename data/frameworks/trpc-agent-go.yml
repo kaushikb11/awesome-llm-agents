@@ -1,0 +1,4 @@
+name: trpc-agent-go
+repo: https://github.com/trpc-group/trpc-agent-go
+section: Core Frameworks
+description: Go framework for agents with graph workflows

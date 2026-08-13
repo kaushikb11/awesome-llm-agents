@@ -1,0 +1,4 @@
+name: Atomic Agent
+repo: https://github.com/AtomicBot-ai/atomic-agent
+section: CLI Agent Harnesses
+description: Local-first CLI agent for open-weight models

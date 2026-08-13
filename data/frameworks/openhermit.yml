@@ -1,0 +1,4 @@
+name: OpenHermit
+repo: https://github.com/HCF-STUDIOS/openhermit
+section: CLI Agent Harnesses
+description: Deploys agent fleets as long-running services

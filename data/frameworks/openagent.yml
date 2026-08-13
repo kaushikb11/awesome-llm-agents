@@ -1,0 +1,4 @@
+name: OpenAgent
+repo: https://github.com/the-open-agent/openagent
+section: Core Frameworks
+description: Personal assistant built on LLM, RAG and agent loops

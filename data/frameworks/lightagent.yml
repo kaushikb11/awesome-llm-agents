@@ -1,0 +1,4 @@
+name: LightAgent
+repo: https://github.com/wanxingai/LightAgent
+section: Core Frameworks
+description: Lightweight Python agents with tools and memory

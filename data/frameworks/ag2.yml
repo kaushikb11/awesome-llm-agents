@@ -1,0 +1,4 @@
+name: AG2
+repo: https://github.com/ag2ai/ag2
+section: Core Frameworks
+description: Community fork of AutoGen, now an AgentOS

@@ -1,0 +1,4 @@
+name: Octochains
+repo: https://github.com/ahmadvh/octochains
+section: Core Frameworks
+description: Parallel isolated reasoning with an aggregator

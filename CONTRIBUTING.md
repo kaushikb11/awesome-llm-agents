@@ -19,8 +19,10 @@ Every entry belongs to exactly one section:
 | --- | --- |
 | Core Frameworks | General-purpose libraries for building agents |
 | Multi-Agent Orchestration | Coordinating several agents: roles, handoffs, topologies |
+| CLI Agent Harnesses | Running, sandboxing or coordinating CLI coding agents |
 | Low-Code & Visual Builders | Build agents primarily through a UI |
 | Retrieval & Data | RAG stacks and data frameworks agents are built on |
+| Memory & Context | Memory layers, knowledge graphs, context engines |
 | Agent Infrastructure | Runtimes, gateways, identity, messaging, deployment |
 | Safety, Security & Evaluation | Policy enforcement, scanning, evals, observability |
 | Domain-Specific Agents | Agents built for one field: robotics, science, data, ops |

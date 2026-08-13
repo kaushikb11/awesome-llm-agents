@@ -1,0 +1,4 @@
+name: 5dive
+repo: https://github.com/5dive-ai/5dive
+section: CLI Agent Harnesses
+description: Run a company of named agents on your own server

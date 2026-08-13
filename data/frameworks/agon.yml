@@ -1,0 +1,4 @@
+name: Agon
+repo: https://github.com/AutoResearch-Factory/Agon
+section: CLI Agent Harnesses
+description: Claude Code plugin for autonomous research loops

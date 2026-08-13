@@ -1,0 +1,4 @@
+name: openma
+repo: https://github.com/openma-ai/open-managed-agents
+section: Agent Infrastructure
+description: Self-hosted Managed Agents API implementation

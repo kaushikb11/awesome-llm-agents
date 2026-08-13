@@ -1,0 +1,4 @@
+name: OpenAcme
+repo: https://github.com/sandydasari/openacme
+section: Multi-Agent Orchestration
+description: Role-specialized agents that self-organize

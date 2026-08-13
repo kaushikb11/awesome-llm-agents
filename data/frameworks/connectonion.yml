@@ -1,0 +1,4 @@
+name: ConnectOnion
+repo: https://github.com/openonion/connectonion
+section: Core Frameworks
+description: Python framework focused on agent collaboration

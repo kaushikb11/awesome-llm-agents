@@ -1,0 +1,4 @@
+name: h5i
+repo: https://github.com/h5i-dev/h5i
+section: CLI Agent Harnesses
+description: Runs agents in sandboxes, merges the verified result

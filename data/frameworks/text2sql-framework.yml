@@ -1,0 +1,4 @@
+name: text2sql-framework
+repo: https://github.com/Text2SqlAgent/text2sql-framework
+section: Domain-Specific Agents
+description: Text-to-SQL agent that explores schema, not RAG

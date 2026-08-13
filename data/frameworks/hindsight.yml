@@ -1,0 +1,4 @@
+name: Hindsight
+repo: https://github.com/vectorize-io/hindsight
+section: Memory & Context
+description: Agent memory with retain, recall and reflect

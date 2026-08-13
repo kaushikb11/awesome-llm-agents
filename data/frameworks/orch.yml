@@ -1,0 +1,4 @@
+name: ORCH
+repo: https://github.com/oxgeneral/ORCH
+section: CLI Agent Harnesses
+description: One CLI to manage a team of agents on tasks

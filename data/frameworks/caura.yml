@@ -1,0 +1,4 @@
+name: Caura
+repo: https://github.com/caura-ai/caura
+section: Memory & Context
+description: Governed shared memory for fleets of agents

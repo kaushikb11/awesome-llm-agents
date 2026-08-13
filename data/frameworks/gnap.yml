@@ -1,0 +1,4 @@
+name: GNAP
+repo: https://github.com/farol-team/gnap
+section: Research & Experimental
+description: Git-native protocol draft for agent coordination

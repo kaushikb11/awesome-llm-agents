@@ -1,0 +1,4 @@
+name: Aeon
+repo: https://github.com/aeonfun/aeon
+section: Core Frameworks
+description: Runs unattended on GitHub Actions, self-healing

@@ -31,8 +31,10 @@ MAX_DESCRIPTION = 60
 SECTIONS = [
     "Core Frameworks",
     "Multi-Agent Orchestration",
+    "CLI Agent Harnesses",
     "Low-Code & Visual Builders",
     "Retrieval & Data",
+    "Memory & Context",
     "Agent Infrastructure",
     "Safety, Security & Evaluation",
     "Domain-Specific Agents",
@@ -46,6 +48,10 @@ SECTION_NOTES = {
     "Autonomous Agents (2023 wave)": (
         "The 2023 autonomous-agent wave. Listed for their influence; several are "
         "no longer actively developed."
+    ),
+    "CLI Agent Harnesses": (
+        "Tools that run, sandbox or coordinate command-line coding agents such as "
+        "Claude Code, Codex and Gemini CLI."
     ),
     "Inactive": (
         "Archived, or no push in over 12 months. Kept because they are widely "

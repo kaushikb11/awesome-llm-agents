@@ -1,0 +1,4 @@
+name: Inite Brain
+repo: https://github.com/inite-ai/inite-brain-service
+section: Memory & Context
+description: Bitemporal knowledge graph as agent memory

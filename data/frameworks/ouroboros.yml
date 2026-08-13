@@ -1,0 +1,4 @@
+name: Ouroboros
+repo: https://github.com/razzant/ouroboros
+section: Core Frameworks
+description: Agent runtime with reviewed self-modification

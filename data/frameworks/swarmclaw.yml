@@ -1,0 +1,4 @@
+name: SwarmClaw
+repo: https://github.com/swarmclawai/swarmclaw
+section: CLI Agent Harnesses
+description: Self-hosted runtime for multi-agent CLI work
