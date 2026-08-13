@@ -53,6 +53,17 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-08-0
   - Built by MetaGPT contributors
 
 
+- [OpenProgram](https://github.com/Fzkuji/OpenProgram) - Self-programming AI agent
+  framework where agents create, run, and refine their own workflows
+
+  103 stars · 7 forks · 3 contributors · 1 issues · Python · AGPL-3.0
+
+  - Agent-defined functions and workflows
+  - Multi-model and multi-agent runtime
+  - Built-in tools, memory, and context management
+  - CLI, TUI, web, and desktop interfaces
+
+
 - [Llama Index](https://github.com/run-llama/llama_index) - Data framework for LLM
   applications
 
@@ -588,5 +599,4 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-08-0
   - Shared markdown consensus file as the cross-cycle relay baton
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
-
 
