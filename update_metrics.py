@@ -1,6 +1,19 @@
+"""Generate README.md from the entry files in data/frameworks/.
+
+Every run rebuilds the file from scratch, so the README is a pure function of
+the data directory plus whatever the GitHub API returns. Nothing is parsed back
+out of the README, which is what makes this safe: the previous version of this
+script edited the README in place, and an entry whose repo 404'd silently lost
+the blank line separating it from its neighbour. The next run could no longer
+see the boundary, so entries merged and the damage compounded -- 35 of 59
+entries over nine months. Regenerating removes that whole class of bug.
+"""
 import argparse
+import glob
 import os
 import re
+import sys
+import textwrap
 from datetime import datetime
 
 import requests
@@ -8,155 +21,237 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+DATA_DIR = "data/frameworks"
+HEADER = "data/header.md"
+FOOTER = "data/footer.md"
+MAX_DESCRIPTION = 60
+
+# Rendered in this order. An entry naming any other section is an error, which
+# keeps the taxonomy from drifting one pull request at a time.
+SECTIONS = [
+    "Core Frameworks",
+    "Multi-Agent Orchestration",
+    "Low-Code & Visual Builders",
+    "Retrieval & Data",
+    "Agent Infrastructure",
+    "Safety, Security & Evaluation",
+    "Domain-Specific Agents",
+    "Research & Experimental",
+    "Autonomous Agents (2023 wave)",
+    "Inactive",
+]
+
+# Shown under the heading, before the table.
+SECTION_NOTES = {
+    "Autonomous Agents (2023 wave)": (
+        "The 2023 autonomous-agent wave. Listed for their influence; several are "
+        "no longer actively developed."
+    ),
+    "Inactive": (
+        "Archived, or no push in over 12 months. Kept because they are widely "
+        "referenced and readers benefit from knowing their status."
+    ),
+}
+
+REQUIRED_FIELDS = ("name", "repo", "section", "description")
+REPO_RE = re.compile(r"^https://github\.com/([^/\s]+)/([^/\s]+?)/?$")
+
+# GitHub reports a nonstandard or unrecognised license as NOASSERTION, which is
+# noise in a table. The repo still has a license; it just is not SPDX-matched.
+LICENSE_LABELS = {"NOASSERTION": "Other", "": "—", None: "—"}
+
+
+class EntryError(Exception):
+    """A data file is malformed. Raised with the path so CI points at the file."""
+
+
+def parse_entry(path):
+    """Parse one entry file.
+
+    The format is deliberately four flat `key: value` lines -- see
+    CONTRIBUTING.md. Values may contain colons; only the first one splits.
+    """
+    fields = {}
+    with open(path) as f:
+        for lineno, raw in enumerate(f, 1):
+            line = raw.strip()
+            if not line or line.startswith("#"):
+                continue
+            if ":" not in line:
+                raise EntryError(f"{path}:{lineno}: expected 'key: value'")
+            key, value = line.split(":", 1)
+            key = key.strip()
+            value = value.strip().strip('"').strip("'")
+            if key not in REQUIRED_FIELDS:
+                raise EntryError(f"{path}:{lineno}: unknown field {key!r}")
+            if key in fields:
+                raise EntryError(f"{path}:{lineno}: duplicate field {key!r}")
+            fields[key] = value
+
+    missing = [f for f in REQUIRED_FIELDS if f not in fields]
+    if missing:
+        raise EntryError(f"{path}: missing field(s): {', '.join(missing)}")
+    if fields["section"] not in SECTIONS:
+        raise EntryError(
+            f"{path}: unknown section {fields['section']!r}. "
+            f"One of: {', '.join(SECTIONS)}"
+        )
+    if not REPO_RE.match(fields["repo"]):
+        raise EntryError(f"{path}: repo must be https://github.com/owner/name")
+    if len(fields["description"]) > MAX_DESCRIPTION:
+        raise EntryError(
+            f"{path}: description is {len(fields['description'])} chars, "
+            f"limit is {MAX_DESCRIPTION}"
+        )
+    if not fields["description"]:
+        raise EntryError(f"{path}: description is empty")
+
+    fields["path"] = path
+    fields["slug"] = REPO_RE.match(fields["repo"]).group(0).lower()
+    return fields
+
+
+def load_entries(data_dir=DATA_DIR):
+    paths = sorted(glob.glob(os.path.join(data_dir, "*.yml")))
+    entries = [parse_entry(p) for p in paths]
+    seen = {}
+    for e in entries:
+        if e["slug"] in seen:
+            raise EntryError(
+                f"{e['path']}: duplicate repo, already listed in {seen[e['slug']]}"
+            )
+        seen[e["slug"]] = e["path"]
+    return entries
+
 
 def get_repo_metrics(repo_url):
-    match = re.search(r"github\.com/([^/]+)/([^/]+)", repo_url)
+    """Return metrics for a repo, or None if it cannot be reached."""
+    match = REPO_RE.match(repo_url)
     if not match:
         return None
-
-    owner, repo = match.groups()
+    owner, repo = match.group(1), match.group(2)
     api_url = f"https://api.github.com/repos/{owner}/{repo}"
-    contributors_url = f"{api_url}/contributors"
 
-    GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
-    headers = {
-        "Accept": "application/vnd.github.v3+json",
-        "Authorization": f"token {GITHUB_TOKEN}",
-    }
+    token = os.getenv("GITHUB_TOKEN")
+    headers = {"Accept": "application/vnd.github.v3+json"}
+    if token:
+        headers["Authorization"] = f"token {token}"
 
     try:
-        response = requests.get(api_url, headers=headers)
-        if response.status_code == 200:
-            data = response.json()
-
-            contributor_count = 0
-            page = 1
-            while True:
-                page_url = f"{contributors_url}?per_page=100&page={page}"
-                contributors_response = requests.get(page_url, headers=headers)
-                if (
-                    contributors_response.status_code != 200
-                    or not contributors_response.json()
-                ):
-                    break
-                contributor_count += len(contributors_response.json())
-                page += 1
-
-            return {
-                "stars": data["stargazers_count"],
-                "forks": data["forks_count"],
-                "open_issues": data["open_issues_count"],
-                "contributors": contributor_count,
-                "language": data.get("language", "Unknown"),
-                "license": data.get("license", {}).get("spdx_id", "Unknown"),
-            }
-    except Exception as e:
-        print(f"Error fetching metrics for {repo_url}: {str(e)}")
-
-    return None
+        response = requests.get(api_url, headers=headers, timeout=30)
+        if response.status_code != 200:
+            return None
+        data = response.json()
+        return {
+            "stars": data.get("stargazers_count", 0),
+            "language": data.get("language") or "—",
+            "license": LICENSE_LABELS.get(
+                (data.get("license") or {}).get("spdx_id"),
+                (data.get("license") or {}).get("spdx_id") or "—",
+            ),
+            "updated": (data.get("pushed_at") or "")[:7] or "—",
+            "archived": bool(data.get("archived")),
+            "full_name": data.get("full_name", f"{owner}/{repo}"),
+        }
+    except Exception as exc:  # noqa: BLE001 - a bad entry must not fail the run
+        print(f"  ! {repo_url}: {exc}", file=sys.stderr)
+        return None
 
 
-def format_metrics_badges(metrics):
-    return (
-        f"{metrics['stars']:,} stars · {metrics['forks']:,} forks · "
-        f"{metrics['contributors']:,} contributors · "
-        f"{metrics['open_issues']:,} issues · "
-        f"{metrics['language']} · {metrics['license']}"
+def anchor(section):
+    """GitHub's heading-anchor rules: lowercase, drop punctuation, dash spaces."""
+    a = section.lower()
+    a = re.sub(r"[^\w\s-]", "", a)
+    return re.sub(r"\s+", "-", a.strip())
+
+
+def render(entries, metrics_by_repo, today):
+    with open(HEADER) as f:
+        header = f.read().rstrip("\n")
+    header = re.sub(
+        r"Last updated: \d{4}-\d{2}-\d{2}", f"Last updated: {today}", header
     )
 
+    by_section = {s: [] for s in SECTIONS}
+    for e in entries:
+        by_section[e["section"]].append(e)
 
-def update_readme_with_metrics(readme_path, args):
-    with open(readme_path, "r") as f:
-        content = f.read()
+    parts = [header, ""]
 
-    current_time = datetime.now().strftime("%Y-%m-%d")
-    pattern = r"Last updated: \d{4}-\d{2}-\d{2}"
-    try:
-        if not re.search(pattern, content):
-            raise Exception(
-                "Could not find 'Last updated: YYYY-MM-DD' pattern in the text"
+    parts.append("## Contents")
+    parts.append("")
+    for s in SECTIONS:
+        if by_section[s]:
+            parts.append(f"- [{s}](#{anchor(s)}) ({len(by_section[s])})")
+    parts.append("")
+
+    for s in SECTIONS:
+        rows = by_section[s]
+        if not rows:
+            continue
+        # Unranked repos (failed lookup) sort last rather than to the top.
+        rows.sort(
+            key=lambda e: (metrics_by_repo.get(e["repo"]) or {}).get("stars", -1),
+            reverse=True,
+        )
+        parts.append(f"## {s}")
+        parts.append("")
+        if s in SECTION_NOTES:
+            parts.append(textwrap.fill(SECTION_NOTES[s], width=88))
+            parts.append("")
+        parts.append("| Project | Stars | Language | License | Updated | Description |")
+        parts.append("| --- | ---: | --- | --- | --- | --- |")
+        for e in rows:
+            m = metrics_by_repo.get(e["repo"])
+            if m:
+                stars = f"{m['stars']:,}"
+                lang, lic, updated = m["language"], m["license"], m["updated"]
+                if m["archived"]:
+                    updated = f"{updated} (archived)"
+            else:
+                stars = lang = lic = updated = "—"
+            desc = e["description"].replace("|", "\\|")
+            parts.append(
+                f"| [{e['name']}]({e['repo']}) | {stars} | {lang} | "
+                f"{lic} | {updated} | {desc} |"
             )
-        content = re.sub(pattern, f"Last updated: {current_time}", content)
-    except Exception as e:
-        raise e
+        parts.append("")
 
-    parts = content.split("## Frameworks")
-    if len(parts) < 2:
-        raise Exception("Frameworks empty!")
+    with open(FOOTER) as f:
+        parts.append(f.read().rstrip("\n"))
 
-    header = parts[0]
-    frameworks_section = parts[1]
-
-    # The first chunk is whatever sits between the heading and the first entry;
-    # every chunk after it is one framework.
-    chunks = re.split(r"\n(?=- \[)", frameworks_section)
-    preamble = chunks[0].strip()
-    entries = []
-
-    for entry in chunks[1:]:
-        match = re.search(
-            (
-                r"- \[([^\]]+)\]\((https://github\.com/"
-                r"[^/]+/[^/)\s]+)\)(.*?)(?=\n\n|\n  -|$)"
-            ),
-            entry,
-            re.DOTALL,
-        )
-        if match:
-            name, url, desc = match.groups()
-            metrics = get_repo_metrics(url)
-
-            if metrics:
-                first_line = (
-                    f"- [{name}]({url}){desc}\n\n  " f"{format_metrics_badges(metrics)}"
-                )
-
-                features_start = entry.find("\n  -")
-                if features_start != -1:
-                    rest_of_entry = entry[features_start:]
-                else:
-                    rest_of_entry = ""
-
-                entry = f"{first_line}\n\n  {rest_of_entry.strip()}"
-
-        # Entries whose lookup failed are kept exactly as they were. Trailing
-        # whitespace is stripped so that the join below is the only thing that
-        # writes separators: an entry that loses its blank line gets swallowed
-        # by its neighbour on the next run's split, and the damage compounds.
-        entries.append(entry.rstrip())
-
-    if args.url and args.name:
-        metrics = get_repo_metrics(args.url)
-        if not metrics:
-            raise Exception(f"Could not fetch metrics for {args.url}")
-        entries.append(
-            f"- [{args.name}]({args.url}) - Description\n\n  "
-            f"{format_metrics_badges(metrics)}\n\n  - Add description here."
-        )
-
-    new_frameworks_section = "\n\n\n".join(entries)
-    if preamble:
-        new_frameworks_section = f"{preamble}\n\n{new_frameworks_section}"
-
-    with open(readme_path, "w") as f:
-        f.write(f"{header}## Frameworks\n\n{new_frameworks_section}\n")
+    return "\n".join(parts).rstrip("\n") + "\n"
 
 
-def process_readme(readme_path, args):
-    update_readme_with_metrics(readme_path, args)
-    print("✨ README updated successfully with repository metrics!")
+def main():
+    parser = argparse.ArgumentParser(description="Generate README.md from data/")
+    parser.add_argument(
+        "--check",
+        action="store_true",
+        help="validate entries and exit without calling the GitHub API",
+    )
+    parser.add_argument("--output", default="README.md")
+    args = parser.parse_args()
+
+    entries = load_entries()
+    print(f"loaded {len(entries)} entries")
+    if args.check:
+        print("✨ entries valid")
+        return 0
+
+    metrics_by_repo = {}
+    for e in entries:
+        m = get_repo_metrics(e["repo"])
+        if m is None:
+            print(f"  ! no metrics for {e['name']} ({e['repo']})", file=sys.stderr)
+        metrics_by_repo[e["repo"]] = m
+
+    today = datetime.now().strftime("%Y-%m-%d")
+    with open(args.output, "w") as f:
+        f.write(render(entries, metrics_by_repo, today))
+    print(f"✨ wrote {args.output}")
+    return 0
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(
-        description="Update README with repository metrics"
-    )
-    framework = parser.add_argument_group("framework")
-    framework.add_argument("--url", help="URL of the GitHub repository")
-    framework.add_argument("--name", help="Name of the repository")
-    args = parser.parse_args()
-
-    if bool(args.url) != bool(args.name):
-        parser.error("--url and --name must be given together")
-
-    process_readme("README.md", args)
+    sys.exit(main())
