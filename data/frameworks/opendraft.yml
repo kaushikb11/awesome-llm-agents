@@ -1,0 +1,4 @@
+name: OpenDraft
+repo: https://github.com/federicodeponte/opendraft
+section: Domain-Specific Agents
+description: Multi-agent research-paper writer with verified citations
