@@ -23,6 +23,8 @@ To suggest a project, see [CONTRIBUTING.md](CONTRIBUTING.md) — entries live in
 
 ## Core Frameworks
 
+- [Clickyy](https://github.com/jayamitkatariya/clickyyy) - Shake your cursor to summon an AI agent that sees your screen and clicks, types, drags, and acts for you on macOS. Open-source, MIT.
+
 | Project | Stars | Language | License | Updated | Description |
 | --- | ---: | --- | --- | --- | --- |
 | [OpenClaw](https://github.com/openclaw/openclaw) | 386,192 | TypeScript | Other | 2026-08 | Personal AI assistant that runs on any platform |
