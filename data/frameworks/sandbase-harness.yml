@@ -1,0 +1,4 @@
+name: SandBase Harness
+repo: https://github.com/sandbaseai/sandbase-harness
+section: Agent Infrastructure
+description: Local-first runtime with sandboxed, replayable sessions
