@@ -1,0 +1,4 @@
+name: agent-qa
+repo: https://github.com/vostride/agent-qa
+section: Domain-Specific Agents
+description: Self-improving QA agent for web and mobile tests
