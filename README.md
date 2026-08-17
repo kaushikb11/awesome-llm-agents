@@ -134,6 +134,7 @@ Codex and Gemini CLI.
 | [Mem0](https://github.com/mem0ai/mem0) | 63,333 | Python | Apache-2.0 | 2026-08 | Memory layer that persists across agent sessions |
 | [AgentField](https://github.com/Agent-Field/agentfield) | 2,516 | Go | Apache-2.0 | 2026-08 | Agent identity and RPC using W3C DIDs |
 | [openma](https://github.com/openma-ai/open-managed-agents) | 235 | TypeScript | Apache-2.0 | 2026-08 | Self-hosted Managed Agents API implementation |
+| [Okto Pulse](https://github.com/OktoLabsAI/okto-pulse) | 4 | Python | Elastic-2.0 | 2026-07 | Gates SDLC state transitions behind spec, evidence and review checks |
 
 ## Safety, Security & Evaluation
 
