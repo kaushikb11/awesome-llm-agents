@@ -126,6 +126,7 @@ Codex and Gemini CLI.
 | [OMEGA](https://github.com/omega-memory/omega-memory) | 203 | Python | Apache-2.0 | 2026-08 | Persistent memory for coding agents over MCP |
 | [Perseus](https://github.com/Perseus-Computing-LLC/perseus) | 36 | Python | MIT | 2026-08 | Resolves verified workspace state before a call |
 | [Inite Brain](https://github.com/inite-ai/inite-brain-service) | 32 | TypeScript | AGPL-3.0 | 2026-08 | Bitemporal knowledge graph as agent memory |
+| [AI Unified Memory](https://github.com/yaowanxiang/ai-unified-memory) | 0 | Python | MIT | 2026-08 | Shared memory across multiple AI agents: public library + private mirrors + exchange + automated scheduler |
 
 ## Agent Infrastructure
 
