@@ -1,0 +1,4 @@
+name: agent-sdk-go
+repo: https://github.com/agenticenv/agent-sdk-go
+section: Core Frameworks
+description: Framework for building stateful AI agents in Go
