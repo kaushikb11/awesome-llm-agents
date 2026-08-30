@@ -1,0 +1,4 @@
+name: SandBase Harness
+repo: https://github.com/sandbaseai/sandbase-harness
+section: Agent Infrastructure
+description: Self-hosted runtime and MCP bridge for managed agents
