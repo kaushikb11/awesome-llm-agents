@@ -1,0 +1,4 @@
+name: SandBase Harness
+repo: https://github.com/sandbaseai/sandbase-harness
+section: Agent Infrastructure
+description: Persistent agent runtime with MCP and governed execution
