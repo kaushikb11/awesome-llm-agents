@@ -1,0 +1,4 @@
+name: AIWG
+repo: https://github.com/jmagly/aiwg
+section: CLI Agent Harnesses
+description: Project-owned workflows for coding agents across platforms
