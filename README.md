@@ -97,6 +97,7 @@ Codex and Gemini CLI.
 | [ORCH](https://github.com/oxgeneral/ORCH) | 153 | TypeScript | MIT | 2026-08 | One CLI to manage a team of agents on tasks |
 | [5dive](https://github.com/5dive-ai/5dive) | 55 | Shell | MIT | 2026-08 | Run a company of named agents on your own server |
 | [OpenHermit](https://github.com/HCF-STUDIOS/openhermit) | 53 | TypeScript | MIT | 2026-08 | Deploys agent fleets as long-running services |
+| [Aster](https://github.com/Zfinix/aster) | 46 | Rust | Apache-2.0 | 2026-09 | Terminal coding agent that reads code, edits files, runs commands, and reviews changes |
 | [Agon](https://github.com/AutoResearch-Factory/Agon) | 44 | Python | MIT | 2026-08 | Claude Code plugin for autonomous research loops |
 | [TeamHero](https://github.com/sagiyaacoby/TeamHero) | 35 | JavaScript | MIT | 2026-04 | Manage agents like a team, with structured roles |
 | [OpenSepia](https://github.com/CelaenoIndustry/OpenSepia) | 34 | Python | MIT | 2026-03 | Nine Claude agents running as an agile team |
