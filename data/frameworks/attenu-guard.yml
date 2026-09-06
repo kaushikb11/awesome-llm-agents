@@ -1,0 +1,4 @@
+name: Attenu Guard
+repo: https://github.com/attenu-io/attenu-guard
+section: Safety, Security & Evaluation
+description: Narrows agent permissions across handoffs, verified offline
