@@ -1,0 +1,4 @@
+name: Bifrost
+repo: https://github.com/maximhq/bifrost
+section: Agent Infrastructure
+description: OpenAI-compatible gateway for multi-provider agent routing
