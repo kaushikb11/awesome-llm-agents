@@ -100,6 +100,7 @@ Codex and Gemini CLI.
 | [Agon](https://github.com/AutoResearch-Factory/Agon) | 47 | Python | MIT | 2026-09 | Claude Code plugin for autonomous research loops |
 | [TeamHero](https://github.com/sagiyaacoby/TeamHero) | 35 | JavaScript | MIT | 2026-04 | Manage agents like a team, with structured roles |
 | [OpenSepia](https://github.com/CelaenoIndustry/OpenSepia) | 34 | Python | MIT | 2026-03 | Nine Claude agents running as an agile team |
+| [Superagent](https://github.com/pungme/superagent-desktop) | 24 | TypeScript | MIT | 2026-09 | Desktop app giving Claude Code and Codex a real browser, iOS Simulator, and phone relay |
 
 ## Low-Code & Visual Builders
 
