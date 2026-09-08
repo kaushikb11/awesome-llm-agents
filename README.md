@@ -596,4 +596,12 @@ suggestion, feel free to open an issue or pull request. (Last updated: 2026-06-2
   - Human escalation via Telegram for true blockers only
   - Repo is a live company: built its own landing page, Docker stack, and monitoring across 13 autonomous cycles
 
+- [Reactive Agents](https://github.com/tylerjrbuell/reactive-agents-ts) - TypeScript agent framework that runs the same agent code on a local Ollama model (4B+) or a frontier API, with tool-call healing, output verification, and a per-run evidence receipt describing how each answer was produced
 
+  27 stars · 4 forks · 1 contributors · 0 issues · TypeScript · MIT
+
+  - Same agent code runs on local Ollama models and frontier APIs (Anthropic, OpenAI, Gemini, Groq, xAI)
+  - Tool-call healing and output verification for reliable local-model tool use
+  - Per-run evidence receipt: how the answer was produced, not just what it says
+  - Effect-TS type safety, MCP-native, A2A multi-agent
+  - 8 reasoning strategies (ReAct, Blueprint, Reflexion, Plan-Execute, Tree-of-Thought, Adaptive, Direct, Code-Action)
