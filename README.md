@@ -1,205 +1,123 @@
-# Awesome LLM Agent Frameworks [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome-LLM-Agents: Recent Trends and Advancement in Agentic AI
+![image](https://github.com/user-attachments/assets/c32b1f99-e434-473b-8916-59cb5d6e8bab)
+This Awesome-LLM-Agents contains A hand-picked and carefully categorised reading list. Furthermore, I will conduct review on each paper and project, and (hopefully) put them in anto a survey paper.
+The detailed thought process of forming this project is documented at this [Medium Post](https://ai.gopubby.com/awesome-llm-agents-recent-trends-and-advancement-in-agentic-ai-90bac6249060). It's put behind a paywall to prevent the evil LLMs' crawling. [The full category breakdown](https://github.com/junhua/awesome-llm-agents/blob/main/Categories.md).
 
-A curated list of open-source frameworks, runtimes and tooling for building LLM
-agents. Metrics refresh weekly. (Last updated: 2026-09-06)
+## LLM Core — Foundation Models
+- Scaling laws for neural language models (OpenAI, 2020, [arXiv](https://arxiv.org/pdf/2001.08361))
+- LLaMA: Open and Efficient Foundation Language Models (Meta, Feb 2023, [arXiv](https://arxiv.org/pdf/2302.13971))
+- The Llama 3 Herd of Models (Meta, July 2024, [arXiv](https://arxiv.org/pdf/2407.21783))
+- Sparks of Artificial General Intelligence: Early experiments with GPT-4 (Microsoft, Apr 2023, [arXiv](https://arxiv.org/pdf/2303.12712))
+- Apple Intelligence Foundation Language Models (Apple, [Doc](https://machinelearning.apple.com/papers/apple_intelligence_foundation_language_models.pdf))
+- StarCoder (Dec 2023, [arXiv](https://arxiv.org/pdf/2305.06161))
+- Gemma 2B: Improving Open Language Models at a Practical Size (Jul, 2024, [arXiv](https://arxiv.org/pdf/2408.00118))
 
-To suggest a project, see [CONTRIBUTING.md](CONTRIBUTING.md) — entries live in
-`data/frameworks/`, and this file is generated from them.
+## LLM Core — Prompt Engineering
+- Chain-of-Thought Prompting Elicits Reasoning in Large Language Models (Google Brain, 2022, [NeurIPS](https://arxiv.org/pdf/2201.11903))
+- Tree of Thoughts: Deliberate Problem Solving with Large Language Models (Princeton & DeepMind, 2023, [NeurIPS](https://arxiv.org/pdf/2305.10601), [Benchmark](https://github.com/holarissun/PanelGPT))
+- Self-Consistency Improves Chain of Thought Reasoning in Language Models (Google Brain, 2023, [ICLR](https://arxiv.org/pdf/2203.11171))
+- ReAct: Synergizing Reasoning and Action in Language Models (Princeton & Google Brain, Mar 2023 [ICLR](https://react-lm.github.io/))
+- Reflexion: Language agents with verbal reinforcement learning (Northeastern, MIT & Princeton, 2023, [NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2023/file/1b44b878bb782e6954cd888628510e90-Paper-Conference.pdf))
+- ART: Automatic multi-step reasoning and tool-use for large language models (UW, UCI, Microsoft, Allen AI & Meta, 2023, [arXiv](https://arxiv.org/pdf/2303.09014))
+- Directional Stimulus Prompting (UCSB & Microsoft, 2023, [NeurIPS](https://arxiv.org/pdf/2302.11520))
+- Active Prompting with Chain-of-Thought for Large Language Models (HKUST etc., Jul 2024, [arXiv](https://arxiv.org/pdf/2302.12246))
+- Step-Back Prompting Enables Reasoning Via Abstraction in Large Language Models (DeepMind, Mar 2024, [arXiv](https://arxiv.org/pdf/2310.06117))
 
-## Contents
+## LLM Core — Retrieval-Augmented Generation
+- Retrieval Augmented Generation or Long-Context LLMs? A Comprehensive Study and Hybrid Approach (DeepMind, Jul 2024, [arXiv](https://www.arxiv.org/pdf/2407.16833))
+- Retrieval-Augmented Generation for Large Language Models: A Survey (Tongji & Fudan, Mar 2024, [arXiv](https://arxiv.org/pdf/2312.10997))
+- Improving Retrieval Augmented Language Model with Self-Reasoning (Baidu, Jul 2024, [arXiv](https://arxiv.org/pdf/2407.19813))
 
-- [Core Frameworks](#core-frameworks) (34)
-- [Multi-Agent Orchestration](#multi-agent-orchestration) (14)
-- [CLI Agent Harnesses](#cli-agent-harnesses) (14)
-- [Low-Code & Visual Builders](#low-code-visual-builders) (3)
-- [Retrieval & Data](#retrieval-data) (2)
-- [Memory & Context](#memory-context) (6)
-- [Agent Infrastructure](#agent-infrastructure) (3)
-- [Safety, Security & Evaluation](#safety-security-evaluation) (6)
-- [Domain-Specific Agents](#domain-specific-agents) (11)
-- [Research & Experimental](#research-experimental) (7)
-- [Autonomous Agents (2023 wave)](#autonomous-agents-2023-wave) (4)
-- [Inactive](#inactive) (5)
+## LLM Core — Finetuning / PEFT
+- Lora: Low-rank adaptation of large language models (Microsoft & CMU, Oct 2021, [arXiv](https://arxiv.org/pdf/2106.09685))
+- QLoRA: Efficient Finetuning of Quantized LLMs (UW, 2023, [NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2023/file/1feb87871436031bdc0f2beaa62a049b-Paper-Conference.pdf))
+- A Survey on LoRA of Large Language Models (ZJU, Jul 2024, [arXiv](https://arxiv.org/pdf/2407.11046))
+- Distilling System 2 into System 1 (Meta, Jul 2024, [arXiv](https://arxiv.org/pdf/2407.06023))
+- Mixture of LoRA Experts (Microsoft & Tsinghua, 2024, [ICLR](https://openreview.net/pdf?id=uWvKBCYh4S))
 
-## Core Frameworks
+## LLM Core — Alignments and Safety
+- Rule Based Rewards for Language Model Safety (OpenAI, Jul 2024, [Preprint](https://cdn.openai.com/rule-based-rewards-for-language-model-safety.pdf))
+- A Comprehensive Survey of LLM Alignment Techniques: RLHF, RLAIF, PPO, DPO and More (Salesforce, Jul 2024, [arXiv](https://arxiv.org/pdf/2407.16216))
+- Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study (Tsinghua, Apr 2024, [arXiv](https://arxiv.org/pdf/2404.10719))
+- PERL: Parameter Efficient Reinforcement Learning from Human Feedback (Google, Mar 2024, [arXiv](https://arxiv.org/pdf/2403.10704))
+- RLAIF: Scaling Reinforcement Learning from Human Feedback with AI Feedback (Google, Dec 2023, [arXiv](https://arxiv.org/pdf/2309.00267))
+- Training language models to follow instructions with human feedback (OpenAI, Mar 2022, [arXiv](https://arxiv.org/pdf/2203.02155))
+- Constitutional AI: Harmlessness from AI Feedback (Anthropic, Dec 2022, [arXiv](https://arxiv.org/pdf/2212.08073)) ⭐
+- Self-instruct: Aligning language models with self-generated instructions (Allen AI, May 2023, [ACL](https://arxiv.org/pdf/2212.10560)) ⭐
+- Direct preference optimization: Your language model is secretly a reward model (Stanford, 2023, [NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2023/file/a85b405ed65c6477a4fe8302b5e06ce7-Paper-Conference.pdf))⭐
+- ULTRAFEEDBACK: Boosting Language Models with Scaled AI Feedback (Tsinghua, UIUC, Tencent, RUC etc., 2024, [ICML](https://openreview.net/pdf?id=BOorDpKHiJ)) ⭐
+- Camels in a changing climate: Enhancing lm adaptation with tulu 2 (Allen AI & UW, Nov 2023, [arXiv](https://arxiv.org/pdf/2311.10702))
+- Steerlm: Attribute conditioned sft as an (user-steerable) alternative to rlhf (Nvidia, Oct 2023, [arXiv](https://arxiv.org/pdf/2310.05344))
+- 
 
-| Project | Stars | Language | License | Updated | Description |
-| --- | ---: | --- | --- | --- | --- |
-| [OpenClaw](https://github.com/openclaw/openclaw) | 388,979 | TypeScript | Other | 2026-09 | Personal AI assistant that runs on any platform |
-| [LangChain](https://github.com/langchain-ai/langchain) | 145,732 | Python | MIT | 2026-09 | Compose LLM apps from modular pieces |
-| [Smolagents](https://github.com/huggingface/smolagents) | 29,177 | Python | Apache-2.0 | 2026-08 | Minimal agents that write code to act |
-| [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | 28,537 | C# | MIT | 2026-09 | Plugin-based AI integration for .NET and Python |
-| [Mastra](https://github.com/mastra-ai/mastra) | 27,727 | TypeScript | Other | 2026-09 | TypeScript agents with RAG and observability |
-| [Google ADK](https://github.com/google/adk-python) | 21,420 | Python | Apache-2.0 | 2026-09 | Code-first agents that deploy to Vertex AI |
-| [Pydantic AI](https://github.com/pydantic/pydantic-ai) | 19,741 | Python | MIT | 2026-09 | Type-safe agents on Pydantic with structured output |
-| [Tambo](https://github.com/tambo-ai/tambo) | 11,178 | TypeScript | MIT | 2026-09 | React components rendered by AI at runtime |
-| [Hive](https://github.com/aden-hive/hive) | 11,018 | Python | Apache-2.0 | 2026-09 | Multi-agent harness aimed at production |
-| [Openwork](https://github.com/accomplish-ai/coworker) | 10,921 | — | — | 2026-08 | Open-source AI coworker platform |
-| [Upsonic](https://github.com/upsonic/upsonic) | 7,948 | Python | MIT | 2026-06 | Agents with MCP and isolated execution |
-| [Atomic Agents](https://github.com/Eigenwise/atomic-agents) | 6,223 | Python | MIT | 2026-08 | Compose agents from small interchangeable parts |
-| [OpenAgent](https://github.com/the-open-agent/openagent) | 5,603 | Go | Apache-2.0 | 2026-09 | Personal assistant built on LLM, RAG and agent loops |
-| [AG2](https://github.com/ag2ai/ag2) | 4,904 | Python | Apache-2.0 | 2026-09 | Community fork of AutoGen, now an AgentOS |
-| [AGiXT](https://github.com/Josh-XT/AGiXT) | 3,214 | Python | MIT | 2026-07 | Multi-provider agent platform with command chaining |
-| [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go) | 1,763 | Go | Apache-2.0 | 2026-09 | Go framework for agents with graph workflows |
-| [Oh My Hermes](https://github.com/rlaope/oh-my-hermes) | 1,499 | Python | MIT | 2026-09 | Harness with optimized tools and memory |
-| [ConnectOnion](https://github.com/openonion/connectonion) | 1,480 | Python | Apache-2.0 | 2026-09 | Python framework focused on agent collaboration |
-| [Ouroboros](https://github.com/razzant/ouroboros) | 1,269 | Python | MIT | 2026-09 | Agent runtime with reviewed self-modification |
-| [LightAgent](https://github.com/wanxingai/LightAgent) | 1,216 | Python | Apache-2.0 | 2026-09 | Lightweight Python agents with tools and memory |
-| [Agentlas OS](https://github.com/agentlas-ai/Agentlas-OS) | 1,103 | Python | Apache-2.0 | 2026-09 | Specialist agent hub with temporary orchestrators |
-| [ix](https://github.com/kreneskyp/ix) | 1,046 | Python | MIT | 2026-01 | Autonomous agents with a visual workflow builder |
-| [Promptise Foundry](https://github.com/promptise-com/Foundry) | 869 | Python | Apache-2.0 | 2026-08 | Agentic framework with controllable reasoning |
-| [Aeon](https://github.com/aeonfun/aeon) | 716 | TypeScript | MIT | 2026-09 | Runs unattended on GitHub Actions, self-healing |
-| [OpenProgram](https://github.com/Fzkuji/OpenProgram) | 384 | Python | AGPL-3.0 | 2026-09 | Agents create and refine their own workflows |
-| [Octochains](https://github.com/ahmadvh/octochains) | 372 | Python | Other | 2026-08 | Parallel isolated reasoning with an aggregator |
-| [Axar](https://github.com/axar-ai/axar) | 163 | TypeScript | Apache-2.0 | 2026-02 | Minimal TypeScript agents with Zod validation |
-| [Neurolink](https://github.com/juspay/neurolink) | 129 | TypeScript | MIT | 2026-09 | One interface across 12+ LLM providers |
-| [Octomind](https://github.com/Muvon/octomind) | 129 | Rust | Apache-2.0 | 2026-09 | Model-agnostic runtime with specialist agents |
-| [NarraNexus](https://github.com/NetMindAI-Open/NarraNexus) | 86 | Python | Apache-2.0 | 2026-09 | Builds nexuses where agent intelligence emerges |
-| [ProtoLink](https://github.com/nMaroulis/protolink) | 84 | Python | MIT | 2026-09 | Python agents with native A2A communication |
-| [ShaprAI](https://github.com/Scottcjn/shaprai) | 73 | Python | MIT | 2026-07 | Sharpens raw models into principled agents |
-| [TrashClaw](https://github.com/Scottcjn/trashclaw) | 71 | Python | MIT | 2026-08 | Zero-dependency local agent for old hardware |
-| [KodeAgent](https://github.com/barun-saha/kodeagent) | 40 | Python | Apache-2.0 | 2026-08 | Minimal agent engine, deliberately small |
 
-## Multi-Agent Orchestration
+## LLM Core — Datasets, benchmarks, Metrics
+- GAIA: a benchmark for general AI assistants (Meta, Nov 2023, [ICLR](https://arxiv.org/pdf/2311.12983))
+- Length-Controlled AlpacaEval: A Simple Way to Debias Automatic Evaluators (Stanford, Apr 2024, [arXiv](https://arxiv.org/pdf/2404.04475))
+- Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena (UCB, UCSD, CMU & Stanford, Dec 2023, [NeurIPS](https://arxiv.org/pdf/2306.05685))
+- FLASK: Fine-grained Language Model Evaluation based on Alignment Skill Sets (KAIST, Apr 2024, [ICLR](https://arxiv.org/pdf/2307.10928))
+- Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference (UCB, Stanford & UCSD, Mar 2024, [arXiv](https://arxiv.org/pdf/2403.04132))
+- Starling-7B: Improving LLM Helpfulness & Harmlessness with RLAIF (UCB, 2023, [HF](https://huggingface.co/berkeley-nest/Starling-LM-7B-alpha))
+- Lmsys-chat-1m: A large-scale real-world llm conversation dataset (UCB, UCSD, CMU & Stanford, Mar 2024, [ICLR](https://arxiv.org/pdf/2309.11998))
 
-| Project | Stars | Language | License | Updated | Description |
-| --- | ---: | --- | --- | --- | --- |
-| [MetaGPT](https://github.com/FoundationAgents/MetaGPT) | 70,232 | Python | MIT | 2026-01 | Agents role-play a software company |
-| [AutoGen](https://github.com/microsoft/autogen) | 60,826 | Python | CC-BY-4.0 | 2026-04 | Conversational multi-agent systems |
-| [CrewAI](https://github.com/crewAIInc/crewAI) | 58,130 | Python | MIT | 2026-09 | Orchestrate role-playing agent crews |
-| [CAMEL](https://github.com/camel-ai/camel) | 17,673 | Python | Apache-2.0 | 2026-09 | Role-playing agents for studying agent society |
-| [PraisonAI](https://github.com/MervinPraison/PraisonAI) | 9,021 | Python | MIT | 2026-09 | Multi-agent workflows with self-reflection |
-| [OpenAgents](https://github.com/openagents-org/openagents) | 4,043 | TypeScript | Apache-2.0 | 2026-09 | Agent networks over WebSocket, gRPC, MCP and A2A |
-| [hcom](https://github.com/aannoo/hcom) | 479 | Rust | MIT | 2026-08 | Agents message and spawn each other in terminals |
-| [Markus](https://github.com/markus-global/markus) | 160 | TypeScript | Apache-2.0 | 2026-09 | Agents coordinate and review each other's work |
-| [CommonGround Kernel](https://github.com/Intelligent-Internet/CommonGround) | 149 | Python | Apache-2.0 | 2026-05 | Postgres-backed shared substrate for agent teams |
-| [Flock](https://github.com/whiteducksoftware/flock) | 118 | Python | MIT | 2026-09 | Declarative agents via blackboard architecture |
-| [Quorum](https://github.com/Detrol/quorum-cli) | 116 | Python | Other | 2026-01 | Structured multi-agent debate in the terminal |
-| [OpenAcme](https://github.com/sandydasari/openacme) | 85 | TypeScript | MIT | 2026-07 | Role-specialized agents that self-organize |
-| [Hivekeep](https://github.com/MarlBurroW/hivekeep) | 53 | TypeScript | MIT | 2026-09 | Self-hosted team of persistent personal agents |
-| [auto-co](https://github.com/NikitaDmitrieff/auto-co-meta) | 43 | TypeScript | MIT | 2026-06 | 14 agents run a company in a continuous loop |
+## Agent Core — Planning / Reasoning Describe
+- Explain, Plan and Select: Interactive Planning with Large Language Models Enables Open-World Multi-Task Agents (PKU, 2024, [NIPS](https://proceedings.neurips.cc/paper_files/paper/2023/file/6b8dfb8c0c12e6fafc6c256cb08a5ca7-Paper-Conference.pdf))
+- Large Language Models as Commonsense Knowledge for Large-Scale Task Planning (NUS, 2023 , [NIPS](https://proceedings.neurips.cc/paper_files/paper/2023/file/65a39213d7d0e1eb5d192aa77e77eeb7-Paper-Conference.pdf))
 
-## CLI Agent Harnesses
+## Agent Core — Memory
+- A Survey on the Memory Mechanism of Large Language Model based Agents (RUC &Huawei, Apr 2024, [arXiv](https://arxiv.org/pdf/2404.13501))
 
-Tools that run, sandbox or coordinate command-line coding agents such as Claude Code,
-Codex and Gemini CLI.
+## Agent Core — Tools
+- Offline Training of Language Model Agents with Functions as Learnable Weights (PSU, UW, USC & Microsoft, 2024, [ICML](https://openreview.net/pdf?id=2xbkWiEuR1))
+- Tool Learning with Foundation Models (Tsinghua, UIUC, CMU, etc., 2023, [arXiv](https://arxiv.org/pdf/2304.08354))
+- Toolformer: Language models can teach themselves to use tools (Meta, 2023, [NeurIPS](https://proceedings.neurips.cc/paper_files/paper/2023/file/d842425e4bf79ba039352da0f658a906-Paper-Conference.pdf))
 
-| Project | Stars | Language | License | Updated | Description |
-| --- | ---: | --- | --- | --- | --- |
-| [Atomic Agent](https://github.com/AtomicBot-ai/atomic-agent) | 2,500 | TypeScript | MIT | 2026-09 | Local-first CLI agent for open-weight models |
-| [Agent Teams](https://github.com/777genius/agent-teams-ai) | 2,070 | TypeScript | AGPL-3.0 | 2026-09 | Desktop app running coding-agent teams across CLIs |
-| [Bernstein](https://github.com/sipyourdrink-ltd/bernstein) | 1,107 | Python | Apache-2.0 | 2026-09 | Deterministic orchestrator for 40+ CLI agents |
-| [SwarmClaw](https://github.com/swarmclawai/swarmclaw) | 662 | TypeScript | MIT | 2026-06 | Self-hosted runtime for multi-agent CLI work |
-| [h5i](https://github.com/h5i-dev/h5i) | 623 | Rust | Apache-2.0 | 2026-09 | Runs agents in sandboxes, merges the verified result |
-| [Dorothy](https://github.com/Charlie85270/Dorothy) | 345 | TypeScript | MIT | 2026-07 | Desktop app to run several CLI agents at once |
-| [ClawFleet](https://github.com/clawfleet/ClawFleet) | 173 | Go | MIT | 2026-04 | Deploys isolated agent instances via Docker |
-| [OpenPaw](https://github.com/daxaur/openpaw) | 167 | TypeScript | MIT | 2026-05 | Turns Claude Code into an assistant with 38 skills |
-| [ORCH](https://github.com/oxgeneral/ORCH) | 159 | TypeScript | MIT | 2026-08 | One CLI to manage a team of agents on tasks |
-| [5dive](https://github.com/5dive-ai/5dive) | 55 | Shell | MIT | 2026-09 | Run a company of named agents on your own server |
-| [OpenHermit](https://github.com/HCF-STUDIOS/openhermit) | 53 | TypeScript | MIT | 2026-09 | Deploys agent fleets as long-running services |
-| [Agon](https://github.com/AutoResearch-Factory/Agon) | 47 | Python | MIT | 2026-09 | Claude Code plugin for autonomous research loops |
-| [TeamHero](https://github.com/sagiyaacoby/TeamHero) | 35 | JavaScript | MIT | 2026-04 | Manage agents like a team, with structured roles |
-| [OpenSepia](https://github.com/CelaenoIndustry/OpenSepia) | 34 | Python | MIT | 2026-03 | Nine Claude agents running as an agile team |
+## Agentic Workflow — Paradigms
+- Exploring Collaboration Mechanisms for LLM Agents: A Social Psychology View (ZJU & Deepmind, Oct 2023, [arXiv](https://arxiv.org/pdf/2310.02124))
+- Rethinking the Bounds of LLM Reasoning: Are Multi-Agent Discussions the Key? (ZJU, HKUST & UIUC, May 2024, [arXiv](https://arxiv.org/pdf/2402.18272))
+- 360◦REA: Towards A Reusable Experience Accumulation with 360◦Assessment for Multi-Agent System (Apr 2024, [arXiv](https://arxiv.org/abs/2404.05569))
+- CAMEL: Communicative Agents for “Mind” Exploration of Large Language Model Society (KAUST, 2023, [NIPS](https://proceedings.neurips.cc/paper_files/paper/2023/file/a3621ee907def47c1b952ade25c67698-Paper-Conference.pdf))
+- A Survey on Large Language Model based Autonomous Agents (2023, [arXiv](https://arxiv.org/pdf/2308.11432))
+- Mixture-of-Agents Enhances Large Language Model Capabilities (Together AI, Jun 2024, [arXiv](https://arxiv.org/pdf/2406.04692))
 
-## Low-Code & Visual Builders
+## Agentic Applications — Simulation
+- Generative Agents: Interactive Simulacra of Human Behavior (Stanford/Google, Apr 2023, [arXiv](https://arxiv.org/pdf/2304.03442), [Demo](https://reverie.herokuapp.com/arXiv_Demo/))
+- Deciphering digital detectives: Understanding llm behaviors and capabilities in multi-agent mystery games (Umontreal, Dec 2023, [arXiv](https://arxiv.org/pdf/2312.00746))
+- VillagerAgent: A Graph-Based Multi-Agent Framework for Coordinating Complex Task Dependencies in Minecraft (ZJU, Jun 2024, [arXiv](https://arxiv.org/pdf/2406.05720))
 
-| Project | Stars | Language | License | Updated | Description |
-| --- | ---: | --- | --- | --- | --- |
-| [Dify](https://github.com/langgenius/dify) | 154,551 | TypeScript | Other | 2026-09 | Visual orchestration for LLM apps and agents |
-| [Kiln AI](https://github.com/Kiln-AI/Kiln) | 5,046 | Python | Other | 2026-09 | Desktop app for evals, RAG and fine-tuning |
-| [Heym](https://github.com/heymrun/heym) | 1,102 | Python | Other | 2026-09 | Visual builder for agentic workflow automation |
+## Agentic Applications — Finance
+- Complete list: [Awesome-Finance-AI-Papers](https://github.com/junhua/awesome-finance-ai-papers)
 
-## Retrieval & Data
+## Multi-agent frameworks
+- LangGraph ([GitHub](https://github.com/langchain-ai/langgraph))
+- AutoGen by Microsoft ([GitHub](https://github.com/microsoft/autogen), [Paper](https://arxiv.org/pdf/2308.08155))
+- AgentScope by Alibaba Group([GitHub](https://github.com/modelscope/agentscope), [System Paper](https://arxiv.org/pdf/2402.14034), [Projects paper](https://arxiv.org/pdf/2407.17789))
+- Translation-agent by Andrew Ng ([GitHub](https://github.com/andrewyng/translation-agent))
+- [Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril) - Open-source agentic software factory with an amazing UI that handles parallel Git worktrees for you, complete with programmatic verifications and fast review loops
+  
+## TODO:
+- Agentic Workflow — Human-Agent Interactions
+- Agentic Applications — Dev Tools
+- Agentic Applications — Content Creation (AIGC)
+- Agentic Applications — Social Network
+- Agentic Applications — Education
+- Production Operations — LLMOps
+- Production Operations — AI Cloud
+- Production Operations — Monitoring
 
-| Project | Stars | Language | License | Updated | Description |
-| --- | ---: | --- | --- | --- | --- |
-| [LlamaIndex](https://github.com/run-llama/llama_index) | 52,032 | Python | MIT | 2026-09 | Connects LLMs to 160+ data sources |
-| [Haystack](https://github.com/deepset-ai/haystack) | 26,426 | Python | Apache-2.0 | 2026-09 | Composable pipelines for search and RAG |
+## Citation
 
-## Memory & Context
+Please cite the repo if you refer to the content of the this repository for your work.
 
-| Project | Stars | Language | License | Updated | Description |
-| --- | ---: | --- | --- | --- | --- |
-| [Hindsight](https://github.com/vectorize-io/hindsight) | 22,703 | Python | MIT | 2026-09 | Agent memory with retain, recall and reflect |
-| [Caura](https://github.com/caura-ai/caura) | 486 | Python | Apache-2.0 | 2026-09 | Governed shared memory for fleets of agents |
-| [AnimaWorks](https://github.com/xuiltul/animaworks) | 254 | Python | Apache-2.0 | 2026-09 | Organization-as-code with brain-inspired memory |
-| [OMEGA](https://github.com/omega-memory/omega-memory) | 215 | Python | Apache-2.0 | 2026-08 | Persistent memory for coding agents over MCP |
-| [Perseus](https://github.com/Perseus-Computing-LLC/perseus) | 43 | Python | MIT | 2026-09 | Resolves verified workspace state before a call |
-| [Inite Brain](https://github.com/inite-ai/inite-brain-service) | 34 | TypeScript | AGPL-3.0 | 2026-09 | Bitemporal knowledge graph as agent memory |
-
-## Agent Infrastructure
-
-| Project | Stars | Language | License | Updated | Description |
-| --- | ---: | --- | --- | --- | --- |
-| [Mem0](https://github.com/mem0ai/mem0) | 64,752 | Python | Apache-2.0 | 2026-09 | Memory layer that persists across agent sessions |
-| [AgentField](https://github.com/Agent-Field/agentfield) | 2,551 | Go | Apache-2.0 | 2026-09 | Agent identity and RPC using W3C DIDs |
-| [openma](https://github.com/openma-ai/open-managed-agents) | 258 | TypeScript | Apache-2.0 | 2026-09 | Self-hosted Managed Agents API implementation |
-
-## Safety, Security & Evaluation
-
-| Project | Stars | Language | License | Updated | Description |
-| --- | ---: | --- | --- | --- | --- |
-| [Agentic Radar](https://github.com/splx-ai/agentic-radar) | 1,046 | Python | Apache-2.0 | 2025-11 | Scans agent workflows for CVE and OWASP issues |
-| [Cordum](https://github.com/cordum-io/cordum) | 502 | Go | Other | 2026-09 | Evaluates policy before an agent action dispatches |
-| [Greywall](https://github.com/GreyhavenHQ/greywall) | 291 | Go | Apache-2.0 | 2026-08 | Deny-by-default sandbox for coding agents |
-| [Kitaru](https://github.com/zenml-io/kitaru) | 280 | Python | Apache-2.0 | 2026-09 | Record, replay and improve agents in production |
-| [RapidFire AI](https://github.com/RapidFireAI/rapidfireai) | 167 | JavaScript | Apache-2.0 | 2026-09 | Experiment harness for RAG and fine-tuning runs |
-| [APort Guardrails](https://github.com/aporthq/aport-agent-guardrails) | 25 | Shell | Other | 2026-09 | Pre-action authorization policy for agent calls |
-
-## Domain-Specific Agents
-
-| Project | Stars | Language | License | Updated | Description |
-| --- | ---: | --- | --- | --- | --- |
-| [DeepAnalyze](https://github.com/ruc-datalab/DeepAnalyze) | 4,597 | Python | MIT | 2026-08 | Autonomous data science without fixed workflows |
-| [Darkmoon](https://github.com/ASCIT31/Dark-Moon) | 890 | Python | GPL-3.0 | 2026-08 | Autonomous pentesting across web, cloud and AD |
-| [RAI](https://github.com/RobotecAI/rai) | 581 | Python | Apache-2.0 | 2026-08 | Agent framework for robotics, built on ROS 2 |
-| [CleverBee](https://github.com/SureScaleAI/cleverbee) | 302 | Python | AGPL-3.0 | 2026-01 | Deep research agent that browses with Playwright |
-| [text2sql-framework](https://github.com/Text2SqlAgent/text2sql-framework) | 154 | Python | MIT | 2026-08 | Text-to-SQL agent that explores schema, not RAG |
-| [GenoMAS](https://github.com/Liu-Hy/GenoMAS) | 134 | Python | MIT | 2026-04 | Multi-agent pipeline for genomics data analysis |
-| [wechat-mac-rpa](https://github.com/wq19901103wq/wechat-mac-rpa) | 94 | Python | MIT | 2026-09 | Visual agent automating WeChat on macOS |
-| [Omni-Rewriter](https://github.com/WayneJin0918/Omni-Rewriter) | 84 | Python | Apache-2.0 | 2026-08 | Prompt expansion for image and video generation |
-| [DNA Claude Analysis](https://github.com/shmlkv/dna-claude-analysis) | 57 | Python | MIT | 2026-03 | Explore your genome in natural language |
-| [everyrow](https://github.com/futuresearch/futuresearch-python) | 54 | Python | MIT | 2026-08 | Run LLM agents over pandas DataFrames |
-| [Inalpha](https://github.com/mirror29/inalpha) | 34 | Python | AGPL-3.0 | 2026-09 | Quant agents that pick factors that still work |
-
-## Research & Experimental
-
-| Project | Stars | Language | License | Updated | Description |
-| --- | ---: | --- | --- | --- | --- |
-| [EvoAgentX](https://github.com/EvoAgentX/EvoAgentX) | 3,308 | Python | Other | 2026-08 | Agent workflows that evolve and self-optimize |
-| [AgentFlow](https://github.com/lupantech/AgentFlow) | 2,028 | Python | MIT | 2026-02 | Trainable multi-agent system using Flow-GRPO |
-| [Cache-to-Cache](https://github.com/thu-nics/C2C) | 439 | Python | Apache-2.0 | 2026-03 | Agents exchange meaning directly via KV-cache |
-| [AgentSquare](https://github.com/tsinghua-fib-lab/AgentSquare) | 230 | HTML | — | 2025-11 | Automatic search over modular agent designs |
-| [GNAP](https://github.com/farol-team/gnap) | 83 | — | MIT | 2026-03 | Git-native protocol draft for agent coordination |
-| [agent-opt](https://github.com/future-agi/agent-opt) | 74 | Python | Apache-2.0 | 2026-06 | Optimizes prompts and agent workflows |
-| [AVP](https://github.com/VectorArc/avp-python) | 26 | Python | Apache-2.0 | 2026-04 | Transfers KV-cache between agents, not text |
-
-## Autonomous Agents (2023 wave)
-
-The 2023 autonomous-agent wave. Listed for their influence; several are no longer
-actively developed.
-
-| Project | Stars | Language | License | Updated | Description |
-| --- | ---: | --- | --- | --- | --- |
-| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | 187,163 | Python | Other | 2026-09 | The original autonomous GPT-4 agent loop |
-| [OpenManus](https://github.com/FoundationAgents/OpenManus) | 58,205 | Python | MIT | 2026-08 | General-purpose agent, no invite code needed |
-| [BabyAGI](https://github.com/yoheinakajima/babyagi) | 22,355 | Python | — | 2026-01 | Minimal task-driven autonomous agent loop |
-| [XAgent](https://github.com/OpenBMB/XAgent) | 8,541 | Python | Apache-2.0 | 2026-07 | Autonomous agent with planning and tool learning |
-
-## Inactive
-
-Archived, or no push in over 12 months. Kept because they are widely referenced and
-readers benefit from knowing their status.
-
-| Project | Stars | Language | License | Updated | Description |
-| --- | ---: | --- | --- | --- | --- |
-| [Flowise](https://github.com/FlowiseAI/Flowise) | 55,429 | TypeScript | Other | 2026-08 (archived) | Drag-and-drop builder for LLM flows |
-| [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) | 17,673 | Python | MIT | 2025-01 | Autonomous agent platform with a tool framework |
-| [OpenAgents (XLang)](https://github.com/xlang-ai/OpenAgents) | 4,860 | Python | Apache-2.0 | 2024-11 | Platform for data, web and coding agents |
-| [Agent Protocol](https://github.com/agi-inc/agent-protocol) | 1,454 | Python | MIT | 2025-04 | Standard interface for agent interoperability |
-| [AI Legion](https://github.com/eumemic/ai-legion) | 1,435 | TypeScript | MIT | 2025-05 | TypeScript swarm of autonomous agents |
-
-## License
-
-[CC0 1.0 Universal](LICENSE) — to the extent possible under law, the contributors
-have waived all copyright and related rights to this work.
+```
+@misc{awesome-llm-agents-jl,
+  author = {Junhua Liu},
+  title = {Awesome-LLM-Agents: recent trends and advancement in Agentic AI},
+  year = {2024},
+  month = {August},
+  publisher = {Medium},
+  journal = {AI Advances},
+  doi = {10.5281/zenodo.14021180},
+  url = {https://medium.com/junhua/awesome-llm-agents-recent-trends-and-advancement-in-agentic-ai-90bac6249060},
+}
+```
