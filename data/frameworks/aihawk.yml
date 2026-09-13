@@ -1,0 +1,4 @@
+name: AIHawk
+repo: https://github.com/feder-cr/AIHawk
+section: Domain-Specific Agents
+description: Browser agent and MCP server on a patched Firefox
