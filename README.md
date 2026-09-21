@@ -92,6 +92,7 @@ Codex and Gemini CLI.
 | [SwarmClaw](https://github.com/swarmclawai/swarmclaw) | 677 | TypeScript | MIT | 2026-06 | Self-hosted runtime for multi-agent CLI work |
 | [h5i](https://github.com/h5i-dev/h5i) | 648 | Rust | Apache-2.0 | 2026-09 | Runs agents in sandboxes, merges the verified result |
 | [Dorothy](https://github.com/Charlie85270/Dorothy) | 347 | TypeScript | MIT | 2026-07 | Desktop app to run several CLI agents at once |
+| [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) | 259 | TypeScript | Apache-2.0 | 2026-09 | Records a CLI coding-agent run below the harness, then replays it offline or forks it onto another model |
 | [ClawFleet](https://github.com/clawfleet/ClawFleet) | 174 | Go | MIT | 2026-04 | Deploys isolated agent instances via Docker |
 | [OpenPaw](https://github.com/daxaur/openpaw) | 167 | TypeScript | MIT | 2026-05 | Turns Claude Code into an assistant with 38 skills |
 | [ORCH](https://github.com/oxgeneral/ORCH) | 163 | TypeScript | MIT | 2026-08 | One CLI to manage a team of agents on tasks |
