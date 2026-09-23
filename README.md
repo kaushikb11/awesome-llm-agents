@@ -14,7 +14,7 @@ To suggest a project, see [CONTRIBUTING.md](CONTRIBUTING.md) — entries live in
 - [Low-Code & Visual Builders](#low-code-visual-builders) (3)
 - [Retrieval & Data](#retrieval-data) (2)
 - [Memory & Context](#memory-context) (6)
-- [Agent Infrastructure](#agent-infrastructure) (3)
+- [Agent Infrastructure](#agent-infrastructure) (4)
 - [Safety, Security & Evaluation](#safety-security-evaluation) (6)
 - [Domain-Specific Agents](#domain-specific-agents) (11)
 - [Research & Experimental](#research-experimental) (7)
