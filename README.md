@@ -134,6 +134,7 @@ Codex and Gemini CLI.
 | [Mem0](https://github.com/mem0ai/mem0) | 65,672 | Python | Apache-2.0 | 2026-09 | Memory layer that persists across agent sessions |
 | [AgentField](https://github.com/Agent-Field/agentfield) | 2,567 | Go | Apache-2.0 | 2026-09 | Agent identity and RPC using W3C DIDs |
 | [openma](https://github.com/openma-ai/open-managed-agents) | 286 | TypeScript | Apache-2.0 | 2026-09 | Self-hosted Managed Agents API implementation |
+| [sunshine](https://github.com/jajmangold/sunshine) | — | Python | MIT | 2026-09 | Model-agnostic substrate for small local LLMs with argmax scoring for structured decisions, memory, and kernel orchestration |
 
 ## Safety, Security & Evaluation
 
