@@ -1,0 +1,4 @@
+name: Vend
+repo: https://github.com/PANDeveloper001/vend
+section: Agent Infrastructure
+description: Autonomous pay-per-call API merchant — web-data endpoints settled per call in Nano (XNO) via x402
