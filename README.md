@@ -60,6 +60,8 @@ To suggest a project, see [CONTRIBUTING.md](CONTRIBUTING.md) — entries live in
 | [KodeAgent](https://github.com/barun-saha/kodeagent) | 40 | Python | Apache-2.0 | 2026-08 | Minimal agent engine, deliberately small |
 | [OpenProgram](https://github.com/Fzkuji/OpenProgram) | — | — | — | — | Agents create and refine their own workflows |
 
+| [Kortix](https://github.com/kortix-ai/suna) | 20,240 | TypeScript | Other | 2026-09 | The open-source AI Management System — agents, skills, memory and connectors in one git repo; self-host or managed cloud. Open-source Perplexity Computer alternative: [opensourceperplexitycomputer.com](https://opensourceperplexitycomputer.com) |
+
 ## Multi-Agent Orchestration
 
 | Project | Stars | Language | License | Updated | Description |
