@@ -1,0 +1,4 @@
+name: cap-evolve
+repo: https://github.com/skillberry-ai/cap-evolve
+section: Safety, Security & Evaluation
+description: Optimizes agent prompts, tools, and skills from eval traces
