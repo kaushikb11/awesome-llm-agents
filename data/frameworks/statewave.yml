@@ -1,0 +1,4 @@
+name: Statewave
+repo: https://github.com/smaramwbc/statewave
+section: Memory & Context
+description: Compiles agent events into reproducible context bundles
