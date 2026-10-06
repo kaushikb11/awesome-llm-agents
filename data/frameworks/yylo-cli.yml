@@ -1,0 +1,4 @@
+name: YYLO CLI
+repo: https://github.com/yylo-dev/yylo
+section: CLI Agent Harnesses
+description: Kanban-driven orchestrator for CLI coding agents
