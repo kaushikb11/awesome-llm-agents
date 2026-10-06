@@ -1,0 +1,4 @@
+name: TealTiger
+repo: https://github.com/agentguard-ai/tealtiger
+section: Safety, Security & Evaluation
+description: Deterministic governance for AI agents, no LLM in path
