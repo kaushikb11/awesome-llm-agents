@@ -203,3 +203,5 @@ readers benefit from knowing their status.
 
 [CC0 1.0 Universal](LICENSE) — to the extent possible under law, the contributors
 have waived all copyright and related rights to this work.
+
+- [Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril) - Open-source agentic software factory with an amazing UI that handles parallel Git worktrees for you, complete with programmatic verifications and fast review loops
