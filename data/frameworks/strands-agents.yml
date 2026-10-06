@@ -1,0 +1,4 @@
+name: Strands Agents
+repo: https://github.com/strands-agents/harness-sdk
+section: Core Frameworks
+description: Agent loop, tools and MCP for Python and TypeScript
