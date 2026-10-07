@@ -133,6 +133,7 @@ Codex and Gemini CLI.
 | --- | ---: | --- | --- | --- | --- |
 | [Mem0](https://github.com/mem0ai/mem0) | 66,546 | Python | Apache-2.0 | 2026-10 | Memory layer that persists across agent sessions |
 | [AgentField](https://github.com/Agent-Field/agentfield) | 2,607 | Go | Apache-2.0 | 2026-10 | Agent identity and RPC using W3C DIDs |
+| [AgentMeasure](https://github.com/roy-tong/AgentMeasure) | 218 | Python | MIT | 2026-10 | Independent measurement-conformance standard for agent usage and outcome billing — recounts session logs against vendor billing rules, separates attempts from delivered work, pins counting semantics as public PASS/FAIL/UNPROVABLE vectors |
 | [openma](https://github.com/openma-ai/open-managed-agents) | 314 | TypeScript | Apache-2.0 | 2026-10 | Self-hosted Managed Agents API implementation |
 
 ## Safety, Security & Evaluation
