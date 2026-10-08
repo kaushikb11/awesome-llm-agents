@@ -1,0 +1,4 @@
+name: Tale
+repo: https://github.com/tale-project/tale
+section: CLI Agent Harnesses
+description: Persistent agent sandboxes with task assignment and review
