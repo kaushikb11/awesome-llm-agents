@@ -1,0 +1,4 @@
+name: Scalekit
+repo: https://github.com/scalekit-inc/scalekit-sdk-python
+section: Agent Infrastructure
+description: Per-user OAuth and scoped tool calls for agents
