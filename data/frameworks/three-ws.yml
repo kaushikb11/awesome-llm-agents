@@ -1,0 +1,4 @@
+name: three.ws
+repo: https://github.com/nirholas/three.ws
+section: Agent Infrastructure
+description: Embodied 3D agents with an LLM brain, memory and a wallet
