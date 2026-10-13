@@ -1,0 +1,4 @@
+name: ESP32 iPhone Agent
+repo: https://github.com/onehumanbeing/esp32-iphone-agent
+section: Domain-Specific Agents
+description: Vision agent that drives a real iPhone via an ESP32 USB HID
