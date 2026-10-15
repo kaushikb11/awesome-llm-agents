@@ -134,6 +134,7 @@ Codex and Gemini CLI.
 | [Mem0](https://github.com/mem0ai/mem0) | 66,962 | Python | Apache-2.0 | 2026-10 | Memory layer that persists across agent sessions |
 | [AgentField](https://github.com/Agent-Field/agentfield) | 2,610 | Go | Apache-2.0 | 2026-10 | Agent identity and RPC using W3C DIDs |
 | [openma](https://github.com/openma-ai/open-managed-agents) | 315 | TypeScript | Apache-2.0 | 2026-10 | Self-hosted Managed Agents API implementation |
+| [HOL](https://github.com/hashgraph-online/hashnet-mcp-js) | 13 | TypeScript | Other | 2026-10 | Agent registry, MCP endpoint, open standards & SDKs |
 
 ## Safety, Security & Evaluation
 
