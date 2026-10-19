@@ -60,6 +60,8 @@ To suggest a project, see [CONTRIBUTING.md](CONTRIBUTING.md) — entries live in
 | [ShaprAI](https://github.com/Scottcjn/shaprai) | — | — | — | — | Sharpens raw models into principled agents |
 | [TrashClaw](https://github.com/Scottcjn/trashclaw) | — | — | — | — | Zero-dependency local agent for old hardware |
 
+| [Kortix](https://github.com/kortix-ai/suna) | 20,240 | TypeScript | Other | 2026-09 | The open-source AI Management System — agents, skills, memory and connectors in one git repo; self-host or managed cloud. Open-source Perplexity Computer alternative: [opensourceperplexitycomputer.com](https://opensourceperplexitycomputer.com) |
+
 ## Multi-Agent Orchestration
 
 | Project | Stars | Language | License | Updated | Description |
