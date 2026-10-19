@@ -1,0 +1,4 @@
+name: mloda
+repo: https://github.com/mloda-ai/mloda
+section: Retrieval & Data
+description: Plugin-based feature engineering for agent data pipelines
