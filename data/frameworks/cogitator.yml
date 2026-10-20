@@ -1,0 +1,4 @@
+name: Cogitator
+repo: https://github.com/cogitator-ai/Cogitator-AI
+section: Core Frameworks
+description: Self-hosted runtime for agents, swarms and DAG workflows
