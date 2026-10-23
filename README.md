@@ -145,6 +145,7 @@ Codex and Gemini CLI.
 | [Kitaru](https://github.com/zenml-io/kitaru) | 309 | Python | Apache-2.0 | 2026-10 | Record, replay and improve agents in production |
 | [RapidFire AI](https://github.com/RapidFireAI/rapidfireai) | 170 | JavaScript | Apache-2.0 | 2026-10 | Experiment harness for RAG and fine-tuning runs |
 | [APort Guardrails](https://github.com/aporthq/aport-agent-guardrails) | 28 | Shell | Other | 2026-10 | Pre-action authorization policy for agent calls |
+| [Bounty-Guard](https://github.com/doomsday-network/bounty-guard) | 7 | Python | MIT | 2026-10 | Pre-flight GitHub bounty scanner and prompt-injection firewall |
 
 ## Domain-Specific Agents
 
