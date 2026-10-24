@@ -154,6 +154,7 @@ Codex and Gemini CLI.
 | [Darkmoon](https://github.com/ASCIT31/Dark-Moon) | 1,032 | Python | GPL-3.0 | 2026-10 | Autonomous pentesting across web, cloud and AD |
 | [RAI](https://github.com/RobotecAI/rai) | 602 | Python | Apache-2.0 | 2026-10 | Agent framework for robotics, built on ROS 2 |
 | [CleverBee](https://github.com/SureScaleAI/cleverbee) | 301 | Python | AGPL-3.0 | 2026-01 | Deep research agent that browses with Playwright |
+| [Orbi](https://github.com/orbi-build/orbi) | 227 | Python | AGPL-3.0 | 2026-10 | GitHub App agent that turns issues into merged PRs |
 | [text2sql-framework](https://github.com/Text2SqlAgent/text2sql-framework) | 160 | Python | MIT | 2026-08 | Text-to-SQL agent that explores schema, not RAG |
 | [GenoMAS](https://github.com/Liu-Hy/GenoMAS) | 134 | Python | MIT | 2026-04 | Multi-agent pipeline for genomics data analysis |
 | [wechat-mac-rpa](https://github.com/wq19901103wq/wechat-mac-rpa) | 122 | Python | MIT | 2026-10 | Visual agent automating WeChat on macOS |
