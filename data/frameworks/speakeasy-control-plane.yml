@@ -1,0 +1,4 @@
+name: Speakeasy control plane
+repo: https://github.com/speakeasy-api/gram
+section: Agent Infrastructure
+description: Identity-governed MCP tool access for enterprise agents
