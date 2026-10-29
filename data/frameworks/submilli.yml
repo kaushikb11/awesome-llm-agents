@@ -1,4 +1,4 @@
 name: Submilli
 repo: https://github.com/submilli/submilli-runtime
 section: Safety, Security & Evaluation
-description: Wasm sandbox for agent code with argument-level permissions
+description: Secure runtime for code-mode agents with per-argument rules
