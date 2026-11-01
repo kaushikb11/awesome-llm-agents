@@ -1,0 +1,4 @@
+name: AnyModelBot
+repo: https://github.com/modelflare-ai/AnyModelBot
+section: Agent Infrastructure
+description: Desktop agent app with background tasks and scheduled rules
