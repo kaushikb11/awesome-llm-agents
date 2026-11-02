@@ -108,6 +108,9 @@ Codex and Gemini CLI.
 | [Dify](https://github.com/langgenius/dify) | 160,123 | Python | Other | 2026-11 | Visual orchestration for LLM apps and agents |
 | [Kiln AI](https://github.com/Kiln-AI/Kiln) | 5,247 | Python | Other | 2026-10 | Desktop app for evals, RAG and fine-tuning |
 | [Heym](https://github.com/heymrun/heym) | 1,264 | Python | Other | 2026-10 | Visual builder for agentic workflow automation |
+| [PromptImage](https://promptimage.cloud) | Free AI image & video studio with a prompt library (signup credits, multi-model). Freemium | Freemium | [Visit](https://promptimage.cloud) |
+| [TeslaWraps](https://teslawraps.design) | Browser Tesla Paint Shop wrap designer — core editing + PNG export free without account; optional AI credit… | Freemium | [Visit](https://teslawraps.design) |
+| [GrokVideo Studio](https://grokvideogenerator.dev) | Independent web app for text/image-to-video via Grok Imagine API (Free Trial, 20 credits). Not an official … | Freemium | [Visit](https://grokvideogenerator.dev) |
 
 ## Retrieval & Data
 
