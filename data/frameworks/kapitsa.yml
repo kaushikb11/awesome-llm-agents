@@ -1,0 +1,4 @@
+name: Kapitsa
+repo: https://github.com/nace-ai/kapitsa
+section: CLI Agent Harnesses
+description: Apple silicon engine that runs CLI coding agents locally
