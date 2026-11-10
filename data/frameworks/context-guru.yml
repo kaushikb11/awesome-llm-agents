@@ -1,0 +1,4 @@
+name: Context Guru
+repo: https://github.com/rossoctl/context-guru
+section: Memory & Context
+description: Prompt-cache management and context compaction for agents
