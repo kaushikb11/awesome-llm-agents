@@ -1,0 +1,4 @@
+name: Raven
+repo: https://github.com/EverMind-AI/Raven
+section: Multi-Agent Orchestration
+description: Orchestrates built-in and third-party agents as task DAGs
