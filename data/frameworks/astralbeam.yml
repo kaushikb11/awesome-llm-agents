@@ -1,0 +1,4 @@
+name: AstralBeam
+repo: https://github.com/AstralBeamAI/astralbeam
+section: Agent Infrastructure
+description: Embeddable agent sidebar with a self-hostable backend
