@@ -1,0 +1,4 @@
+name: Borg
+repo: https://github.com/adelphidata/borg
+section: Core Frameworks
+description: Self-healing, security-first personal assistant in Rust
