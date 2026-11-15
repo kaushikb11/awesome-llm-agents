@@ -1,0 +1,4 @@
+name: Orchestrator
+repo: https://github.com/OrchestratorInc/agent-orchestrator
+section: CLI Agent Harnesses
+description: Runs CLI agents in worktrees and feeds CI failures back
