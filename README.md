@@ -125,6 +125,7 @@ Codex and Gemini CLI.
 | [AnimaWorks](https://github.com/xuiltul/animaworks) | 269 | Python | Apache-2.0 | 2026-11 | Organization-as-code with brain-inspired memory |
 | [OMEGA](https://github.com/omega-memory/omega-memory) | 226 | Python | Apache-2.0 | 2026-10 | Persistent memory for coding agents over MCP |
 | [Inite Brain](https://github.com/inite-ai/inite-brain-service) | 43 | TypeScript | AGPL-3.0 | 2026-11 | Bitemporal knowledge graph as agent memory |
+| [MIRSAD](https://github.com/amkkoussay/Mersad) | 13 | Python | MIT | 2026-11 | Shared MCP memory server for AI agents: bi-temporal facts, first-class decisions, owner-resolved conflicts |
 | [Perseus](https://github.com/Perseus-Computing-LLC/perseus) | — | — | — | — | Resolves verified workspace state before a call |
 
 ## Agent Infrastructure
