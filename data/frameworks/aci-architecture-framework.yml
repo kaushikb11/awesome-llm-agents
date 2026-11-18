@@ -1,0 +1,4 @@
+name: ACI Architecture Framework
+repo: https://github.com/Team-Auralis/ACI-Architecture-Framework
+section: Memory & Context
+description: Tiered memory controller bounding agent context and noise
