@@ -1,0 +1,4 @@
+name: three.ws
+repo: https://github.com/nirholas/three.ws
+section: Agent Infrastructure
+description: Web component that gives LLM agents an animated 3D avatar
