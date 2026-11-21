@@ -1,0 +1,4 @@
+name: CodeAF
+repo: https://github.com/Agent-Field/CodeAF
+section: CLI Agent Harnesses
+description: Terminal coding agent; each task in its own repo copy
