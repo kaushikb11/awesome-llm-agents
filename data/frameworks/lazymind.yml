@@ -1,0 +1,4 @@
+name: LazyMind
+repo: https://github.com/LazyAGI/LazyMind
+section: Agent Infrastructure
+description: Persisted Skill workflows with reviewable output artifacts
