@@ -1,0 +1,4 @@
+name: Gradbot
+repo: https://github.com/gradium-ai/gradbot
+section: Core Frameworks
+description: Rust event loop for voice agents with Gradium speech
