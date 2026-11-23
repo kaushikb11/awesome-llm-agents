@@ -1,0 +1,4 @@
+name: Ailoy
+repo: https://github.com/brekkylab/ailoy
+section: Core Frameworks
+description: Agent SDK that runs each agent in its own Linux microVM
