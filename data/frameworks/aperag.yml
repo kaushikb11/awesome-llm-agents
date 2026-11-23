@@ -1,0 +1,4 @@
+name: ApeRAG
+repo: https://github.com/apecloud/ApeRAG
+section: Retrieval & Data
+description: GraphRAG + hybrid KB with MCP; open core of ApeMind
