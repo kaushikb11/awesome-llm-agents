@@ -1,0 +1,4 @@
+name: ClickHouse Loom
+repo: https://github.com/ClickHouse/loom
+section: Memory & Context
+description: Self-hosted agent memory and code index on ClickHouse
