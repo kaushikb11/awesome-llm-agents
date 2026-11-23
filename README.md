@@ -145,6 +145,7 @@ Codex and Gemini CLI.
 | [Greywall](https://github.com/GreyhavenHQ/greywall) | 315 | Go | Apache-2.0 | 2026-10 | Deny-by-default sandbox for coding agents |
 | [RapidFire AI](https://github.com/RapidFireAI/rapidfireai) | 177 | JavaScript | Apache-2.0 | 2026-10 | Experiment harness for RAG and fine-tuning runs |
 | [APort Guardrails](https://github.com/aporthq/aport-agent-guardrails) | 30 | Shell | Other | 2026-11 | Pre-action authorization policy for agent calls |
+| [OmniForge Launch Audit](https://github.com/zColdWater/mcp-launch-audit) | 0 | JavaScript | MIT | 2026-11 | Read-only MCP server & 50 agent skills for pre-deploy web security, email DNS & `/llms.txt` audits |
 
 ## Domain-Specific Agents
 
