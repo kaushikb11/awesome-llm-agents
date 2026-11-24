@@ -115,6 +115,7 @@ Codex and Gemini CLI.
 | --- | ---: | --- | --- | --- | --- |
 | [LlamaIndex](https://github.com/run-llama/llama_index) | 52,973 | Python | MIT | 2026-11 | Connects LLMs to 160+ data sources |
 | [Haystack](https://github.com/deepset-ai/haystack) | 27,072 | Python | Apache-2.0 | 2026-11 | Composable pipelines for search and RAG |
+| [Public Records MCP](https://github.com/GeminiGeorge22/publicrecords-mcp) | 18 Apify-hosted MCP servers for public data: SAM.gov, Grants.gov, USAspending, EU TED and UK tenders, city council meetings, Ashby/Greenhouse/Lever/SmartRecruiters jobs, company social links, Google Ads Transparency, Etsy sales, sports odds, Spotify play counts |  |  |  |  |
 
 ## Memory & Context
 
