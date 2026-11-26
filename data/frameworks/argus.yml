@@ -1,0 +1,4 @@
+name: Argus
+repo: https://github.com/gy15901580825/Argus
+section: Safety, Security & Evaluation
+description: Red-team probes for agents with tool-call evidence
