@@ -1,0 +1,4 @@
+name: Vestige
+repo: https://github.com/samvallad33/vestige
+section: Memory & Context
+description: Causal proof engine for agents on a hash-chained log
