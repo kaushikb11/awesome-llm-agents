@@ -1,0 +1,4 @@
+name: Atomic Mail Agentic
+repo: https://github.com/Atomic-Mail/atomic-mail-agentic
+section: Agent Infrastructure
+description: Agents register their own email inbox and send over JMAP
