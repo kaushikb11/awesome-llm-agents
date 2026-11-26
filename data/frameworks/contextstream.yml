@@ -1,0 +1,4 @@
+name: ContextStream
+repo: https://github.com/contextstream/mcp-server
+section: Memory & Context
+description: Shared project context MCP for AI coding agents
