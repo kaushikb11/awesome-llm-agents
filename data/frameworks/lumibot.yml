@@ -1,0 +1,4 @@
+name: LumiBot
+repo: https://github.com/Lumiwealth/lumibot
+section: Domain-Specific Agents
+description: Trading agents that backtest and trade live via 12 brokers
