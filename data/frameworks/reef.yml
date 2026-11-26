@@ -1,0 +1,4 @@
+name: Reef
+repo: https://github.com/Human-Agent-Society/reef
+section: Agent Infrastructure
+description: Serves agents and versions the weights or harness it updates
