@@ -1,0 +1,4 @@
+name: OMK
+repo: https://github.com/dmae97/omk
+section: CLI Agent Harnesses
+description: Coding agent CLI; goals finish only when your check passes
