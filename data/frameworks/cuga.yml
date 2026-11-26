@@ -1,0 +1,4 @@
+name: CUGA
+repo: https://github.com/cuga-project/cuga-agent
+section: Core Frameworks
+description: Policy-governed generalist agent for API and browser tasks
