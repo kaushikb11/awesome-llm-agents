@@ -1,0 +1,4 @@
+name: AlphaSift
+repo: https://github.com/ZhuLinsen/alphasift
+section: Domain-Specific Agents
+description: Multi-market quant stock screener with Walk-Forward & MCP
