@@ -1,0 +1,4 @@
+name: Mercury CLI
+repo: https://github.com/Whq02/MercuryCLI
+section: CLI Agent Harnesses
+description: Terminal coding agent with crewmates in Git worktrees
